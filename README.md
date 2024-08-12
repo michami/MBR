@@ -5,6 +5,8 @@ MBR aka "Ember"
 
 Use a **d4** die, numbered **0**-**3**, rolled **3** times.
 
+![d4dice](d4dice.png)
+
 All PCs and high level NPCs have **CON**, **STR**, **DEX**, and **INT**. Lesser creatures and objects only have **LVL**. PCs get a pile of tokens per trait that can be spent shifting the dice rolls. **HP** can be spent in place of any other trait.
 
 You get **20 + level** points to divide between your traits as desired, an average of **5** points per trait at level **0**.
