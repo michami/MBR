@@ -191,7 +191,7 @@ Nature / spiritual magic. Potions. Healing magic. Clay golems. Sentient weapons.
 
 ### Beast-Kin
 
-Self transformation / boosting magic. When changing into their animal or human form, use token pools equivalent to the creature you change into. HP should remain relatively similar (ie: if at 50% health with 20 HP, (10 HP remaining) you would stay at 50% health at 10 HP. (5 HP remaining) Beast-kin can only use magic in their natural form.
+Self transformation / boosting magic. When changing into their animal form, use token pools equivalent to the creature you change into. Percent of remaining tokens should remain relatively similar.
 
 Transformation always succeeds and takes one full turn.
 
@@ -217,7 +217,7 @@ For a weighted yes / no answer, you can roll 2 dice and use:
 | Die | Trait| Element | Race      | Relationship   | Attitude                         | Gender     | No / Yes |
 |-----|------|---------|-----------|----------------|----------------------------------|------------|----------|
 |  0  | CON  | Earth   | Dwarf     | Family / Past  | Grounded / Solemn                | Manly Man  | No       |
-|  1  | STR  | Water   | Human     | Friend         | Relaxed / Social / Kind          | Male       | Unlikely |
+|  1  | STR  | Water   | Human     | Friend         | Relaxed / Social / Kind          | Male       | Maybe |
 |  2  | DEX  | Air     | Elf       | Lover / Flirty | Excited / Active                 | Female     | Probably |
 |  3  | INT  | Fire    | Beast-kin | Enemy / Danger | Scared / Protective / Aggressive | Girly Girl | Yes      |
 
@@ -312,13 +312,13 @@ For a weighted yes / no answer, you can roll 2 dice and use:
 > Here's an example of interpreting the die differently while already part way through the story.
 
 * I've been traveling all day, has anything happened today? [**3**] Yes, something major!
-* What does it involve? [**1**] I find someone or something that's friendly or helpful
+* What does it involve? [**1**] I find something that's friendly or helpful
 * Is this an object, animal, humanoid, or event? [**2**] a humanoid.
 * How big is it? [**0**] small
 * On a scale of fairy to dwarf, how big? [**1**] slightly larger than a fairy.
 * Is this a gnome or brownie? [**2**] brownie.
 * Male or female? [**2**] female.
-* What is her general attitude? [**3**] scared of me.
+* What is her general attitude? [**3**] scared of me. (Not aggressive because she's suppose to be "friendly or helpful")
 
 > I find a spot to make camp. As I empty my pack and begin to gather wood for a fire, a small movement catches my eye. A brownie, a young girl by the looks of it, scurries off a short distance, then hides under a bush and watches me gather wood. Once I have the fire burning, the brownie comes closer, seemingly enjoying the heat, but too scared of me to get too close.
 
@@ -336,7 +336,7 @@ For a weighted yes / no answer, you can roll 2 dice and use:
 
 > As I walk down the path, I notice the brownie following behind me. After a little pantomiming, I get her to ride on my shoulder, and she becomes my personal alarm, warning me of danger I might miss.
 
-* As we near the dungeon entrance, how does the brownie act? [**2**] Excited for battle!
+* As we near the dungeon entrance, how does the brownie act? [**2**] Passionate for battle!
 
 > As I enter the dungeon, the first monsters we find are spiders of various sizes.
 
