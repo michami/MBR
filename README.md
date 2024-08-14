@@ -1,11 +1,7 @@
 # Makeshift Basic RPG
-MBR aka "Ember"
+aka MBR aka "Ember"
 
 ## Summary (TL;DR)
-
-Use a **d4** die, numbered **0**-**3**, rolled **3** times.
-
-![d4dice](d4dice.png)
 
 All PCs and high level NPCs have **CON**, **STR**, **DEX**, and **INT**. Lesser creatures and objects only have **LVL**. PCs get a pile of tokens per trait that can be spent shifting the dice rolls. **HP** can be spent in place of any other trait.
 
@@ -17,7 +13,7 @@ PCs also get a *narrative background* that will either add **1** point to a trai
 
 On your turn, you get **2** actions, **1** can be an attack. You can spend **DEX** to get extra actions.
 
-Calculate the **DC** by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used to the level of the challenge. For every **2** points over or under, add or subtract **1** to or from the **DC**. Roll the die **3** times to match or beat the **DC**. If you roll a **9**, roll again and add the result.
+Calculate the **DC** by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used to the level of the challenge. For every **2** points over or under, add or subtract **1** to or from the **DC**. Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the **DC**. If you roll a **9**, roll again and add the result.
 
 For every **2** points over the **DC** rolled in an attack, do **1** extra point of damage.
 
@@ -25,9 +21,25 @@ Attack with **STR**, defend with **DEX**. Ranged attacks take **2** actions and 
 
 Magic spends **CON** (blood) or **INT** to charge manna with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell.
 
+Healing has a manna cost equal to the amount of **HP** to heal. A resurrection costs as much as the **max HP** of the target, but revives with **1 HP**.
+
+A summons has its cost split between its **LVL** and the **damage** its capable of.
+
 *Long running spells* don't regenerate the tokens spent on it until the spell ends.  After **2** *consecutive long rests* without using any magic between them, the tokens spent will regenerate.
 
 *Short rests* recover **non-HP** tokens.  *Long rests* recover **all** tokens not used for long running spells.
+
+**Combat Example**
+
+Here's an example of a level **1** PC (**9**, **7**, **3**, **2**) attacking a **LVL 5** wolf:
+
+PC attacks with **STR** (**7** vs **5**) for a **DC** of **4**. Rolls a **3** so decides to spend **1 STR** to increase it to a **4** for **1** damage. PC is now at (**9**, **6**, **3**, **2**)
+
+Wolf attacks PC (**5** vs **3**) for a **DC** of **4**. Rolls a **6** and would do **2** damage, but the PC decides to spend **1 DEX** to dodge to reduce the roll by **1**, making it a **5** and only doing **1** damage. PC is now at (**8**, **6**, **2**, **2**)
+
+PC attacks with **STR** again, but since **STR** is now at **6**, the **DC** is **5**.
+
+*Repeat until one side is dead*
 
 ### The Rules
 
@@ -36,18 +48,6 @@ These rules are designed to be the foundation of a game, but there's always situ
 For example, I want to grab an orc and throw him over a cliff. There's no specific rule for this, but I can make the judgement that it would be a **STR** vs **STR** challenge.
 
 If you have the resources, these rules can be expanded on with supplemental material. For example, specific monster stats, or a set list of weapons, skills, or spells.
-
-### The Dice
-
-Ember uses a single long **d4** die. AKA: Stick die. It is cut from a stick with straight edges and a square cross section. One side is left blank, then cut **1**, **3**, and **2** notches, in that order, on the other sides.
-
-Once you calculate the "Difficulty Class" or "**DC**" of a challenge, you will roll the die **3** times, adding each roll together, giving you a result from **0** to **9**. Each time you roll a **9**, you may roll **3** times again and add the results. You are rolling to try to meet or beat the **DC**.
-
-### Numbers To Keep In Mind
-
-The medium / middle number is **5**. When rolling on a **DC** of **5**, you'll have a **50%** chance of success. A medium challenge is a level **5** and a medium monster would be a level **5**.
-
-Jumps in difficulty / damage / etc. occur every **2** values from the target number. For example, for every **2** points apart a trait is from a challenge level, you will add or subtract **1** from the **DC**. For every **2** points you roll over the **DC**, you add **1** extra point of *damage*.
 
 ### Character Stats
 
@@ -97,6 +97,16 @@ Spending tokens represent pushing yourself beyond your limits. This wears you ou
 
 You can spend **HP** in place of any other tokens. This is treated as damage to your body. If you spend **HP** on a long running spell, it will not regenerate until the next long rest after the spell ends.
 
+### The Dice
+
+Ember uses a single long **d4** die. AKA: Stick die. It is cut from a stick with straight edges and a square cross section. One side is left blank, then cut **1**, **3**, and **2** notches, in that order, on the other sides.
+
+![d4dice](d4dice.png)
+
+- *Example of makeshift d4 dice*
+
+Once you calculate the "Difficulty Class" or "**DC**" of a challenge, you will roll the die **3** times, adding each roll together, giving you a result from **0** to **9**. Each time you roll a **9**, you may roll **3** times again and add the results. You are rolling to try to meet or beat the **DC**.
+
 ### Finding The DC
 
 Compare the challenge level to the appropriate trait. If the two are within a point of each other, then the **DC** is **5**, or **50%**.  For every **2** points further apart they are, add or subtract **1** from the **DC**.
@@ -104,6 +114,12 @@ Compare the challenge level to the appropriate trait. If the two are within a po
 For example, if you try to do a level **5 STR** challenge, and you only have **2** tokens in your **STR**, then the **DC** would be **6**. If your **STR** dropped to **1** token, (**4** below the challenge level) the **DC** would become a **7**. (The challenge gets harder as you wear yourself out)
 
 On the other hand, if you try to do a level **5 STR** challenge, and you have **7** tokens in **STR**, then the **DC** would be **4**, since your **STR** is **2** points over the challenge level.
+
+### Numbers To Keep In Mind
+
+The medium / middle number is **5**. When rolling on a **DC** of **5**, you'll have a **50%** chance of success. A medium challenge is a level **5** and a medium monster would be a level **5**.
+
+Jumps in difficulty / damage / etc. occur every **2** values from the target number. For example, for every **2** points apart a trait is from a challenge level, you will add or subtract **1** from the **DC**. For every **2** points you roll over the **DC**, you add **1** extra point of *damage*.
 
 ### Combat
 
@@ -159,6 +175,177 @@ Ember uses *milestone leveling*. This means you go up by **1** level after succe
 
 For each level, you get **1** point to any trait. Since your level goes up by **1**, your **HP** will also go up by **1**. (**HP = Level + CON**)
 
+# Races of Ember
+
+### Dwarf
+
+Strong, offensive, elemental magic. Durable elemental enhanced weapons.
+
+### Human
+
+Electrical magic. Electronics. Constructs. Complex mechanical traps. Complex weapons such as firearms, crossbows, etc.
+
+### Elf
+
+Nature / spiritual magic. Potions. Healing magic. Clay golems. Sentient weapons.
+
+### Beast-Kin
+
+Self transformation / boosting magic. When changing into their animal or human form, use token pools equivalent to the creature you change into. HP should remain relatively similar (ie: if at 50% health with 20 HP, (10 HP remaining) you would stay at 50% health at 10 HP. (5 HP remaining) Beast-kin can only use magic in their natural form.
+
+Transformation always succeeds and takes one full turn.
+
+# The Oracle Dice
+
+Ember uses an oracle system which is easy to memorize (in my opinion) and a little more adaptable than the typical d6 oracle. Each side of a die can have multiple meanings depending on context.
+
+The oracle will give you the basic plot lines. It's up to you to weave that into an actual story.
+
+For a weighted yes / no answer, you can roll 2 dice and use:
+
+```
+0: It's worse then you think (No and...)
+1: Definitely no
+2: Not likely, but possible
+3: Maybe, if...
+4: Probably, but there might be complications
+5: Definitely yes
+6: It's better than you think (Yes and...)
+```
+**Roll one die as an oracle. Roll multiple times to get modifiers.**
+
+| Die | Trait| Element | Race      | Relationship   | Attitude                         | Gender     | No / Yes |
+|-----|------|---------|-----------|----------------|----------------------------------|------------|----------|
+|  0  | CON  | Earth   | Dwarf     | Family / Past  | Grounded / Solemn                | Manly Man  | No       |
+|  1  | STR  | Water   | Human     | Friend         | Relaxed / Social / Kind          | Male       | Unlikely |
+|  2  | DEX  | Air     | Elf       | Lover / Flirty | Excited / Active                 | Female     | Probably |
+|  3  | INT  | Fire    | Beast-kin | Enemy / Danger | Scared / Protective / Aggressive | Girly Girl | Yes      |
+
+
+**The oracle is based around the 4 elements in order of state (solid, liquid, gas, plasma)**
+
+* Earth is the foundation. Your body / health / **CON**. The flat surface representing a flat field.
+* Water is strength of movement. The ability to carve through earth. Your **STR**. The single line represents a river.
+* Air is fast and flitting, like a bird. Your **DEX**. The two lines represent the movement of a breeze
+* Fire has the power to modify the other elements. It is the danger of magic and the most active of the elements. Your **INT**. The three stripes represent the tips of a flame.
+
+**Creatures are ordered based on a matching element**
+
+* **Dwarfs** (Earth) live under the Earth. They work metal (Earth) using fire and wind to heat it, and water to quench it. So while they live in the Earth, they use the other elements to work it. (Hence, the use of elemental magic)
+* **Humans** (Water) live on the Earth. They till the Earth to plant food and build their homes. They master energy and electricity.
+* **Elves** (Air) are fast and light. They flit between tree branches, living high above the ground in the trees, using bows to attack. They are in tune with nature.
+* **Beast-kin** (Fire) are temperamental and dangerous. They're constantly changing to destroy anything in their way.
+
+**Relationships are represented by the lines on the die**
+
+* The blank side is your family, foundation, or past. Your starting point.
+* The single line is your friend. The person who will stand with you.
+* The two lines are the lovers, standing together.
+* The three lines are a danger, a group of people ganging together.
+
+## Example Adventures Using The Oracle Dice With Real Dice Rolls
+
+### Adventure #1
+
+* Adventure is caused by [**1**] a friend.
+* What is the issue? [**3**] a danger.
+* What kind of danger [**1**] involving a friend.
+* Is the second friend trying to attack the first friend? [**1**] no, but they're not getting along.
+* So that tells me there's a danger my friends need to work together to defeat, but since they're not getting along, they can't defeat it.
+* What kind of danger are they trying to work together to defeat? [**0**] Family. (see alternate branch below)
+
+> I'd say the second friend's family is causing a danger, but they're unwilling to recognize it.
+> The first friend and I need to go to the second friend and convince them of the danger.
+> I suspect the family will have spies that will tell the family of our plans and they will try to stop us.
+
+### Adventure #1, alternate branch ...
+
+* What kind of danger are they trying to work together to defeat? [**0**] Something in their shared past.
+* Did it involve all three of us? [**2**] partly, yes.
+* A curse? [**0**] no
+* An item? [**0**] no (I'm going to ignore this later because of the next answer, a better question would have been, "is this an item or treasure?")
+* Treasure? [**1**] not exactly
+
+> So an item we got that didn't appear valuable at the time, but isn't cursed.
+> This item involves my two friends more than me. I'll say someone is looking for that item, but doesn't know I was involved in finding it. That makes me uniquely qualified to fix the problem. My friends are in danger and can't get directly involved.
+
+* Do I have the item? [**0**] No.
+* Does a friend have the item? [**3**] Yes, in their possession.
+
+> It must be the friend talking to me. (A [**2**] would be the other friend who we'd have to find.)
+
+* Is the person looking for the item, evil? [**1**] Not obviously so, but may turn out evil later.
+
+> I have my friend go into hiding and talk to the person looking for the item. They tell me the item is dangerous and needs to be destroyed. They'll stop at nothing to get the item. I offer to destroy it myself and they respond with [**0**] absolutely not. Only they can destroy the item. I return to my friend but he's missing. Now I need to find him to retrieve the item so it can be destroyed. I recruit the help of the second friend. After I get the item, I return it to the person who wants to destroy it. Does he reveal himself as being evil? [**3**] Yes! Boss battle. (A [**1**] could have meant he tries to use the item for good but it backfires. A [**2**] could mean he got corrupted by the item.)
+
+### Adventure #2
+
+> My character is an orphan with few friends
+
+* Adventure is caused by [**0**] something in my past
+* What is the issue? [**0**] my past again. Since I was an orphan, I'll say it has something to do with how I had to survive on the streets.
+* What in my past? [**3**] an old danger.
+* An old rival? [**0**] definitely not. Someone or something that didn't know me.
+* A danger to other orphans today? [**3**] Yes, very much.
+
+> So this is a danger I'm familiar with because I was an orphan and it's a danger right now to the current day orphans.
+
+* Is it an ongoing issue? [**0**] So something that rarely happens.
+* What is the danger to the orphans? [**1**] friend.
+* Someone pretending to be a friend? [**1**] not really, but not acting as an enemy either.
+* Does this involve slavery? [**3**] Yes!
+
+> So a slave trader is convincing orphans to follow them to a better life. My old contacts let me know what they suspect is happening, since this is something that also happened in my childhood. Perhaps I escaped them before? I need to find the slavers and rescue the orphans.
+
+### Adventure #3
+
+* Adventure is caused by [**3**] a beast-kin / creature
+* Is it attacking? [**1**] No, but it might be causing problems.
+* Is it looking for something? [**3**] Yes!
+* Item or entity? [**1**] An item, maybe one that looks like an entity. A doll?
+* How big is the creature? [**0**] Small.
+
+> This is a find quest. A pixie has fallen in love with a doll but the doll has disappeared.  After seeing the pixie flying around frantically, causing disturbances and damage to the villagers' possessions. I talk to it, find out what's wrong, and decide to help it find the missing doll.
+
+### Mid-Game Example
+
+> Here's an example of interpreting the die differently while already part way through the story.
+
+* I've been traveling all day, has anything happened today? [**3**] Yes, something major!
+* What does it involve? [**1**] I find someone or something that's friendly or helpful
+* Is this an object, animal, humanoid, or event? [**2**] a humanoid.
+* How big is it? [**0**] small
+* On a scale of fairy to dwarf, how big? [**1**] slightly larger than a fairy.
+* Is this a gnome or brownie? [**2**] brownie.
+* Male or female? [**2**] female.
+* What is her general attitude? [**3**] scared of me.
+
+> I find a spot to make camp. As I empty my pack and begin to gather wood for a fire, a small movement catches my eye. A brownie, a young girl by the looks of it, scurries off a short distance, then hides under a bush and watches me gather wood. Once I have the fire burning, the brownie comes closer, seemingly enjoying the heat, but too scared of me to get too close.
+
+* I place some food on the ground, does that help? [**2**] yes, she's less scared.
+
+> I sit and eat for a while. Every once in a while I give food to the brownie and she continues to warm up to me.
+
+* How does she feel now? [**3**] She feels protective of me.
+
+> Soon, the little brownie warms up to me completely, sitting next to my foot and watching everything I do with great interest. When I pull out my pack, unlatching my bedroll, I notice her watching the shadows and alert to any threats, her little spear ready to attack.
+> The next morning, I find a dead mouse, skinned, near my bed.  The brownie motions at it, showing me it's an offering.
+> After a small breakfast of mouse meat and other rations, I begin to leave.
+
+* Does the brownie follow? [**3**] Yes.
+
+> As I walk down the path, I notice the brownie following behind me. After a little pantomiming, I get her to ride on my shoulder, and she becomes my personal alarm, warning me of danger I might miss.
+
+* As we near the dungeon entrance, how does the brownie act? [**2**] Excited for battle!
+
+> As I enter the dungeon, the first monsters we find are spiders of various sizes.
+
+* Does she see them? (DC 4) [1+2+2] yes, she sees them and alerts me to the danger before they see us.
+
+> She motions to be put on the ground, and she quickly dispatches the smaller spiders. For battle purposes, she has a spear tipped with poison, which causes 1 point of poison damage per turn for 3 turns. (I would roll each of her attacks)
+
+# Alternative Dice
+
 ### Using a standard d4 die
 
 A standard **d4** die is numbered **1** to **4**.  You can consider the **4** to be a **0**.
@@ -177,3 +364,22 @@ Roll a **d6** and add **1**. (or use "**4**" as your **50%** roll and adjust fro
 The probabilities aren't exactly the same, but they are within about 2%.
 
 To roll for damage or charging manna, roll the die, then add **1**, on **3 or lower** or **2**, on **4 or higher**. This will give you an average of **1.5** points per roll, the same as the **d4** die. Or alternatively, use the coin flip trick.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
