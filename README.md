@@ -19,9 +19,9 @@ For every **2** points over the **DC** rolled in an attack, do **1** extra point
 
 Attack with **STR**, defend with **DEX**. Ranged attacks take **2** actions and use **DEX**. Saves for conditions are rolled with **CON**.
 
-Magic spends **CON** (blood) or **INT** to charge manna with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell.
+Magic spends **CON** (blood) or **INT** to charge **manna** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell.
 
-Healing has a manna cost equal to the amount of **HP** to heal. A resurrection costs as much as the **max HP** of the target, but revives with **1 HP**.
+Healing has a **manna** cost equal to the amount of **HP** to heal. A resurrection costs as much as the **max HP** of the target, but revives with **1 HP**.
 
 A summons has its cost split between its **LVL** and the **damage** its capable of.
 
@@ -45,7 +45,7 @@ PC attacks with **STR** again, but since **STR** is now at **6**, the **DC** is 
 
 These rules are designed to be the foundation of a game, but there's always situations where you will need to use your best judgement. This is known as, "rulings over rules".
 
-For example, I want to grab an orc and throw him over a cliff. There's no specific rule for this, but I can make the judgement that it would be a **STR** vs **STR** challenge.
+For example, I want to grab an orc and throw him over a cliff. There's no specific rule for this, but I can make the judgment that it would be a **STR** vs **STR** challenge.
 
 If you have the resources, these rules can be expanded on with supplemental material. For example, specific monster stats, or a set list of weapons, skills, or spells.
 
@@ -139,17 +139,17 @@ If you kill an enemy, you can immediately attack another enemy. If an adjacent e
 
 ### Magic
 
-To cast any kind of magic, you spend **CON** (blood) or **INT** tokens to roll the die, **1** per token, to charge your *manna*. Depending on the amount of *manna* charged, you choose a spell to cast. You can only roll **1** die per action, but you can spend **DEX** to get additional actions. You can also charge *manna* over several turns, but one hand must remain free to build up the charge.
+To cast any kind of magic, you spend **CON** (blood) or **INT** tokens to roll the die, **1** per token, to charge your **manna**. Depending on the amount of **manna** charged, you choose a spell to cast. You can only roll **1** die per action, but you can spend **DEX** to get additional actions. You can also charge **manna** over several turns, but one hand must remain free to build up the charge.
 
-The approximate damage a spell can do is equal to one point per point of *manna*. A *magic bolt* will simply do the damage rolled. A *magic shield* will reduce damage by the amount rolled.
+The approximate damage a spell can do is equal to one point per point of **manna**. A *magic bolt* will simply do the damage rolled. A *magic shield* will reduce damage by the amount rolled.
 
-If a spell can be countered, then the *manna* rolled is compared to the trait used to counter the spell.
+If a spell can be countered, then the **manna** rolled is compared to the trait used to counter the spell.
 
-For example: You charge **3** *manna* to restrain an enemy. The enemy resists the restraint with its **5 STR**. You must then roll a **DC 6** or the enemy will break free.
+For example: You charge **3** **manna** to restrain an enemy. The enemy resists the restraint with its **5 STR**. You must then roll a **DC 6** or the enemy will break free.
 
 ### Healing
 
-Healing has a cost of **1** *manna* per point healed. A revival has a *manna* cost of the target's total **HP**, and revives with **1 HP**. You cannot spend **HP** to heal yourself, but you can spend **HP** to heal others.
+Healing has a cost of **1** **manna** per point healed. A revival has a **manna** cost of the target's total **HP**, and revives with **1 HP**. You cannot spend **HP** to heal yourself, but you can spend **HP** to heal others.
 
 As an alternative to death, you can revive one level lower with all your **HP** restored. (Select a trait to remove  a point from and adjust your total **HP**)
 
@@ -177,6 +177,10 @@ For each level, you get **1** point to any trait. Since your level goes up by **
 
 # Races of Ember
 
+These are the primary four races of Ember and the magic native to that race. There are plenty of other races, but these are the 4 represented on the Oracle Die.
+
+Each race can use weak versions of their racial magic without a background, but a background is required to become better at that magic, or to learn magic from another race.
+
 ### Dwarf
 
 Strong, offensive, elemental magic. Durable elemental enhanced weapons.
@@ -195,9 +199,9 @@ Self transformation / boosting magic. When changing into their animal form, use 
 
 Transformation always succeeds and takes one full turn.
 
-# The Oracle Dice
+# The Oracle Die
 
-Ember uses an oracle system which is easy to memorize (in my opinion) and a little more adaptable than the typical d6 oracle. Each side of a die can have multiple meanings depending on context.
+Ember uses an oracle system which is easy to memorize (in my opinion) and a little more adaptable than the typical d6 oracle. Each side of the die can have multiple meanings depending on context.
 
 The oracle will give you the basic plot lines. It's up to you to weave that into an actual story.
 
@@ -340,9 +344,9 @@ For a weighted yes / no answer, you can roll 2 dice and use:
 
 > As I enter the dungeon, the first monsters we find are spiders of various sizes.
 
-* Does she see them? (DC 4) [1+2+2] yes, she sees them and alerts me to the danger before they see us.
+* Does she see them? (**DC 4**) [**1+2+2**] yes, she sees them and alerts me to the danger before they see us.
 
-> She motions to be put on the ground, and she quickly dispatches the smaller spiders. For battle purposes, she has a spear tipped with poison, which causes 1 point of poison damage per turn for 3 turns. (I would roll each of her attacks)
+> She motions to be put on the ground, and she quickly dispatches the smaller spiders. For battle purposes, she has a spear tipped with poison, which causes **1** point of poison damage per turn for **3** turns. (I would roll each of her attacks)
 
 # Alternative Dice
 
@@ -363,7 +367,7 @@ Roll a **d6** and add **1**. (or use "**4**" as your **50%** roll and adjust fro
 
 The probabilities aren't exactly the same, but they are within about 2%.
 
-To roll for damage or charging manna, roll the die, then add **1**, on **3 or lower** or **2**, on **4 or higher**. This will give you an average of **1.5** points per roll, the same as the **d4** die. Or alternatively, use the coin flip trick.
+To roll for damage or charging **manna**, roll the die, then add **1**, on **3 or lower** or **2**, on **4 or higher**. This will give you an average of **1.5** points per roll, the same as the **d4** die. Or alternatively, use the coin flip trick.
 
 
 
