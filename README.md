@@ -7,7 +7,7 @@ All PCs and high level NPCs have **CON**, **STR**, **DEX**, and **INT**. Lesser 
 
 You get **20 + level** points to divide between your traits as desired, an average of **5** points per trait at level **0**.
 
-Your **HP** = **CON + level**.
+Your **HP** = **CON** + **level**.
 
 PCs also get a *narrative background* that will either add **1** point to a trait at relevant times, or add a new skill, such as a specific type of magic.
 
@@ -23,7 +23,7 @@ Magic spends **CON** (blood) or **INT** to charge **manna** with dice rolls. One
 
 Healing has a **manna** cost equal to the amount of **HP** to heal. A resurrection costs as much as the **max HP** of the target, but revives with **1 HP**.
 
-A summons has its cost split between its **LVL** and the **damage** its capable of.
+A summons has its cost split between its **LVL**/**HP** and the **damage** its capable of.
 
 *Long running spells* don't regenerate the tokens spent on it until the spell ends.  After **2** *consecutive long rests* without using any magic between them, the tokens spent will regenerate.
 
@@ -33,17 +33,17 @@ A summons has its cost split between its **LVL** and the **damage** its capable 
 
 Here's an example of a level **1** PC (**9**, **7**, **3**, **2**) attacking a **LVL 5** wolf:
 
-PC attacks with **STR** (**7** vs **5**) for a **DC** of **4**. Rolls a **3** so decides to spend **1 STR** to increase it to a **4** for **1** damage. PC is now at (**9**, **6**, **3**, **2**)
+PC attacks with **STR** (**7** vs **5**) for a **DC** of **4**. Rolls a **3** so decides to spend **1 STR** to increase it to a **4** for **1** damage. PC is now at (**9**, **6**, **3**, **2**) & wolf looses **1 HP**.
 
 Wolf attacks PC (**5** vs **3**) for a **DC** of **4**. Rolls a **6** and would do **2** damage, but the PC decides to spend **1 DEX** to dodge to reduce the roll by **1**, making it a **5** and only doing **1** damage. PC is now at (**8**, **6**, **2**, **2**)
 
-PC attacks with **STR** again, but since **STR** is now at **6**, the **DC** is **5**.
+PC attacks with **STR** again, but since **STR** is now at **6**, the **DC** is now **5**.
 
 *Repeat until one side is dead*
 
 ### The Rules
 
-These rules are designed to be the foundation of a game, but there's always situations where you will need to use your best judgement. This is known as, "rulings over rules".
+These rules are designed to be the foundation of a game, but there's always situations where you will need to use your best judgment. This is known as, "rulings over rules".
 
 For example, I want to grab an orc and throw him over a cliff. There's no specific rule for this, but I can make the judgment that it would be a **STR** vs **STR** challenge.
 
@@ -61,6 +61,8 @@ Your **DEX** is how fast or nimble you are, how easily you can dodge an attack.
 
 And lastly, your **INT** is how smart you are. How skilled you are at fighting. How well you can resist mental attacks. And, if you choose to use magic, how powerful your spells are.
 
+You'll also want to add a pile of tokens for your **HP**. Each token removed from this pile represents damage your PC takes. Once it reaches **0**, instead of dying, you may have your character drop **1 level**, remove **1 point** from any trait, and restore its proper **HP**. (**CON** + **level**, so it will need to be adjusted for the decrease in **level**)
+
 A brand new character will start at level **0** with **20** points (**20 + level**) to distribute between your traits as desired.
 
 You also add a *narrative background* or *backstory* to your character. What they did before going on this adventure, as well as their personality. You use this *backstory* to add up to **1** point to any trait that is relevant to the challenge.
@@ -69,27 +71,29 @@ So, for example, if your *backstory* is, "*I was a used cart salesman*", you cou
 
 If you can do magic, that will be your *backstory*. For example, "*I was trained in the art of shadow magic*".
 
-You may add additional *backstories* after completing a relevant quest. For example, to add the *backstory* of, "I am skilled in ice magic*", you could do a quest to find the book of ice magic, rumored to be in a cave somewhere in the Alps. Which would then require you to find and kill a specific ice based creature to absorb its magical aura via a spell you find in the book. (Maybe you could do some minor ice magic before finding the creature, but the creature is needed for the more powerful spells)
+You may add additional *backstories* after completing a relevant quest. For example, to add the *backstory* of, "*I am skilled in ice magic*", you could do a quest like:
+
+> Find the book of ice magic, rumored to be in a cave somewhere in the Alps. Once found, you will learn basic ice magic, but to do the more powerful spells, you will need to find and kill an ice elemental to absorb its magical aura via a spell you found in the book.
 
 Remember, weaknesses are more interesting than strengths. Knowing only one spell (or one type of spell) requires you to be more creative with its use.
 
 The four traits can be marked with notches on a stick, knots in a rope, etc. Since your total traits is equal to **20 + your level**, it shouldn't be necessary to record your level.
 
-For example, the PC: **10**, **6**, **4**, **6** (**CON**, **STR**, **DEX**, **INT**) is level **6**, since the sum of the traits is **26**. That example PC also has **16 HP**. (**CON + LVL**)
+For example, the PC: **10**, **6**, **4**, **6** (**CON**, **STR**, **DEX**, **INT**) is level **6**, since the sum of the traits is **26**. That example PC also has **16 HP**. (**CON** + **LVL**)
 
 While high level enemies will use the same 4 traits as the PCs, objects and entities with below human intelligence will only use **LVL**. Creatures will have **HP** equal to its **LVL** and objects will use **LVL** as a challenge level to disarm or destroy.
 
 ### Tokens
 
-At the start of each day in the adventure, your character will get a pile of tokens equal to each of their traits, **CON**, **STR**, **DEX**, and **INT**. When comparing a trait to a challenge level, you compare the remaining tokens in the pile, not the maximum value for that trait.
+At the start of each day in the adventure, your character will get a pile of tokens equal to your **HP** and each of your traits, **CON**, **STR**, **DEX**, and **INT**. When comparing a trait to a challenge level, you compare the remaining tokens in the pile, not the maximum value for that trait.
 
-The tokens can be anything you have available.  You may want to have different valued tokens so the piles don't get too big. For example, you could use small pebbles for the "**3**" values and small segments of twigs for the "**1**" values. (In my experience, using a token with a value of "**3**", seems to use the smallest number of tokens over all and is the easiest to work with)
+The tokens can be anything you have available.  You may want to have different valued tokens so the piles don't get too big. For example, you could use small pebbles for the "**3**" values and small segments of twigs for the "**1**" values. In my experience, using a second type of token with a value of "**3**", seems to use the smallest number of tokens over all and is the easiest to work with. I also use a token with a value of **9** (**3**x**3**) for larger values, like my **HP**.
 
 ### Spending Tokens
 
 A PC may spend tokens to increase or decrease any dice roll, as long as there is a narrative description on how this is done.
 
-For example, you can spend a **STR** token to add to an attack roll by pushing yourself to hit harder.  Or you may spend a **DEX** token to reduce the damage from an incoming attack by dodging out of the way.
+For example, you can spend a **STR** token to add to an attack roll by pushing yourself to hit harder.  Or you may spend a **DEX** token to reduce the damage from an incoming attack by dodging out of the way. **INT** can represent skill in fighting, so it can add to both attacks and defense.
 
 Spending tokens represent pushing yourself beyond your limits. This wears you out and causes further use of that trait to be a little less effective until you can take a rest.
 
@@ -149,15 +153,15 @@ For example: You charge **3** **manna** to restrain an enemy. The enemy resists 
 
 ### Healing
 
-Healing has a cost of **1** **manna** per point healed. A revival has a **manna** cost of the target's total **HP**, and revives with **1 HP**. You cannot spend **HP** to heal yourself, but you can spend **HP** to heal others.
+Healing has a cost of **1** **manna** per point healed. A revival has a **manna** cost of the target's total **HP**, and revives with **1 HP**. If you use **HP** to heal yourself, you cannot heal the **HP** used to charge the **manna** with the same spell.
 
-As an alternative to death, you can revive one level lower with all your **HP** restored. (Select a trait to remove  a point from and adjust your total **HP**)
+When your **HP** reaches **0**, you revive one level lower with all your **HP** restored. (Select a trait to remove  a point from and adjust your total **HP**) Alternatively, you may say you were knocked out and are either captured by the enemy, or wake up in the last town you visited. (Your body was found by a passing adventurer, or your summons carried you away from danger)
 
 ### Summons
 
-A summon is any entity that exists in the material plane through magic. This can be a spirit, a construct (robot), a golum (animated clay entity), etc. A summon is considered a long running spell and only has a **LVL** plus the **damage** it can do. The cost of a summons is its **LVL + 1**. (**LVL + damage**)
+A summon is any entity that exists in the material plane through magic. This can be a spirit, a construct (robot), a golum (animated clay entity), etc. A summon is considered a long running spell and only has a **LVL** plus the **damage** it can do. The cost of a summons is its **LVL** + **damage**.
 
-Alternatively, you may move points from **LVL** to **damage**. For example, instead of creating a **LVL 5** golum that does **1 damage** per hit, you could create a **LVL 3** golum that does **3 damage** per hit.
+You may move points from **LVL** to **damage**. For example, instead of creating a **LVL 5** golum that does **1 damage** per hit, you could create a **LVL 3** golum that does **3 damage** per hit. Either golum would cost 6 manna.
 
 The summons' **HP** is equal to its **LVL**.
 
@@ -171,19 +175,19 @@ At the end of the day, if you're in a safe place, you can take a *long rest*.  A
 
 ### Leveling
 
-Ember uses *milestone leveling*. This means you go up by **1** level after successfully completing a major challenge, such as defeating the big boss at the end of an adventure or finishing a quest to add a new *backstory*.
+Ember uses *milestone leveling*. This means you go up by **1** level after successfully completing a major challenge, such as defeating the big boss at the end of an adventure or finishing a quest to add a new *background*.
 
-For each level, you get **1** point to any trait. Since your level goes up by **1**, your **HP** will also go up by **1**. (**HP = Level + CON**)
+For each level, you get **1** point to any trait. Since your level goes up by **1**, your **HP** will also go up by **1**. (**HP** = **Level** + **CON**)
 
 # Races of Ember
 
 These are the primary four races of Ember and the magic native to that race. There are plenty of other races, but these are the 4 represented on the Oracle Die.
 
-Each race can use weak versions of their racial magic without a background, but a background is required to become better at that magic, or to learn magic from another race.
+Each race can use weak versions of their racial magic without a background, but a background is required to become better at that magic, or to learn magic from another race. For example, a dwarf could light a candle with fire magic, but not cast a fireball. Each race would have natural resistance to their natural magic as well. For example, a dwarf would get a **+1** to **DEX** when defending against a fireball attack.
 
 ### Dwarf
 
-Strong, offensive, elemental magic. Durable elemental enhanced weapons.
+Elemental magic. Durable elemental enhanced weapons.
 
 ### Human
 
@@ -191,7 +195,7 @@ Electrical magic. Electronics. Constructs. Complex mechanical traps. Complex wea
 
 ### Elf
 
-Nature / spiritual magic. Potions. Healing magic. Clay golems. Sentient weapons.
+Nature / spiritual magic. Potions. Healing magic. Clay golems. Sentient / living weapons.
 
 ### Beast-Kin
 
@@ -221,17 +225,16 @@ For a weighted yes / no answer, you can roll 2 dice and use:
 | Die | Trait| Element | Race      | Relationship   | Attitude                         | Gender     | No / Yes |
 |-----|------|---------|-----------|----------------|----------------------------------|------------|----------|
 |  0  | CON  | Earth   | Dwarf     | Family / Past  | Grounded / Solemn                | Manly Man  | No       |
-|  1  | STR  | Water   | Human     | Friend         | Relaxed / Social / Kind          | Male       | Maybe |
-|  2  | DEX  | Air     | Elf       | Lover / Flirty | Excited / Active                 | Female     | Probably |
+|  1  | STR  | Water   | Human     | Friend         | Relaxed / Social / Helpful          | Male       | Maybe |
+|  2  | DEX  | Air     | Elf       | Lover / In-Law | Excited / Active                / Passionate | Female     | Probably |
 |  3  | INT  | Fire    | Beast-kin | Enemy / Danger | Scared / Protective / Aggressive | Girly Girl | Yes      |
-
 
 **The oracle is based around the 4 elements in order of state (solid, liquid, gas, plasma)**
 
 * Earth is the foundation. Your body / health / **CON**. The flat surface representing a flat field.
 * Water is strength of movement. The ability to carve through earth. Your **STR**. The single line represents a river.
-* Air is fast and flitting, like a bird. Your **DEX**. The two lines represent the movement of a breeze
-* Fire has the power to modify the other elements. It is the danger of magic and the most active of the elements. Your **INT**. The three stripes represent the tips of a flame.
+* Air is fast and flitting, like a bird. Your **DEX**. The two lines represent the movement of a breeze.
+* Fire has the power to modify the other elements. It is the danger of magic and the most active of the elements. Your **INT**. The three stripes represent the flame tips of a fire.
 
 **Creatures are ordered based on a matching element**
 
@@ -245,7 +248,7 @@ For a weighted yes / no answer, you can roll 2 dice and use:
 * The blank side is your family, foundation, or past. Your starting point.
 * The single line is your friend. The person who will stand with you.
 * The two lines are the lovers, standing together.
-* The three lines are a danger, a group of people ganging together.
+* The three lines are a group of people ganging together, an army.
 
 ## Example Adventures Using The Oracle Dice With Real Dice Rolls
 
@@ -356,7 +359,7 @@ A standard **d4** die is numbered **1** to **4**.  You can consider the **4** to
 
 ### Using A Coin
 
-You can replace a die by flipping a coin twice and adding up the values:
+Flip a coin twice, adding up the values:
 
 * The **first** flip has a value of **1** if heads.
 * The **second** flip has a value of **2** if heads.
@@ -367,23 +370,4 @@ Roll a **d6** and add **1**. (or use "**4**" as your **50%** roll and adjust fro
 
 The probabilities aren't exactly the same, but they are within about 2%.
 
-To roll for damage or charging **manna**, roll the die, then add **1**, on **3 or lower** or **2**, on **4 or higher**. This will give you an average of **1.5** points per roll, the same as the **d4** die. Or alternatively, use the coin flip trick.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+To roll for damage, or charging **manna**, roll the die, then add **1**, on **3 or lower** or **2**, on **4 or higher**. This will give you an average of **1.5** points per roll, the same as the **d4** die. Or alternatively, use the coin flip trick any time you would roll a single d4.
