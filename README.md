@@ -258,7 +258,9 @@ For a weighted yes / no answer, you can roll 2 dice and use:
 * What is the issue? [**3**] a danger.
 * What kind of danger [**1**] involving a friend.
 * Is the second friend trying to attack the first friend? [**1**] no, but they're not getting along.
-* So that tells me there's a danger my friends need to work together to defeat, but since they're not getting along, they can't defeat it.
+
+> So that tells me there's a danger my friends need to work together to defeat, but since they're not getting along, they can't defeat it.
+
 * What kind of danger are they trying to work together to defeat? [**0**] Family. (see alternate branch below)
 
 > I'd say the second friend's family is causing a danger, but they're unwilling to recognize it.
@@ -279,11 +281,19 @@ For a weighted yes / no answer, you can roll 2 dice and use:
 * Do I have the item? [**0**] No.
 * Does a friend have the item? [**3**] Yes, in their possession.
 
-> It must be the friend talking to me. (A [**2**] would be the other friend who we'd have to find.)
+> It must be the friend talking to me. (A **2** would be the other friend who we'd have to find.)
 
 * Is the person looking for the item, evil? [**1**] Not obviously so, but may turn out evil later.
 
-> I have my friend go into hiding and talk to the person looking for the item. They tell me the item is dangerous and needs to be destroyed. They'll stop at nothing to get the item. I offer to destroy it myself and they respond with [**0**] absolutely not. Only they can destroy the item. I return to my friend but he's missing. Now I need to find him to retrieve the item so it can be destroyed. I recruit the help of the second friend. After I get the item, I return it to the person who wants to destroy it. Does he reveal himself as being evil? [**3**] Yes! Boss battle. (A [**1**] could have meant he tries to use the item for good but it backfires. A [**2**] could mean he got corrupted by the item.)
+> I have my friend go into hiding and talk to the person looking for the item. They tell me the item is dangerous and needs to be destroyed. They'll stop at nothing to get the item.
+
+* I offer to destroy it myself and they respond with [**0**] absolutely not, only they can destroy the item.
+
+> I return to my friend but he's missing. Now I need to find him to retrieve the item so it can be destroyed. I recruit the help of the second friend. After I get the item, I return it to the person who wants to destroy it.
+
+* Does he reveal himself as being evil? [**3**] Yes! Boss battle.
+
+> (A **1** could have meant he tries to use the item for good but it backfires. A **2** could mean he got corrupted by the item.)
 
 ### Adventure #2
 
