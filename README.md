@@ -17,7 +17,7 @@ Calculate the **DC** by starting at **5** (**50%**) and comparing the *remaining
 
 For every **2** points over the **DC** rolled in an attack, do **1** extra point of damage.
 
-Attack with **STR**, defend with **DEX**. Ranged attacks take **2** actions and use **DEX**. Saves for conditions are rolled with **CON**.
+Attack with **STR**, defend with **DEX**. Ranged attacks take **2** actions. Saves for conditions are rolled with **CON**.
 
 Magic spends **INT** to charge **manna** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell.
 
@@ -143,7 +143,7 @@ Defending an attack usually uses **DEX** to dodge. It may use **INT** for a magi
 
 Melee attacks use the attacker's **STR**.
 
-Ranged attacks uses **DEX** and takes **2** actions, one to prepare / aim, and another to fire the projectile.
+Ranged attacks take **2** actions, one to prepare / aim, and another to fire the projectile.
 
 The damage done is based on the weapon used and is usually **1** or **2** dice of damage, but may use a modifier, ie: **1d+1** damage.
 
