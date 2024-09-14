@@ -33,9 +33,9 @@ A summons has its cost split between its **LVL**/**HP** and the **damage** its c
 
 Here's an example of a level **1** PC (**9**, **7**, **3**, **2**) attacking a **LVL 5** wolf:
 
-PC attacks with **STR** (**7** vs **5**) for a **DC** of **4**. Rolls a **3** so decides to spend **1 STR** to increase it to a **4** for **1** damage. PC is now at (**9**, **6**, **3**, **2**) & wolf looses **1 HP**.
+PC attacks with **STR** (**STR 7** vs **LVL 5**) for a **DC** of **4**. Rolls a **3** so decides to spend **1 STR** to increase it to a **4** for **1** damage. PC is now at (**9**, **6**, **3**, **2**) & wolf looses **1 HP**.
 
-Wolf attacks PC (**5** vs **3**) for a **DC** of **4**. Rolls a **6** and would do **2** damage, but the PC decides to spend **1 DEX** to dodge to reduce the roll by **1**, making it a **5** and only doing **1** damage. PC is now at (**8**, **6**, **2**, **2**)
+Wolf attacks PC (**LVL 5** vs **DEX 3**) for a **DC** of **4**. Rolls a **6** and would do **2** damage, but the PC decides to spend **1 DEX** to dodge to reduce the roll by **1**, making it a **5** and only doing **1** damage. PC is now at (**8**, **6**, **2**, **2**)
 
 PC attacks with **STR** again, but since **STR** is now at **6**, the **DC** is now **5**.
 
