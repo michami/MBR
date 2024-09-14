@@ -1,5 +1,5 @@
 # Makeshift Basic RPG
-aka MBR aka "Ember"
+aka MBR aka "**Ember**"
 
 ## Summary (TL;DR)
 
@@ -19,7 +19,7 @@ For every **2** points over the **DC** rolled in an attack, do **1** extra point
 
 Attack with **STR**, defend with **DEX**. Ranged attacks take **2** actions and use **DEX**. Saves for conditions are rolled with **CON**.
 
-Magic spends **CON** (blood) or **INT** to charge **manna** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell.
+Magic spends **INT** to charge **manna** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell.
 
 Healing has a **manna** cost equal to the amount of **HP** to heal. A resurrection costs as much as the **max HP** of the target, but revives with **1 HP**.
 
@@ -53,7 +53,7 @@ If you have the resources, these rules can be expanded on with supplemental mate
 
 For the character's stats, Ember uses one of the simplest, yet somewhat common, set: Constitution (**CON**), Strength (**STR**), Dexterity (**DEX**), and Intelligence (**INT**). These traits correlate to the 4 sides of the die. (See notes on the Oracle die)
 
-Your **CON** is how healthy you are and how well you resist conditions, such as poison. It is also added to your level to determine how many Hit Points (**HP**) you have, or how much damage you can take before dying.
+Your **CON** is how healthy you are and how well you resist conditions, such as poison. It is also added to your level to determine how many Hit Points (**HP**) you have, or how much damage you can take before dying. If you spend **CON**, this limits your max **HP** until it recovers.
 
 Your **STR** is how hard you hit, or how much weight you can lift.
 
@@ -82,6 +82,16 @@ The four traits can be marked with notches on a stick, knots in a rope, etc. Sin
 For example, the PC: **10**, **6**, **4**, **6** (**CON**, **STR**, **DEX**, **INT**) is level **6**, since the sum of the traits is **26**. That example PC also has **16 HP**. (**CON** + **LVL**)
 
 While high level enemies will use the same 4 traits as the PCs, objects and entities with below human intelligence will only use **LVL**. Creatures will have **HP** equal to its **LVL** and objects will use **LVL** as a challenge level to disarm or destroy.
+
+### Inventory
+
+Ember uses a "*quantum inventory*". It is assumed your character is more knowledgeable on what they should bring on a trip than the player. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume you have the item, or roll on a DC to see if the PC had the foresight to bring the item.
+
+For example, you can assume your PC has rope, so you don't need to roll for it. They probably brought extra climbing equipment, so you can roll on a low DC, maybe **3** or **4**. They probably didn't bring a stone chisel and hammer, but it's possible, so roll on a high DC, maybe **6** or **7**.
+
+Similarly, you can roll on if an item they have is the right item, such as if a key they found opens a specific door or chest.
+
+This has the benefit of not having to keep track of an inventory, since Ember is designed to not have to write anything down.
 
 ### Tokens
 
@@ -143,7 +153,7 @@ If you kill an enemy, you can immediately attack another enemy. If an adjacent e
 
 ### Magic
 
-To cast any kind of magic, you spend **CON** (blood) or **INT** tokens to roll the die, **1** per token, to charge your **manna**. Depending on the amount of **manna** charged, you choose a spell to cast. You can only roll **1** die per action, but you can spend **DEX** to get additional actions. You can also charge **manna** over several turns, but one hand must remain free to build up the charge.
+To cast any kind of magic, you spend **INT** tokens to roll the die, **1** per token, to charge your **manna**. Depending on the amount of **manna** charged, you choose a spell to cast. You can only roll **1** die per action, but you can spend **DEX** to get additional actions. You can also charge **manna** over several turns, but one hand must remain free to build up the charge.
 
 The approximate damage a spell can do is equal to one point per point of **manna**. A *magic bolt* will simply do the damage rolled. A *magic shield* will reduce damage by the amount rolled.
 
