@@ -51,7 +51,7 @@ If you have the resources, these rules can be expanded on with supplemental mate
 
 ### Character Stats
 
-For the character's stats, Ember uses one of the simplest, yet somewhat common, set: Constitution (**CON**), Strength (**STR**), Dexterity (**DEX**), and Intelligence (**INT**). These traits correlate to the 4 sides of the die. (See notes on the Oracle die)
+Ember uses a simple set of traits: Constitution (**CON**), Strength (**STR**), Dexterity (**DEX**), and Intelligence (**INT**). These traits correlate to the 4 sides of the die. (See notes on the Oracle die)
 
 Your **CON** is how healthy you are and how well you resist conditions, such as poison. It is also added to your level to determine how many Hit Points (**HP**) you have, or how much damage you can take before dying. If you spend **CON**, this limits your max **HP** until it recovers.
 
@@ -79,19 +79,21 @@ Remember, weaknesses are more interesting than strengths. Knowing only one spell
 
 The four traits can be marked with notches on a stick, knots in a rope, etc. Since your total traits is equal to **20 + your level**, it shouldn't be necessary to record your level.
 
-For example, the PC: **10**, **6**, **4**, **6** (**CON**, **STR**, **DEX**, **INT**) is level **6**, since the sum of the traits is **26**. That example PC also has **16 HP**. (**CON** + **LVL**)
+For example, the PC: **10**, **6**, **4**, **6** (**CON**, **STR**, **DEX**, **INT**) is level **6**, since the sum of the traits is **26**. That example PC also has **16 HP**. (**CON 10** + **LVL 6**)
 
 While high level enemies will use the same 4 traits as the PCs, objects and entities with below human intelligence will only use **LVL**. Creatures will have **HP** equal to its **LVL** and objects will use **LVL** as a challenge level to disarm or destroy.
 
 ### Inventory
 
-Ember uses a "*quantum inventory*". It is assumed your character is more knowledgeable on what they should bring on a trip than the player. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume you have the item, or roll on a DC to see if the PC had the foresight to bring the item.
+Ember uses a "*quantum inventory*". It is assumed your character is more knowledgeable on what they should bring on a trip than the player. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume you have the item, or roll on a DC to see if the PC had the foresight to bring the item. It's up to you how much inventory you have, how much each item would take up, or if your character would have had enough money to buy the item they need.
 
-For example, you can assume your PC has rope, so you don't need to roll for it. They probably brought extra climbing equipment, so you can roll on a low DC, maybe **3** or **4**. They probably didn't bring a stone chisel and hammer, but it's possible, so roll on a high DC, maybe **6** or **7**.
+For example, you can assume your PC has rope, so you don't need to roll for it. They probably brought extra climbing equipment, so you can roll on a low DC, maybe **3** or **4**. They probably didn't bring a chisel and hammer, but it's possible, so roll on a high DC, maybe **6** or **7**.
 
-Similarly, you can roll on if an item they have is the right item, such as if a key they found opens a specific door or chest.
+Similarly, you can roll to see if an item they have is the right item, such as if a key they found opens a specific door or chest.
 
-This has the benefit of not having to keep track of an inventory, since Ember is designed to not have to write anything down.
+Obviously, health potions are something all adventurers would want, but might not be able to afford, so you may want to roll on the likelihood that your PC could have afforded to purchase any before going on the adventure. If you fail the roll, there's no point rolling again later, since you already decided they don't have the item.
+
+This has the benefit of not having to keep track of an inventory, since Ember is designed be paperless.
 
 ### Tokens
 
@@ -163,9 +165,9 @@ For example: You charge **3** **manna** to restrain an enemy. The enemy resists 
 
 ### Healing
 
-Healing has a cost of **1** **manna** per point healed. A revival has a **manna** cost of the target's total **HP**, and revives with **1 HP**. If you use **HP** to heal yourself, you cannot heal the **HP** used to charge the **manna** with the same spell.
+Healing has a cost of **1** **manna** per point healed. A revival has a **manna** cost of the target's total **HP**, and revives with **1 HP**. You cannot spend **HP** to heal yourself.
 
-When your **HP** reaches **0**, you revive one level lower with all your **HP** restored. (Select a trait to remove  a point from and adjust your total **HP**) Alternatively, you may say you were knocked out and are either captured by the enemy, or wake up in the last town you visited. (Your body was found by a passing adventurer, or your summons carried you away from danger)
+When your **HP** reaches **0**, you revive one level lower with all your **HP** restored. (Select a trait to remove  a point from and adjust your total **HP**) Alternatively, you may say you were knocked out and are either captured by the enemy, or wake up in the last town you visited. (Your body was found by a passing adventurer, your summons carried you away from danger, etc.)
 
 ### Summons
 
@@ -371,11 +373,114 @@ For a weighted yes / no answer, you can roll 2 dice and use:
 
 > She motions to be put on the ground, and she quickly dispatches the smaller spiders. For battle purposes, she has a spear tipped with poison, which causes **1** point of poison damage per turn for **3** turns. (I would roll each of her attacks)
 
+# Example Battle
+
+**Played with actual rolls** shown as: [**dice value**]
+
+Me: Level **2** Elf, nature magic, **10**, **5**, **4**, **3** (CON, STR, DEX, INT) (**12 HP**)
+
+Written as: **10**, **5**, **4**, **3** (**12**)
+
+As I'm walking on a path, I'm ambushed by **3** level **3** wolves. (**3 HP** each)
+
+Since this is an ambush, the wolves attack first.
+
+They spend 1 action moving into ambush range.
+
+The wolves attack with a **DC 5** (**3** vs **4**) [**4**, **1**, **7**]
+
+> I dodge the first two attacks, but the last one is about to hit me for **+1** damage. (since it rolled **2** over the **DC**)
+> I spend **1 DEX** token and push myself to dodge the last attack, reducing the roll to a **6** and only doing **1** damage.
+
+I'm now at **10**, **5**, **3**, **3** (**11**) (**-1 DEX** and **HP**)
+
+I attack wolf 1 with a **DC 4** (**5** vs **3**) [**6**] (**2** over DC)
+
+> I swing my sword at the first wolf, my blade digging into its side. It staggers away.
+
+Wolf 1 is now at **1 HP**
+
+The wolves attack again with a **DC 5** (**3** vs **3**) [**2**, **4**, **2**]
+
+> Startled by my last strike, the wolves are cautious and test my defenses.
+
+I attack wolf 1 again with a **DC 4** (**5** vs **3**) [**6**] (**2** over DC again!) (Seriously, these are real rolls) Since the wolf only has **1 HP** remaining, I'll roll over the damage to the wolf adjacent to it, wolf 2.
+
+> I lunge forward, thrusting my sword through the first wolf and into the second, wounding it.
+
+Wolf 1 is dead, wolf 2 is now at **2 HP**
+
+The remaining 2 wolves attack at **DC 5** (**3** vs **3**) [**7**, **4**]
+
+I spend **2 DEX** to get **2** reactions. I then spend **1 INT** to try to cause roots to grab the wolf around the legs. (**1** action to charge the magic, **1** action to cast) [**2**] I can stop **2** damage, the amount the wolf would have done.
+
+> As one wolf prepares to jump at my throat, I think quickly and use my magic to cause roots to grow rapidly from the ground, stopping the wolf. The wolf is able to break free, but not finish its attack.
+
+I'm now at **10**, **5**, **2**, **1** (**11**) (**-2 DEX** and **-1 INT**)
+
+I attack the weaker wolf at **DC 4** (**5** vs **3**) [**3**]
+
+> I try to attack the wolves, but using my magic so suddenly has drained me, causing me to miss.
+
+The remaining 2 wolves attack at **DC 4** (**3** vs **1**) [**2**, **2**]
+
+> The wolves and I square off, neither able to damage the other.
+
+I attack the weaker wolf at **DC 4** (**5** vs **3**) [**6**]
+
+> Launching forward, I'm able to skewer the weaker wolf on my sword, killing it.
+
+I could do a morale check here to see if I scared off the last wolf, but I decided not to.
+
+The last wolf attacks at **DC 4** (**3** vs **1**) [**7**] (**+3** over **DC**, so **+1** damage)
+
+> With my sword stuck in a wolf, the last wolf lunges at me, tearing into my arm.
+
+I'm now at **10**, **5**, **2**, **1** (**9**) (**-2 HP**)
+
+I attack the last wolf at **DC 4** (**5** vs **3**) [**3**] I could spend **1 STR** to increase my attack by **1**, but then the **DC** would to up to **5**, so I'll just allow the miss.
+
+> With my arm damaged, I try to swing at the last wolf, but miss.
+
+Wolf attacks at **DC 4** (**3** vs **1**) [**2**]
+
+> The wolf attacks, but I'm able to keep it at a distance with my sword.
+
+I attack the wolf at **DC 4** (**5** vs **3**) [**2**]
+
+> We're at another standstill, who will get the next blow?
+
+Wolf attacks at **DC 4** (**3** vs **1**) [**7**] (**3** over **DC**)
+
+> Looks like I slacked off on my defense, as the wolf attacks, it tears into me. My injured arm is dripping blood around my feet, and my health is failing.
+
+I'm now at **10**, **5**, **2**, **1** (**7**) (**-2 HP**)
+
+I attack the wolf at **DC 4** (**5** vs **3**) [**5**] I spend **4 STR** to raise it to a **8**, **4** over **DC**, for +2 damage
+
+> I need to end this soon, so I decide to put all my strength into one final attack. Seeing my opportunity, I put the full weight of my body into one massive swing of my sword, cutting the wolf's head off.
+
+I'm now at **10**, **1**, **2**, **1** (**7**) (**-4 STR**)
+
+> I use the last of my healing magic on myself [**1**, **0**] but I had pushed myself too far in that battle, and I'm only able to heal the most minor of wounds. After that, I rest, restoring my strength and wits.
+
+I'm now at **10**, **5**, **4**, **3** (**8**)
+
+At this point, I *could* cast heal again with the **3 INT** I got after the rest for... [**1**, **2**, **1**] **4** more points of healing.  That would restore my **HP** to 100%, but it would leave me with **0 INT** for the next battle.
+
+Notice I only attack one enemy at a time. This way, I only have to track one **HP** at a time and reset it when I switch to a new enemy.
+
 # Alternative Dice
 
 ### Using a standard d4 die
 
 A standard **d4** die is numbered **1** to **4**.  You can consider the **4** to be a **0**.
+
+If you use a digital dice roller, use **3D4-3**, or if allowed, a min of **0** and a max of **3**.
+
+For example:
+
+https://numbergenerator.org/randomnumbergenerator#!numbers=3&low=0&high=3&unique=true
 
 ### Using A Coin
 
@@ -384,10 +489,28 @@ Flip a coin twice, adding up the values:
 * The **first** flip has a value of **1** if heads.
 * The **second** flip has a value of **2** if heads.
 
+You can flip **3** coins at the same time, adding **1** for each heads, then flip them all again and adding **2** for each heads.
+
 ### Using A Single d6
 
-Roll a **d6** and add **1**. (or use "**4**" as your **50%** roll and adjust from there)
+Roll a **d6** and add **1**. The DC should be limited to the range, **3** to **7**.
 
 The probabilities aren't exactly the same, but they are within about 2%.
 
 To roll for damage, or charging **manna**, roll the die, then add **1**, on **3 or lower** or **2**, on **4 or higher**. This will give you an average of **1.5** points per roll, the same as the **d4** die. Or alternatively, use the coin flip trick any time you would roll a single d4.
+
+# Alternative Rules
+
+You can use the same dice and **DC** calculations with the *TinyD6* AKA *Tiny Dungeon* rules with these simple changes:
+
+When doing a standard **2D6** roll, roll on a **DC 5**.
+
+If you have disadvantage, add **1** to the **DC**.
+
+If you have advantage, subtract **1** from the **DC**.
+
+If you're focused, subtract **1** from the **DC**. (can stack with advantage or disadvantage)
+
+For example, if you have disadvantage but are also focused, then the **DC** remains **5**. If you have advantage and are focused, then the **DC** is **3**. But, as according to the rules, if you have both advantage and disadvantage, then the **DC** is **6**, since disadvantage overrides advantage.
+
+Since the *TinyD6* monster stats consist mainly of **HP** and a set of **traits**, you can use the same bestiary and adventures with the rules outlined here. Your character will be more powerful, so you might need to add additional enemies, or give the existing enemies additional **HP**.
