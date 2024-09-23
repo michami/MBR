@@ -83,18 +83,6 @@ For example, the PC: **10**, **6**, **4**, **6** (**CON**, **STR**, **DEX**, **I
 
 While high level enemies will use the same 4 traits as the PCs, objects and entities with below human intelligence will only use **LVL**. Creatures will have **HP** equal to its **LVL** and objects will use **LVL** as a challenge level to disarm or destroy.
 
-### Inventory
-
-Ember uses a "*quantum inventory*". It is assumed your character is more knowledgeable on what they should bring on a trip than the player. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume you have the item, or roll on a DC to see if the PC had the foresight to bring the item. It's up to you how much inventory you have, how much each item would take up, or if your character would have had enough money to buy the item they need.
-
-For example, you can assume your PC has rope, so you don't need to roll for it. They probably brought extra climbing equipment, so you can roll on a low DC, maybe **3** or **4**. They probably didn't bring a chisel and hammer, but it's possible, so roll on a high DC, maybe **6** or **7**.
-
-Similarly, you can roll to see if an item they have is the right item, such as if a key they found opens a specific door or chest.
-
-Obviously, health potions are something all adventurers would want, but might not be able to afford, so you may want to roll on the likelihood that your PC could have afforded to purchase any before going on the adventure. If you fail the roll, there's no point rolling again later, since you already decided they don't have the item.
-
-This has the benefit of not having to keep track of an inventory, since Ember is designed be paperless.
-
 ### Tokens
 
 At the start of each day in the adventure, your character will get a pile of tokens equal to your **HP** and each of your traits, **CON**, **STR**, **DEX**, and **INT**. When comparing a trait to a challenge level, you compare the remaining tokens in the pile, not the maximum value for that trait.
@@ -136,6 +124,18 @@ On the other hand, if you try to do a level **5 STR** challenge, and you have **
 The medium / middle number is **5**. When rolling on a **DC** of **5**, you'll have a **50%** chance of success. A medium challenge is a level **5** and a medium monster would be a level **5**.
 
 Jumps in difficulty / damage / etc. occur every **2** values from the target number. For example, for every **2** points apart a trait is from a challenge level, you will add or subtract **1** from the **DC**. For every **2** points you roll over the **DC**, you add **1** extra point of *damage*.
+
+### Inventory
+
+Ember uses a "*quantum inventory*". It is assumed your PC is more knowledgeable on what they should bring on a trip than you are. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume the PC has the item, or roll on a **DC** to see if the PC had the foresight to bring the item. It's up to you how much inventory they have, how much room each item should take up, or if the PC would have had enough money to buy the item they need.
+
+For example, you can assume your PC has rope, so you don't need to roll for it. They probably brought extra climbing equipment, so you can roll on a low **DC**, maybe **3** or **4**. They probably didn't bring a chisel and hammer, but it's possible, so roll on a high **DC**, maybe **6** or **7**.
+
+Similarly, you can roll to see if an item they have is the right item, such as if a key they found opens a specific door or chest.
+
+Obviously, health potions are something all adventurers would want, but might not be able to afford, so you may want to roll on the likelihood that your PC could have afforded to purchase any before going on the adventure. If you fail the roll, there's no point rolling again later, since you already decided they don't have the item.
+
+This has the benefit of not having to keep track of an inventory, since Ember is designed to be paperless.
 
 ### Combat
 
