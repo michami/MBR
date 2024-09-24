@@ -5,8 +5,6 @@ aka MBR aka "**Ember**"
 
 <a href="#summary-tldr"><b>Summary</b></a>
 
-<a href="#short-combat-example">Short Combat Example</a>
-
 <a href="#the-rules"><b>The Rules</b></a>
 
 <a href="#character-stats">Character Stats</a>
@@ -73,21 +71,9 @@ Healing has a **manna** cost equal to the amount of **HP** to heal. A resurrecti
 
 A summons has its cost split between its **LVL**/**HP** and the **damage** its capable of.
 
-*Long running spells* don't regenerate the tokens spent on it until the spell ends.  After **2** *consecutive long rests* without using any magic between them, the tokens spent will regenerate.
+You get **1** *short rest* between battles, and **1** *long rest* at the end of the in-game day. *Short rests* recover **non-HP** tokens.  *Long rests* recover **all** tokens not used for long running spells.
 
-*Short rests* recover **non-HP** tokens.  *Long rests* recover **all** tokens not used for long running spells.
-
-### Short Combat Example
-
-Here's an example of a level **1** PC (**9**, **7**, **3**, **2**) attacking a **LVL 5** wolf:
-
-PC attacks with **STR** (**STR 7** vs **LVL 5**) for a **DC** of **4**. Rolls a **3** so decides to spend **1 STR** to increase it to a **4** for **1** damage. PC is now at (**9**, **6**, **3**, **2**) & wolf looses **1 HP**.
-
-Wolf attacks PC (**LVL 5** vs **DEX 3**) for a **DC** of **4**. Rolls a **6** and would do **2** damage, but the PC decides to spend **1 DEX** to dodge to reduce the roll by **1**, making it a **5** and only doing **1** damage. PC is now at (**8**, **6**, **2**, **2**)
-
-PC attacks with **STR** again, but since **STR** is now at **6**, the **DC** is now **5**.
-
-*Repeat until one side is dead*
+*Long running spells*, such as summons, don't regenerate the tokens spent on it until the spell ends.  After **2** *consecutive long rests* without using any magic between them, the tokens spent will regenerate.
 
 ### The Rules
 
