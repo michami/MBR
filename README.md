@@ -1,6 +1,54 @@
 # Makeshift Basic RPG
 aka MBR aka "**Ember**"
 
+# TOC
+
+<a href="#summary-tldr"><b>Summary</b></a>
+
+<a href="#short-combat-example">Short Combat Example</a>
+
+<a href="#the-rules"><b>The Rules</b></a>
+
+<a href="#character-stats">Character Stats</a>
+
+<a href="#tokens">Tokens</a>
+
+<a href="#spending-tokens">Spending Tokens</a>
+
+<a href="#spending-hp">Spending HP</a>
+
+<a href="#the-dice"><b>The Dice</b></a>
+
+<a href="#finding-the-dc">Finding The DC</a>
+
+<a href="#numbers-to-keep-in-mind">Numbers To Keep In Mind</a>
+
+<a href="#inventory">Inventory</a>
+
+<a href="#combat"><b>Combat</b></a>
+
+<a href="#magic">Magic</a>
+
+<a href="#healing">Healing</a>
+
+<a href="#summons">Summons</a>
+
+<a href="#rests">Rests</a>
+
+<a href="#leveling">Leveling</a>
+
+<a href="#races-of-ember"><b>Races of Ember</b></a>
+
+<a href="#the-oracle-die"><b>The Oracle Die</b></a>
+
+<a href="#example-adventures-using-the-oracle-dice-with-real-dice-rolls">Example Adventures</a>
+
+<a href="#example-battle">Example Battle</a>
+
+<a href="#alternative-dice"><b>Alternative Dice</b></a>
+
+<a href="#alternative-rules"><b>Alternative Rules</b></a>
+
 ## Summary (TL;DR)
 
 All PCs and high level NPCs have **CON**, **STR**, **DEX**, and **INT**. Lesser creatures and objects only have **LVL**. PCs get a pile of tokens per trait that can be spent shifting the dice rolls. **HP** can be spent in place of any other trait.
@@ -29,7 +77,7 @@ A summons has its cost split between its **LVL**/**HP** and the **damage** its c
 
 *Short rests* recover **non-HP** tokens.  *Long rests* recover **all** tokens not used for long running spells.
 
-**Combat Example**
+### Short Combat Example
 
 Here's an example of a level **1** PC (**9**, **7**, **3**, **2**) attacking a **LVL 5** wolf:
 
