@@ -1,6 +1,14 @@
 # Makeshift Basic RPG
 aka MBR aka "**Ember**"
 
+### Why this RPG exists
+
+For many years, I've been learning to live off the land.  One thing that was in the back of my mind for a long time was, "How do I keep myself entertained?" I noticed while watching the TV show, "Alone", that this was also an issue with the contestants.
+
+I decided to design a solo RPG with rules simple enough to memorize, does not need any information written down, and used some type of "oracle" to aid in story creation.
+
+This is that RPG. It's not for everyone and it's not designed to replace an RPG you might play in the comfort of your home. It's designed to be a form of entertainment that you can create with nothing but sticks and stones. (and a knife, if you have one)
+
 # TOC
 
 <a href="#summary-tldr"><b>Summary</b></a>
