@@ -47,7 +47,7 @@ This is that RPG. It's not for everyone and it's not designed to replace an RPG 
 
 <a href="#the-oracle-die"><b>The Oracle Die</b></a>
 
-<a href="#example-adventures-using-the-oracle-dice-with-real-dice-rolls">Example Adventures</a>
+<a href="#example-adventures-using-the-oracle-dice">Example Adventures</a>
 
 <a href="#example-battle">Example Battle</a>
 
@@ -185,7 +185,7 @@ During combat, on your charter's turn, you get **2** actions. These actions can 
 
 Defending an attack usually uses **DEX** to dodge. It may use **INT** for a magical shield or when resisting a spell or mental attack.
 
-Melee attacks use the attacker's **STR**.
+Attacks use the attacker's **STR**.
 
 Ranged attacks take **2** actions, one to prepare / aim, and another to fire the projectile.
 
@@ -213,9 +213,9 @@ When your **HP** reaches **0**, you revive one level lower with all your **HP** 
 
 ### Summons
 
-A summon is any entity that exists in the material plane through magic. This can be a spirit, a construct (robot), a golum (animated clay entity), etc. A summon is considered a long running spell and only has a **LVL** plus the **damage** it can do. The cost of a summons is its **LVL** + **damage**.
+A summon is any entity that exists in the material plane through magic. This can be a spirit, a construct (robot), a golum (animated clay entity), etc. A summon is considered a long running spell and has a **LVL** and the **damage** it can do. The cost of a summons is its **LVL** + **damage**.
 
-You may move points from **LVL** to **damage**. For example, instead of creating a **LVL 5** golum that does **1 damage** per hit, you could create a **LVL 3** golum that does **3 damage** per hit. Either golum would cost 6 manna.
+For example, you could create a **LVL 5** golum that does **1 damage** per hit, or you could create a **LVL 3** golum that does **3 damage** per hit. Either golum would cost **6 manna**.
 
 The summons' **HP** is equal to its **LVL**.
 
@@ -304,7 +304,9 @@ For a weighted yes / no answer, you can roll 2 dice and use:
 * The two lines are the lovers, standing together.
 * The three lines are a group of people ganging together, an army.
 
-## Example Adventures Using The Oracle Dice With Real Dice Rolls
+## Example Adventures Using The Oracle Dice
+
+**Created with actual rolls**
 
 ### Adventure #1
 
@@ -417,7 +419,7 @@ For a weighted yes / no answer, you can roll 2 dice and use:
 
 # Example Battle
 
-**Played with actual rolls** shown as: [**dice value**]
+**Played with actual rolls**
 
 Me: Level **2** Elf, nature magic, **10**, **5**, **4**, **3** (CON, STR, DEX, INT) (**12 HP**)
 
