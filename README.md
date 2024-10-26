@@ -9,52 +9,6 @@ I decided to design a solo RPG with rules simple enough to memorize, does not ne
 
 This is that RPG. It's not for everyone and it's not designed to replace an RPG you might play in the comfort of your home. It's designed to be a form of entertainment that you can create with nothing but sticks and stones. (and a knife, if you have one)
 
-# TOC
-
-<a href="#summary-tldr"><b>Summary</b></a>
-
-<a href="#the-rules"><b>The Rules</b></a>
-
-<a href="#character-stats">Character Stats</a>
-
-<a href="#tokens">Tokens</a>
-
-<a href="#spending-tokens">Spending Tokens</a>
-
-<a href="#spending-hp">Spending HP</a>
-
-<a href="#the-dice"><b>The Dice</b></a>
-
-<a href="#finding-the-dc">Finding The DC</a>
-
-<a href="#numbers-to-keep-in-mind">Numbers To Keep In Mind</a>
-
-<a href="#inventory">Inventory</a>
-
-<a href="#combat"><b>Combat</b></a>
-
-<a href="#magic">Magic</a>
-
-<a href="#healing">Healing</a>
-
-<a href="#summons">Summons</a>
-
-<a href="#rests">Rests</a>
-
-<a href="#leveling">Leveling</a>
-
-<a href="#races-of-ember"><b>Races of Ember</b></a>
-
-<a href="#the-oracle-die"><b>The Oracle Die</b></a>
-
-<a href="#example-adventures-using-the-oracle-dice">Example Adventures</a>
-
-<a href="#example-battle">Example Battle</a>
-
-<a href="#alternative-dice"><b>Alternative Dice</b></a>
-
-<a href="#alternative-rules"><b>Alternative Rules</b></a>
-
 ## Summary (TL;DR)
 
 All PCs and high level NPCs have **CON**, **STR**, **DEX**, and **INT**. Lesser creatures and objects only have **LVL**. PCs get a pile of tokens per trait that can be spent shifting the dice rolls. **HP** can be spent in place of any other trait.
@@ -107,7 +61,7 @@ You'll also want to add a pile of tokens for your **HP**. Each token removed fro
 
 A brand new character will start at level **0** with **20** points (**20 + level**) to distribute between your traits as desired.
 
-You also add a *narrative background* or *backstory* to your character. What they did before going on this adventure, as well as their personality. You use this *backstory* to add up to **1** point to any trait that is relevant to the challenge.
+You also add a *narrative background* or *backstory* to your character. What they did before going on this adventure, as well as their personality. You use this *backstory* to add **1** point to any trait that is relevant to the current challenge.
 
 So, for example, if your *backstory* is, "*I was a used cart salesman*", you could add **1** to **INT** when trying to convince someone to join your side in a fight. If you're unable to write it down, you should try to keep the *backstory* simple enough to memorize.
 
@@ -195,6 +149,10 @@ For every **2** you roll over the **DC**, you do **1** extra point of damage.
 
 If you kill an enemy, you can immediately attack another enemy. If an adjacent enemy to the one you just killed is of equal or lesser level, then you may choose instead to roll over any excess damage to that second enemy.
 
+### Poison and other conditions
+
+At the start of your turn, if you are poisoned, frozen, trapped in webbing, etc. make a level **5** test with **CON**. If you succeed, you shake off the condition and return to normal. If you fail, the condition takes effect causing a loss of **HP**, loss of a turn, reduced movement, etc.
+
 ### Magic
 
 To cast any kind of magic, you spend **INT** tokens to roll the die, **1** per token, to charge your **manna**. Depending on the amount of **manna** charged, you choose a spell to cast. You can only roll **1** die per action, but you can spend **DEX** to get additional actions. You can also charge **manna** over several turns, but one hand must remain free to build up the charge.
@@ -205,12 +163,6 @@ If a spell can be countered, then the **manna** rolled is compared to the trait 
 
 For example: You charge **3** **manna** to restrain an enemy. The enemy resists the restraint with its **5 STR**. You must then roll a **DC 6** or the enemy will break free.
 
-### Healing
-
-Healing has a cost of **1** **manna** per point healed. A revival has a **manna** cost of the target's total **HP**, and revives with **1 HP**. You cannot spend **HP** to heal yourself.
-
-When your **HP** reaches **0**, you revive one level lower with all your **HP** restored. (Select a trait to remove  a point from and adjust your total **HP**) Alternatively, you may say you were knocked out and are either captured by the enemy, or wake up in the last town you visited. (Your body was found by a passing adventurer, your summons carried you away from danger, etc.)
-
 ### Summons
 
 A summon is any entity that exists in the material plane through magic. This can be a spirit, a construct (robot), a golum (animated clay entity), etc. A summon is considered a long running spell and has a **LVL** and the **damage** it can do. The cost of a summons is its **LVL** + **damage**.
@@ -218,6 +170,10 @@ A summon is any entity that exists in the material plane through magic. This can
 For example, you could create a **LVL 5** golum that does **1 damage** per hit, or you could create a **LVL 3** golum that does **3 damage** per hit. Either golum would cost **6 manna**.
 
 The summons' **HP** is equal to its **LVL**.
+
+### Healing
+
+Healing has a cost of **1** **manna** per point healed. A revival has a **manna** cost of the target's total **HP**, and revives with **1 HP**. You cannot spend **HP** to heal yourself.
 
 ### Rests
 
@@ -232,6 +188,10 @@ At the end of the day, if you're in a safe place, you can take a *long rest*.  A
 Ember uses *milestone leveling*. This means you go up by **1** level after successfully completing a major challenge, such as defeating the big boss at the end of an adventure or finishing a quest to add a new *background*.
 
 For each level, you get **1** point to any trait. Since your level goes up by **1**, your **HP** will also go up by **1**. (**HP** = **Level** + **CON**)
+
+### Death
+
+When your **HP** reaches **0**, make a level **5** test with **CON**. If you succeed, you gain **1 HP**. (**+1 HP** for every **2** you roll over the **DC**) If you fail, you revive one level lower with all your **HP** restored. (Select a trait to remove  a point from and adjust your total **HP**) Alternatively, you may say you were knocked out and are either captured by the enemy, or wake up in the last town you visited. (Your body was found by a passing adventurer, your summons carried you away from danger, etc.)
 
 # Races of Ember
 
@@ -421,34 +381,33 @@ For a weighted yes / no answer, you can roll 2 dice and use:
 
 **Played with actual rolls**
 
-Me: Level **2** Elf, nature magic, **10**, **5**, **4**, **3** (CON, STR, DEX, INT) (**12 HP**)
+Me: Level **2** Elf, nature magic, **10**, **5**, **4**, **3** (CON, STR, DEX, INT) (**12 HP**) Grass sword that does 1 damage.
 
 Written as: **10**, **5**, **4**, **3** (**12**)
 
-As I'm walking on a path, I'm ambushed by **3** level **3** wolves. (**3 HP** each)
+As I'm walking on a path, I'm ambushed by **3** level **3** wolves. (**3 HP** each, **1** damage per attack)
 
 Since this is an ambush, the wolves attack first.
 
 They spend 1 action moving into ambush range.
 
-The wolves attack with a **DC 5** (**3** vs **4**) [**4**, **1**, **7**]
+The wolves attack with a **DC 5** (**3** vs **4**) [**4**, **1**, **6**]
 
-> I dodge the first two attacks, but the last one is about to hit me for **+1** damage. (since it rolled **2** over the **DC**)
-> I spend **1 DEX** token and push myself to dodge the last attack, reducing the roll to a **6** and only doing **1** damage.
+> I dodge the first two attacks, but the last one bites my leg. I swing at it but it lets go before I can do any damage.
 
-I'm now at **10**, **5**, **3**, **3** (**11**) (**-1 DEX** and **HP**)
+I'm now at **10**, **5**, **4**, **3** (**11**) (**-1 HP**)
 
-I attack wolf 1 with a **DC 4** (**5** vs **3**) [**6**] (**2** over DC)
+I attack wolf 1 with a **DC 4** (**5** vs **3**) [**6**] **2** over DC
 
 > I swing my sword at the first wolf, my blade digging into its side. It staggers away.
 
 Wolf 1 is now at **1 HP**
 
-The wolves attack again with a **DC 5** (**3** vs **3**) [**2**, **4**, **2**]
+The wolves attack again with a **DC 5** (**3** vs **4**) [**2**, **4**, **2**]
 
 > Startled by my last strike, the wolves are cautious and test my defenses.
 
-I attack wolf 1 again with a **DC 4** (**5** vs **3**) [**6**] (**2** over DC again!) (Seriously, these are real rolls) Since the wolf only has **1 HP** remaining, I'll roll over the damage to the wolf adjacent to it, wolf 2.
+I attack wolf 1 again with a **DC 4** (**5** vs **3**) [**6**] **2** over DC again! Since the wolf only has **1 HP** remaining, I'll roll over the damage to the wolf adjacent to it, wolf 2.
 
 > I lunge forward, thrusting my sword through the first wolf and into the second, wounding it.
 
@@ -514,6 +473,90 @@ At this point, I *could* cast heal again with the **3 INT** I got after the rest
 
 Notice I only attack one enemy at a time. This way, I only have to track one **HP** at a time and reset it when I switch to a new enemy.
 
+I'm now at **10**, **5**, **4**, **3** (**8**)
+
+At this point, I *could* cast heal again with the **3 INT** I got after the rest for... [**1**, **2**, **1**] **4** more points of healing.  That would restore my **HP** to 100%, but it would leave me with **0 INT** for the next battle.
+
+Notice I only attack one enemy at a time. This way, I only have to track one **HP** at a time and reset it when I switch to a new enemy.
+
+# Another battle example
+
+Me: Level **2** Elf, nature magic, **10**, **5**, **4**, **3** (CON, STR, DEX, INT) (**12 HP**) Short sword that does **1d** damage
+
+Written here as: **10**, **5**, **4**, **3** (**12**)
+
+As I'm walking on a path, I'm ambushed by **3** level **3** wolves. (**3 HP** each, **1** damage per attack)
+
+Since this is an ambush, the wolves attack first.
+
+They spend **1** action moving into ambush range.
+
+The wolves attack with a **DC 5** (**3** vs **4**) [**5**, **4**, **8**] One hit at DC and one at +8 DC. I'll spend **1 DEX** to avoid the first attack.
+
+> I dodge the first two wolves, but the last wolf is in place to attack me from the rear, biting my neck. I break free, but I'm seriously injured.
+
+I'm now at **10**, **5**, **3**, **3** (**10**) (**-1 DEX** and **-2 HP**)
+
+I attack wolf 1 with a **DC 4** (**5** vs **3**) [**4**]
+
+My damage is [**3**]
+
+> The lead wolf sees me on the ground and lunges at me. I raise my sword and drive it through its chest, killing it.
+
+Since I killed an enemy, I can attack again.
+
+I attack wolf 2 with a **DC 4** (**5** vs **3**) [**5**] I spend **1 DEX** to raise to to **6**, **2** points over **DC** for **1** extra damage.
+
+My damage is [**1**] + **1** for **2** total damage.
+
+> As I pull the sword out of the first wolf, another tries to attack me from the rear. I continue the swing back behind me quickly and slice its leg.
+
+I'm now at **10**, **5**, **2**, **3** (**10**) (**-1 DEX**)
+
+Wolf 2 is now at **1 HP**
+
+The remaining 2 wolves attack at **DC 5** (**3** vs **2**) [**6**, **9**] The first wolf does **1** damage, but the second rolled **4** over **DC**, so I'll spend **1 STR** to lower it by **1**. A **+3** to **DC** is still **+1** to its damage.
+
+> Both wolves attack at once, tearing into me. One wolf goes for my face, but I'm able to bat it aside with the pummel of my sword. Its teeth tear at my jaw but I avoid most of the damage. I need to end this fast.
+
+I'm now at **10**, **4**, **2**, **3** (**7**) (**-1 STR** and **-3 HP**)
+
+I attack wolf 2 with a **DC 5** (**4** vs **3**) [**5**]
+
+> I drive my sword into the wolf biting my leg. It's injured leg keeps it from dodging and I'm able to kill it.
+
+Since I killed an enemy, I can attack again.
+
+I attack the last wolf with a **DC 5** (**4** vs **3**) [**8**] **3** over **DC** for **+1** damage
+
+My damage is [**1**] + **1** for **2** total damage.  (I should have pushed the attack roll to a **9** for a **+2** bonus to damage)
+
+The wolf is now at **1 HP**
+
+The wolf attacks at **DC 5** (**3** vs **2**) [**5**] I spend **1 DEX** to avoid the attack.
+
+> The wolf lunges for me again, but I'm able to jump to the side, avoiding the attack.
+
+I'm now at **10**, **4**, **1**, **3** (**7**) (**-1 DEX**)
+
+I attack the wolf with a **DC 5** (**4** vs **3**) [**5**] To make sure I do at least **1** damage, I'm going to spend **2 STR** to raise the roll to a **7** for a **+1** to damage.
+
+My damage is [**3**] + **1** for **4** total damage. More than enough to kill that last wolf.
+
+> The wolf, weak and injured, stumbles towards me. I swing my sword hard and slice the wolf's head clean off.
+
+I'm now at **10**, **3**, **1**, **3** (**7**) (**-1 STR**)
+
+I reserved my **INT** for healing, which I'll do now. [**0**, **2**, **2**] Allowing me to heal **4 HP** to bring me back to **11 HP**.
+
+I'm now at **10**, **3**, **1**, **0** (**11**) (**-3 INT** and **+4 HP**)
+
+> Using healing magic, I charge my manna and heal my broken body. I then rest to gain my strength back.
+
+After a *short rest*, I regain my lost trait tokens.
+
+I'm now at **10**, **5**, **4**, **3** (**11**)
+
 # Alternative Dice
 
 ### Using a standard d4 die
@@ -542,6 +585,14 @@ Roll a **d6** and add **1**. The DC should be limited to the range, **3** to **7
 The probabilities aren't exactly the same, but they are within about 2%.
 
 To roll for damage, or charging **manna**, roll the die, then add **1**, on **3 or lower** or **2**, on **4 or higher**. This will give you an average of **1.5** points per roll, the same as the **d4** die. Or alternatively, use the coin flip trick any time you would roll a single d4.
+
+### DC vs Roll percentages
+**Makeshift vs 1d6+1**
+
+|  DC  |  2  |  3 |  4 |  5 |  6  |  7  |  8  |
+|------|-----|----|----|----|-----|-----|-----|
+| 3d03 | 94% | 84%| 69%| 50%| 31% | 16% | 6%  |
+| 1d6+1| 100%| 83%| 67%| 50%| 33% | 17% | N/A |
 
 # Alternative Rules
 
