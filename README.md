@@ -11,7 +11,7 @@ This is that RPG. It's not for everyone and it's not designed to replace an RPG 
 
 ## Summary (TL;DR)
 
-All PCs and high level NPCs have **CON**, **STR**, **DEX**, and **INT**. Lesser creatures and objects only have **LVL**. PCs get a pile of tokens per trait that can be spent shifting the dice rolls. **HP** can be spent in place of any other trait.
+All PCs and high level NPCs have **CON**, **STR**, **DEX**, and **INT**. Lesser creatures and objects only have **LVL**. PCs get a pile of tokens per trait and another for HP that can be spent shifting the dice rolls. **HP** can be spent in place of any other trait.
 
 You get **20 + level** points to divide between your traits as desired, an average of **5** points per trait at level **0**.
 
@@ -57,7 +57,7 @@ Your **DEX** is how fast or nimble you are, how easily you can dodge an attack.
 
 And lastly, your **INT** is how smart you are. How skilled you are at fighting. How well you can resist mental attacks. And, if you choose to use magic, how powerful your spells are.
 
-You'll also want to add a pile of tokens for your **HP**. Each token removed from this pile represents damage your PC takes. Once it reaches **0**, instead of dying, you may have your character drop **1 level**, remove **1 point** from any trait, and restore its proper **HP**. (**CON** + **level**, so it will need to be adjusted for the decrease in **level**)
+You'll also want to add a pile of tokens for your **HP**. Each token removed from this pile represents damage your PC takes.
 
 A brand new character will start at level **0** with **20** points (**20 + level**) to distribute between your traits as desired.
 
@@ -171,6 +171,10 @@ For example, you could create a **LVL 5** golum that does **1 damage** per hit, 
 
 The summons' **HP** is equal to its **LVL**.
 
+### Companions
+
+A companion acts as a PC with **LVL** + **10** points to spend on its traits. A companion typically stays the same level as the PC it belongs to.
+
 ### Healing
 
 Healing has a cost of **1** **manna** per point healed. A revival has a **manna** cost of the target's total **HP**, and revives with **1 HP**. You cannot spend **HP** to heal yourself.
@@ -187,15 +191,15 @@ At the end of the day, if you're in a safe place, you can take a *long rest*.  A
 
 Ember uses *milestone leveling*. This means you go up by **1** level after successfully completing a major challenge, such as defeating the big boss at the end of an adventure or finishing a quest to add a new *background*.
 
-For each level, you get **1** point to any trait. Since your level goes up by **1**, your **HP** will also go up by **1**. (**HP** = **Level** + **CON**)
+For each level, you get **1** point to add to any trait. Since your level goes up by **1**, your **HP** will also go up by **1**. (**HP** = **Level** + **CON**)
 
 ### Death
 
-When your **HP** reaches **0**, make a level **5** test with **CON**. If you succeed, you gain **1 HP**. (**+1 HP** for every **2** you roll over the **DC**) If you fail, you revive one level lower with all your **HP** restored. (Select a trait to remove  a point from and adjust your total **HP**) Alternatively, you may say you were knocked out and are either captured by the enemy, or wake up in the last town you visited. (Your body was found by a passing adventurer, your summons carried you away from danger, etc.)
+When your **HP** reaches **0**, make a level **5** test with **CON**. You cannot push the dice on a death save. If you succeed, you gain **1 HP**. (**+1 HP** for every **2** you roll over the **DC**) If you fail, you were knocked out and are either captured by the enemy, or wake up in the last town you visited. (Your body was found by a passing adventurer, your summons carried you away from danger, etc.)
 
 # Races of Ember
 
-These are the primary four races of Ember and the magic native to that race. There are plenty of other races, but these are the 4 represented on the Oracle Die.
+There are four primary races of Ember. Each has a magic that's native to that race. There are plenty of other races, but these are the 4 represented on the Oracle Die.
 
 Each race can use weak versions of their racial magic without a background, but a background is required to become better at that magic, or to learn magic from another race. For example, a dwarf could light a candle with fire magic, but not cast a fireball. Each race would have natural resistance to their natural magic as well. For example, a dwarf would get a **+1** to **DEX** when defending against a fireball attack.
 
@@ -223,16 +227,16 @@ Ember uses an oracle system which is easy to memorize (in my opinion) and a litt
 
 The oracle will give you the basic plot lines. It's up to you to weave that into an actual story.
 
-For a weighted yes / no answer, you can roll 2 dice and use:
+If you prefer a more traditional "yes, and" style oracle die, you can roll 2 dice and use:
 
 ```
-0: It's worse then you think (No and...)
+0: No, and... (It's worse then you think)
 1: Definitely no
 2: Not likely, but possible
 3: Maybe, if...
 4: Probably, but there might be complications
 5: Definitely yes
-6: It's better than you think (Yes and...)
+6: Yes, and... (It's better than you think)
 ```
 **Roll one die as an oracle. Roll multiple times to get modifiers.**
 
@@ -379,6 +383,10 @@ For a weighted yes / no answer, you can roll 2 dice and use:
 
 # Example Battle
 
+### NOTE:
+
+When playing through your own battles, don't simply roll the dice and see the results. Describe what is happening, and how the dice are representing changes in the battle.
+
 **Played with actual rolls**
 
 Me: Level **2** Elf, nature magic, **10**, **5**, **4**, **3** (CON, STR, DEX, INT) (**12 HP**) Grass sword that does 1 damage.
@@ -466,12 +474,6 @@ I attack the wolf at **DC 4** (**5** vs **3**) [**5**] I spend **4 STR** to rais
 I'm now at **10**, **1**, **2**, **1** (**7**) (**-4 STR**)
 
 > I use the last of my healing magic on myself [**1**, **0**] but I had pushed myself too far in that battle, and I'm only able to heal the most minor of wounds. After that, I rest, restoring my strength and wits.
-
-I'm now at **10**, **5**, **4**, **3** (**8**)
-
-At this point, I *could* cast heal again with the **3 INT** I got after the rest for... [**1**, **2**, **1**] **4** more points of healing.  That would restore my **HP** to 100%, but it would leave me with **0 INT** for the next battle.
-
-Notice I only attack one enemy at a time. This way, I only have to track one **HP** at a time and reset it when I switch to a new enemy.
 
 I'm now at **10**, **5**, **4**, **3** (**8**)
 
