@@ -1,5 +1,6 @@
-# Makeshift Basic RPG
-aka MBR aka "**Ember**"
+# Sticks & Stones
+
+**S&S, a Makeshift Solo RPG for Survivalists**
 
 ### Why this RPG exists
 
@@ -9,35 +10,52 @@ I decided to design a solo RPG with rules simple enough to memorize, does not ne
 
 This is that RPG. It's not for everyone and it's not designed to replace an RPG you might play in the comfort of your home. It's designed to be a form of entertainment that you can create with nothing but sticks and stones. (and a knife, if you have one)
 
-## Summary (TL;DR)
+# Summary
 
-All PCs and high level NPCs have **CON**, **STR**, **DEX**, and **INT**. Lesser creatures and objects only have **LVL**. PCs get a pile of tokens per trait and another for HP that can be spent shifting the dice rolls. **HP** can be spent in place of any other trait.
+Weak enemies have a **LVL** which replaces the typical traits. They typically have the same **HP** as their **LVL**.
 
-You get **20 + level** points to divide between your traits as desired, an average of **5** points per trait at level **0**.
-
-Your **HP** = **CON** + **level**.
+Each PC gets **20 + LVL** tokens to divide between **CON**, **STR**, **DEX**, and **INT**. They also get **HP** tokens equal to **CON** + **LVL**. Tokens can be spent to shift a roll up or down. **CON** is used on saving throws. **STR** is used on attacks. **DEX** is used on defense. **INT** is used for skills and magic. Ranged attacks take **2** actions. **HP** tokens can be spent on any roll and counts as physical damage.
 
 PCs also get a *narrative background* that will either add **1** point to a trait at relevant times, or add a new skill, such as a specific type of magic.
 
-On your turn, you get **2** actions, **1** can be an attack. You can spend **DEX** to get extra actions.
+Companions have the same stats as PCs, but have **10 + LVL** tokens.
 
-Calculate the **DIF** by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used to the level of the challenge. For every **2** points over or under, add or subtract **1** to or from the **DIF**. Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the **DIF**. If you roll a **9**, roll again and add the result.
-
-For every **2** points over the **DIF** rolled in an attack, do **1** extra point of damage.
-
-Attack with **STR**, defend with **DEX**. Ranged attacks take **2** actions. Saves for conditions are rolled with **CON**.
-
-Magic spends **INT** to charge **manna** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell.
+Magic spends **INT** to charge **manna** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell. Focused attacks can do extra damage, but can also be dodged.
 
 Healing has a **manna** cost equal to the amount of **HP** to heal. A resurrection costs as much as the **max HP** of the target, but revives with **1 HP**.
 
 A summons has its cost split between its **LVL**/**HP** and the **damage** its capable of.
 
+Calculate the **DIF** by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used to the **LVL** of the challenge. For every **2** points over or under, add or subtract **1** to or from the **DIF**. Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the **DIF**. If you roll a **9**, roll again and add the result.
+
+For every **2** points over the **DIF** rolled in an attack, do **1** extra point of damage.
+
+On your turn, you get **2** actions, **1** can be an attack. You can spend **DEX** to get extra actions.
+
 You get **1** *short rest* between battles, and **1** *long rest* at the end of the in-game day. *Short rests* recover **non-HP** tokens.  *Long rests* recover **all** tokens not used for long running spells.
 
 *Long running spells*, such as summons, don't regenerate the tokens spent on it until the spell ends.  After **2** *consecutive long rests* without using any magic between them, the tokens spent will regenerate.
 
-### The Rules
+Use a *quantum inventory* for items you don't specifically keep track of. Roll on an appropriate **DIF** to see if the PC has the item needed.
+
+Use Milestone leveling, where the PCs and companions level after major events.
+
+Progression can represent anything that takes multiple attempts to accomplish. (Navigate a maze, bargain for a better price, or make a friend) Use a pile of tokens to represent the current amount of progress remaining. After a stage of progression is made through some action, roll on an appropriate **DIF** to see if a token is added or removed from the progress pile. A failed roll will often result in a setback to the progress. Some things, like bargaining, may always progress regardless of the dice roll.
+
+**The Oracle Die**
+
+Use the chart below to answer questions. An **A / B** question could be, "no / yes", "male / female", "evil / good", etc.
+
+| Die | Trait| Element | Race      | Relationship   | Attitude                         | A / B    |
+|-----|------|---------|-----------|----------------|----------------------------------|----------|
+|  0  | CON  | Earth   | Dwarf     | Family / Past  | Grounded / Solemn                | Very A   |
+|  1  | STR  | Water   | Human     | Friend         | Relaxed / Social / Helpful       | Mostly A |
+|  2  | DEX  | Air     | Elf       | Lover / In-Law | Excited / Active / Passionate    | Mostly B |
+|  3  | INT  | Fire    | Beast-kin | Enemy / Danger | Scared / Protective / Aggressive | Very B   |
+
+A more detailed explanation, along with examples, is provided below.
+
+# The Rules
 
 These rules are designed to be the foundation of a game, but there's always situations where you will need to use your best judgment. This is known as, "rulings over rules".
 
@@ -115,7 +133,7 @@ You can spend **HP** in place of any other tokens. This is treated as damage to 
 
 ### The Dice
 
-Ember uses a single long **d4** die. AKA: Stick die. It is cut from a stick with straight edges and a square cross section. One side is left blank, then cut **1**, **3**, and **2** notches, in that order, on the other sides.
+S&S uses a single long **d4** die. AKA: Stick die. It is cut from a stick with straight edges and a square cross section. One side is left blank, then cut **1**, **3**, and **2** notches, in that order, on the other sides.
 
 ![d4dice](d4dice.png)
 
@@ -139,7 +157,7 @@ Jumps in difficulty / damage / etc. occur every **2** values from the target num
 
 ### Inventory
 
-Ember uses a "*quantum inventory*". It is assumed your PC is more knowledgeable on what they should bring on a trip than you are. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume the PC has the item, or roll on a **DIF** to see if the PC had the foresight to bring the item. It's up to you how much inventory they have, how much room each item should take up, or if the PC would have had enough money to buy the item they need.
+S&S uses a "*quantum inventory*". It is assumed your PC is more knowledgeable on what they should bring on a trip than you are. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume the PC has the item, or roll on a **DIF** to see if the PC had the foresight to bring the item. It's up to you how much inventory they have, how much room each item should take up, or if the PC would have had enough money to buy the item they need.
 
 For example, you can assume your PC has rope, so you don't need to roll for it. They probably brought extra climbing equipment, so you can roll on a low **DIF**, maybe **3** or **4**. They probably didn't bring a chisel and hammer, but it's possible, so roll on a high **DIF**, maybe **6** or **7**.
 
@@ -147,7 +165,7 @@ Similarly, you can roll to see if an item they have is the right item, such as i
 
 Obviously, health potions are something all adventurers would want, but might not be able to afford, so you may want to roll on the likelihood that your PC could have afforded to purchase any before going on the adventure. If you fail the roll, there's no point rolling again later, since you already decided they don't have the item.
 
-This has the benefit of not having to keep track of an inventory, since Ember is designed to be paperless.
+This has the benefit of not having to keep track of an inventory, since S&S is designed to be paperless.
 
 ### Combat
 
@@ -205,7 +223,7 @@ At the end of the day, if you're in a safe place, you can take a *long rest*.  A
 
 ### Leveling
 
-Ember uses *milestone leveling*. This means you go up by **1** level after successfully completing a major challenge, such as defeating the big boss at the end of an adventure or finishing a quest to add a new *background*.
+S&S uses *milestone leveling*. This means you go up by **1** level after successfully completing a major challenge, such as defeating the big boss at the end of an adventure or finishing a quest to add a new *background*.
 
 For each level, you get **1** point to add to any trait. Since your level goes up by **1**, your **HP** will also go up by **1**. (**HP** = **Level** + **CON**)
 
@@ -213,9 +231,57 @@ For each level, you get **1** point to add to any trait. Since your level goes u
 
 When your **HP** reaches **0**, make a level **5** test with **CON**. You cannot push the dice on a death save. If you succeed, you gain **1 HP**. (**+1 HP** for every **2** you roll over the **DIF**) If you fail, you were knocked out and are either captured by the enemy, or wake up in the last town you visited. (Your body was found by a passing adventurer, your summons carried you away from danger, etc.)
 
-# Races of Ember
+# Dungeon Generation
 
-There are four primary races of Ember. Each has a magic that's native to that race. There are plenty of other races, but these are the 4 represented on the Oracle Die.
+If you want to generate a dungeon, you can use the following rules:
+
+Roll a die for the number of exits from the current room. A roll of **0** is potentially a dead end.
+
+Roll the die for what the room contains. (From safest to most dangerous)
+
+**0**: The room appears empty. Roll again to search the room.
+
+**1**: There is some kind of blockage. You find a secret passage, a locked door, a puzzle of some kind, etc.
+
+**2**: It's a TRAP! Roll on **DEX** to avoid damage.
+
+**3**: There's a monster. Roll for danger level
+
+# Tracking Progression
+
+Sometimes you need to do something that can't be completed with a single roll. This is what is called a "progression". For example, if you need to navigate a maze, or convince someone to join your team.
+
+To track a progression, place a number of tokens in a pile for the complexity of the task. Roll to solve one point of complexity. If you succeed, remove a token from the pile. If you fail, add a token to the pile.
+
+Each step of progress should also have some other potential task.
+
+The progress **DIF** is rolled directly, not vs any trait. The roll cannot be pushed with any traits. A **DIF 5** would mean you need to roll a **5** or higher to progress.  The **DIF** can be lowered by taking actions, finding items, etc. For example, finding a map of a maze, presenting a person with something they want, etc.
+
+### Examples #1, Running a maze:
+
+The maze has **10** progress points. Each point of progress is a **DIF 3** roll. (Fairly easy maze, you'll get through it eventually) After each roll to progress, roll a die to see if you run across a monster or trap. The presence of monsters prevents you from resting, but the monsters are low level.
+
+* On **0** - **2**: Nothing happens.
+* On **3**: You find a monster or trap. Roll again to determine which.
+
+### Example #2, Making a friend:
+
+There are different stages of making a friend:
+
+* Stranger
+* Teammate
+* Friend
+* Buddy / Best Friend
+
+Each stage has **3** progress points and requires some team building activity followed by a roll vs **INT**. The **DIF** is relative to the activity. Sharing drinks at a bar might be a **DIF 4**, but going on a journey together might be a **DIF 2** and add **2** points to the progress. (There's always the possibility that arguments during the trip caused some lasting conflict)
+
+Why make friends?  They're more likely to fight to protect you, do favors for you, help you do things contrary to their own desires. Of course this means you would need to keep in mind your relationships with others when rolling to see how they act around you. For example, if you're in a fight, there's a higher chance of someone running away when things get tough if they're a stranger, then if they're a friend. And if they're a best friend, they're more likely to put their own life on the line to save yours.  Also, if you're alone in a survival situation, this simulated social interaction may help with feelings of loneliness.
+
+***
+
+# Races of S&S
+
+There are four primary races of S&S. Each has a magic that's native to that race. There are plenty of other races, but these are the 4 represented on the Oracle Die.
 
 Each race can use weak versions of their racial magic without a background, but a background is required to become better at that magic, or to learn magic from another race. For example, a dwarf could light a candle with fire magic, but not cast a fireball. Each race would have natural resistance to their natural magic as well. For example, a dwarf would get a **+1** to **DEX** when defending against a fireball attack.
 
@@ -239,7 +305,7 @@ Transformation always succeeds and takes one full turn.
 
 # The Oracle Die
 
-Ember uses an oracle system which is easy to memorize (in my opinion) and a little more adaptable than the typical d6 oracle. Each side of the die can have multiple meanings depending on context.
+S&S uses an oracle system which is easy to memorize (in my opinion) and a little more adaptable than the typical d6 oracle. Each side of the die can have multiple meanings depending on context.
 
 The oracle will give you the basic plot lines. It's up to you to weave that into an actual story.
 
@@ -254,14 +320,15 @@ If you prefer a more traditional "yes, and" style oracle die, you can roll 2 dic
 5: Definitely yes
 6: Yes, and... (It's better than you think)
 ```
-**Roll one die as an oracle. Roll multiple times to get modifiers.**
 
-| Die | Trait| Element | Race      | Relationship   | Attitude                         | Gender     | No / Yes |
-|-----|------|---------|-----------|----------------|----------------------------------|------------|----------|
-|  0  | CON  | Earth   | Dwarf     | Family / Past  | Grounded / Solemn                | Manly Man  | No       |
-|  1  | STR  | Water   | Human     | Friend         | Relaxed / Social / Helpful          | Male       | Maybe |
-|  2  | DEX  | Air     | Elf       | Lover / In-Law | Excited / Active                / Passionate | Female     | Probably |
-|  3  | INT  | Fire    | Beast-kin | Enemy / Danger | Scared / Protective / Aggressive | Girly Girl | Yes      |
+Use the chart below to answer questions. An **A / B** question could be, "no / yes", "male / female", "evil / good", etc.
+
+| Die | Trait| Element | Race      | Relationship   | Attitude                         | A / B    |
+|-----|------|---------|-----------|----------------|----------------------------------|----------|
+|  0  | CON  | Earth   | Dwarf     | Family / Past  | Grounded / Solemn                | Very A   |
+|  1  | STR  | Water   | Human     | Friend         | Relaxed / Social / Helpful       | Mostly A |
+|  2  | DEX  | Air     | Elf       | Lover / In-Law | Excited / Active / Passionate    | Mostly B |
+|  3  | INT  | Fire    | Beast-kin | Enemy / Danger | Scared / Protective / Aggressive | Very B   |
 
 **The oracle is based around the 4 elements in order of state (solid, liquid, gas, plasma)**
 
@@ -611,6 +678,10 @@ To roll for damage, or charging **manna**, roll the die, then add **1**, on **3 
 |------|-----|-----|----|----|----|-----|-----|-----|-----|
 | **3d03** | 98% | 94% | 84%| 69%| 50%| 31% | 16% | 6%  | 2% |
 | **1d6+1** | 100% | 100%| **83%**| **67%**| **50%**| **33%** | **17%** | 0% | 0% |
+
+# Alternative Tokens
+
+An easy alternative for the tokens, if you're playing at home, would be to use dice, of course. Any time you're using values 6 or under, I would use a d6, since they're very stable, and less likely to change value if brushed with a sleeve.
 
 # Alternative Rules
 
