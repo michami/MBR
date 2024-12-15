@@ -14,7 +14,7 @@ This is that RPG. It's not for everyone and it's not designed to replace an RPG 
 
 Weak enemies have a **LVL** which replaces the typical traits. They typically have the same **HP** as their **LVL**.
 
-Each PC gets **20 + LVL** tokens to divide between **CON**, **STR**, **DEX**, and **INT**. They also get **HP** tokens equal to **CON** + **LVL**. Tokens can be spent to shift a roll up or down. **CON** is used on saving throws. **STR** is used on attacks. **DEX** is used on defense. **INT** is used for skills and magic. Ranged attacks take **2** actions. **HP** tokens can be spent on any roll and counts as physical damage.
+Each PC gets **20 + LVL** tokens to divide between **CON**, **STR**, **DEX**, and **INT**. With at least one token each. They also get **HP** tokens equal to **CON** + **LVL**. Tokens can be spent to shift a roll up or down. **CON** is used on saving throws. **STR** is used on attacks. **DEX** is used on defense. **INT** is used for skills and magic. Ranged attacks take **2** actions. **HP** tokens can be spent on any roll and counts as physical damage.
 
 PCs also get a *narrative background* that will either add **1** point to a trait at relevant times, or add a new skill, such as a specific type of magic.
 
@@ -40,9 +40,75 @@ Use a *quantum inventory* for items you don't specifically keep track of. Roll o
 
 Use Milestone leveling, where the PCs and companions level after major events.
 
-Progression can represent anything that takes multiple attempts to accomplish. (Navigate a maze, bargain for a better price, or make a friend) Use a pile of tokens to represent the current amount of progress remaining. After a stage of progression is made through some action, roll on an appropriate **DIF** to see if a token is added or removed from the progress pile. A failed roll will often result in a setback to the progress. Some things, like bargaining, may always progress regardless of the dice roll.
+Progression can represent anything that takes multiple attempts to accomplish. (Navigate a maze, bargain for a better price) Use a pile of tokens to represent the current amount of progress remaining. After a stage of progression is made through some action, roll on an appropriate **DIF** to see if a token is added or removed from the progress pile. A failed roll will often result in a setback to the progress.
 
-**The Oracle Die**
+Relationships start with a progress of **5**. Gamble some progress by making an effort to advance the progress. Roll on a **DIF** equal to the current progress. If the effort is more than the gamble, subtract the difference from the **DIF**. If you reach **9** progress, you advance to the next stage. If you drop to **0**, you drop a stage.
+
+# Additional information
+
+Since the rules reference the oracle die, and the oracle die references the main races, I'll describe them here at the top of the official rules. This is also an important reminder, so it's directly after the rules summary.
+
+Examples of using the oracle die can be found after the full rules. Example battles can be found after that.
+
+# Races of S&S
+
+There are four primary races of S&S. Each has a magic that's native to that race. There are plenty of other races, but these are the 4 represented on the Oracle Die.
+
+Each race can use weak versions of their racial magic without a background, but a background is required to become better at that magic, or to learn magic from another race. For example, a dwarf could light a candle with fire magic, but not cast a fireball. Each race would have natural resistance to their natural magic as well. For example, a dwarf would get a **+1** to **DEX** when defending against a fireball attack.
+
+Beast-Kin can all change to their one associate animal (a cat girl changes into a cat) but needs a background to change into other animals. (a cat girl that can change into a bear, or fly)
+
+### Dwarf
+
+Elemental magic. Durable elemental enhanced weapons. All dwarfs can use their magic to mildly boost elements. (make things tougher or resilient to being moved, extract water, make wind blow harder, and make fire hotter)
+
+### Human
+
+Electrical magic. Electronics. Constructs. Complex mechanical traps. Complex weapons such as firearms, crossbows, etc. All humans can power electrical devices with their magic.
+
+### Elf
+
+Nature / spiritual magic. Potions. Healing magic. Clay golems. Sentient / living weapons. All elves can passively listen to plants and animals and have healing magic.
+
+### Beast-Kin
+
+Self transformation / boosting magic. When changing into their animal form, move remaining tokens to better represent the traits of the creature you change into. For example, a "**5 1 5 10**" (**HP 6**) bear-kin may change their stats to "**9 8 4 0**" (**HP 10**) when changing into a bear. Spent tokens and damage remain after transformation. For example, for the above PC, if they spent **3 DEX**, their transformed state would have **1 DEX**, instead of **4**.
+
+Transformation always* succeeds and takes one full turn.
+
+\* transformation fails if transforming would cause **CON**, **STR**, or **DEX** to drop below **0**. **INT** always drops to **0** in animal form as the animal form has barely human intelligence and is susceptible to mental attacks.
+
+When transforming back into human form, tokens spent in **CON**, **STR**, or **DEX** can be taken from **INT** or **HP** to make the transformation succeed. Otherwise a rest will be needed first.
+
+Other races that can transform, like a half-pixie that changes between human and pixie form, would be played as a beast-kin, but with a recorded **INT** for their transformed state and cannot transform if **INT** would be negative.
+
+# The Oracle Die
+
+S&S uses an oracle system which is easy to memorize (in my opinion) and a little more adaptable than the typical d6 oracle. Each side of the die can have multiple meanings depending on context.
+
+The oracle will give you the basic plot lines. It's up to you to weave that into an actual story.
+
+### The Die
+
+S&S uses a single long **d4** die. AKA: Stick die. It is cut from a stick with straight edges and a square cross section. One side is left blank, then cut **1**, **3**, and **2** notches, in that order, on the other sides.
+
+![d4dice](d4dice.png)
+
+- *Examples of makeshift d4 dice*
+
+If you prefer a more traditional "yes, and" style oracle die, you can roll the die 2 times and use:
+
+```
+0: Critical No, and... (It's worse then you think)
+1: No, and...
+2: No
+3: Maybe, if...
+4: Yes
+5: Yes, and...
+6: Critical Yes, and... (It's better than you think)
+```
+
+(A **0** or **6** has a **6.25%** chance of being rolled. Similar to a **0** or **20** on a d20)
 
 Use the chart below to answer questions. An **A / B** question could be, "no / yes", "male / female", "evil / good", etc.
 
@@ -53,7 +119,27 @@ Use the chart below to answer questions. An **A / B** question could be, "no / y
 |  2  | DEX  | Air     | Elf       | Lover / In-Law | Excited / Active / Passionate    | Mostly B |
 |  3  | INT  | Fire    | Beast-kin | Enemy / Danger | Scared / Protective / Aggressive | Very B   |
 
-A more detailed explanation, along with examples, is provided below.
+**The oracle is based around the 4 elements in order of state (solid, liquid, gas, plasma)**
+
+* Earth is the foundation. Your body / health / **CON**. The flat surface representing a flat field.
+* Water is strength of movement. The ability to carve through earth. Your **STR**. The single line represents a river.
+* Air is fast and light. Your **DEX**. The two lines represent two leaves blowing in a breeze.
+* Fire has the power to modify the other elements. It is the danger of magic and the most active of the elements. Your **INT**. The three stripes represent the tips of a large fire.
+
+**Creatures are ordered based on a matching element**
+
+* **Dwarfs** (Earth) live under the Earth. They work metal (Earth) using fire and wind to heat it, and water to quench it. So while they live in the Earth, they use the other elements to work it. (Hence, the use of elemental magic)
+* **Humans** (Water) live on the Earth. They till the Earth to plant food and build their homes. They master energy and electricity.
+* **Elves** (Air) are fast and light. They flit between tree branches, living high above the ground in the trees, using bows to attack. They are in tune with nature.
+* **Beast-kin** (Fire) are temperamental and dangerous. They're constantly changing to destroy anything in their way.
+
+**Relationships are represented by the lines on the die**
+
+* The **blank side** is your **family**, **foundation**, or **past**. Your starting point.
+* The **single line** is your **friend**. The person who will stand with you.
+* The **two lines** are the **lovers**, standing together.
+* The **three lines** are a group of people ganging together, an **army**.
+
 
 # The Rules
 
@@ -83,7 +169,7 @@ And lastly, your **INT** is how smart you are. How skilled you are at fighting. 
 
 You'll also want to add a pile of tokens for your **HP**. Each token removed from this pile represents damage your PC takes.
 
-A brand new character will start at level **1** with **21** points (**20 + level**) to distribute between your traits as desired.
+A brand new character will start at level **1** with **21** points (**20 + level**) to distribute between your traits as desired, with at least one token each. 
 
 You also add a *narrative background* to your character. What they did before going on this adventure, as well as their personality. You use this *background* to add **1** point to any trait that is relevant to the current challenge.
 
@@ -131,17 +217,9 @@ Spending tokens represent pushing yourself beyond your limits. This wears you ou
 
 You can spend **HP** in place of any other tokens. This is treated as damage to your body. If you spend **HP** on a long running spell, it will not regenerate until the next long rest after the spell ends.
 
-### The Dice
-
-S&S uses a single long **d4** die. AKA: Stick die. It is cut from a stick with straight edges and a square cross section. One side is left blank, then cut **1**, **3**, and **2** notches, in that order, on the other sides.
-
-![d4dice](d4dice.png)
-
-- *Example of makeshift d4 dice*
+### Finding The DIF
 
 Once you calculate the "Difficulty Class" or "**DIF**" of a challenge, you will roll the die **3** times, adding each roll together, giving you a result from **0** to **9**. Each time you roll a **9**, you may roll **3** times again and add the results. You are rolling to try to meet or beat the **DIF**.
-
-### Finding The DIF
 
 Compare the challenge level to the appropriate trait. If the two are within a point of each other, then the **DIF** is **5**, or **50%**.  For every **2** points further apart they are, add or subtract **1** from the **DIF**.
 
@@ -257,99 +335,97 @@ Each step of progress should also have some other potential task.
 
 The progress **DIF** is rolled directly, not vs any trait. The roll cannot be pushed with any traits. A **DIF 5** would mean you need to roll a **5** or higher to progress.  The **DIF** can be lowered by taking actions, finding items, etc. For example, finding a map of a maze, presenting a person with something they want, etc.
 
-### Examples #1, Running a maze:
+### Example, Running a maze:
 
 The maze has **10** progress points. Each point of progress is a **DIF 3** roll. (Fairly easy maze, you'll get through it eventually) After each roll to progress, roll a die to see if you run across a monster or trap. The presence of monsters prevents you from resting, but the monsters are low level.
 
 * On **0** - **2**: Nothing happens.
 * On **3**: You find a monster or trap. Roll again to determine which.
 
-### Example #2, Making a friend:
+After rolling to see if you had to fight a monster (and defeating it) roll on a **DIF 3** to see if you can remove a progress point. Once you reach 0 points, you reach your destination.
 
-There are different stages of making a friend:
+For every **2** you roll over **DIF**, you can remove an additional **1** token from the progress.
 
-* Stranger
-* Teammate
-* Friend
-* Buddy / Best Friend
+# Relationships
 
-Each stage has **3** progress points and requires some team building activity followed by a roll vs **INT**. The **DIF** is relative to the activity. Sharing drinks at a bar might be a **DIF 4**, but going on a journey together might be a **DIF 2** and add **2** points to the progress. (There's always the possibility that arguments during the trip caused some lasting conflict)
+Start with **5** progress tokens. If at any time you reach **0** tokens, you drop down a relationship level. If you reach **9** tokens, you advance a relationship level.
 
-Why make friends?  They're more likely to fight to protect you, do favors for you, help you do things contrary to their own desires. Of course this means you would need to keep in mind your relationships with others when rolling to see how they act around you. For example, if you're in a fight, there's a higher chance of someone running away when things get tough if they're a stranger, then if they're a friend. And if they're a best friend, they're more likely to put their own life on the line to save yours.  Also, if you're alone in a survival situation, this simulated social interaction may help with feelings of loneliness.
+Make a series of progress attempts. At each attempt, you can bet any number of tokens at a **DIF** of the current progress.
+
+For example, if you have **3** progress tokens, you can bet **1** and roll on a **DIF** of **3**. If you succeed, you will then have **4** tokens. But if you fail, you will then only have **2** token remaining.
+
+Before you make your roll, think about what you're attempting to do. Role play an action equal to the amount of points you're gambling. If you put more effort into the attempt than the amount gambled, subtract the different from the **DIF**.
+
+For example: You currently have a progress of **5** for becoming friends with a companion. You're betting **1** point of progress, but you're going on a short adventure which would normally be worth **3** points of progress, subtract **2** (3 - 1) from the **DIF**, so when you roll for advancing the progress, you'll roll a **DIF** of **2** while gambling **1** point of progress.
+
+After you make your roll, describe what went right or wrong to explain the outcome.
+
+Just as with a damage roll, for every **2** you roll over **DIF**, you can add **1** additional point of progress. Remember to describe what happened to cause such a jump in the relationship.
+
+**Here are the relationships according to the oracle die:**
+
+**Family (0)**: (Usually unchanging, but used to record a relationship status)
+
+1. Unknown or long-lost
+2. Familiar, but not close
+3. Parent, Child, Aunt, Uncle, Grandparent, etc.
+4. Sibling
+
+**Friend (1)**:
+
+1. Someone you know
+2. Teammate
+3. Friend
+4. Buddy / Best Friend
+
+**Romantic (2)**:
+
+1. Familiar, crush, flirty, etc.
+2. Friendly
+3. Girlfriend / Boyfriend
+4. Spouse
+
+**Enemy (3)**:
+
+1. Competitor
+2. Adversary, Argumentative
+3. Hate, Non-speaking terms
+4. Actively trying to kill
+
+### Recording Characters
+
+When recording characters, I do it in these stages:
+
+* size (1+) / gender / race (ie: "tall male elf", not "elf male tall")
+* relationships to main PC: type / level / progress (ie: "Friend(**1**) Teammate(**2**), Progress **5**)
+* traits (CON, STR, DEX, INT) (The only set with 4 values)
+* beast traits if a beast-kin (CON, STR, DEX)
+
+For size, I consider a pixie or brownie to be a **1**, a dwarf a **2**, a human a **3**, an orc a **4** and a giant a **5**. So a **2**, **3**, **2** would be a dwarf sized male human, or a male halfling. A **1**, **1**, **3** is a tiny female elf, or a female pixie.
+
+Any value with a **0**-**3** range that would be a zero is changed to a **4**. So a "masculine male elf" would be a "**4 2**"
+
+If the character is between progress stages, you should record that after the progress. So "**1 3 9**" would read as "friendly, **1** step away from a best friend", or "Close friend that's almost a best friend"
+
+Someone can also have multiple relationship stages. For example, you may have someone that's "**4(0) 4, 1 4, 3 1**", which would be (a sibling) (you're best friends with), and (always in competition with).
+
+Hopefully this would be enough information to keep track of the identity of each PC in your game, along with their **4** number stats.
+
+If recorded on rope, it might be a good idea to use multiple short lengths, each tied to another rope, or a short stick, etc. Tie a large stopper knot at the top of the main rope to indicate where to start reading from.
+
+If you use the various relationship values a lot, you could add **4** strands of rope representing the **4** relationship types and just record the progress values.
+
+If recorded on a stick, you can rotate the stick for each stage.
+
+If you have enough room, you can of course record all the data sequentially. Just make room for values that increase. (ie: traits and relationship progress.)
+
+For example:
+
+**3 3 3, 2 3 7, 7 2 6 9, 10 10 4** would represent:
+
+(**3**) human sized (**3**)Female (girly) (**3**)beast kin (**2 3 7**) girlfriend (nearing wife levels) with (**7 2 6 9**) **CON 7**, **STR 2**, **DEX 6**, and **INT 9**. (**LVL 4**, **HP 11**) Considering the low **STR** and high **INT**, she's likely a magic user that uses her beast shifting skill when strength is needed. In her beast form, she has (**10 10 4**) **CON 10**, **STR 10**, **DEX 4**, and **INT 0**. (**HP 14**)
 
 ***
-
-# Races of S&S
-
-There are four primary races of S&S. Each has a magic that's native to that race. There are plenty of other races, but these are the 4 represented on the Oracle Die.
-
-Each race can use weak versions of their racial magic without a background, but a background is required to become better at that magic, or to learn magic from another race. For example, a dwarf could light a candle with fire magic, but not cast a fireball. Each race would have natural resistance to their natural magic as well. For example, a dwarf would get a **+1** to **DEX** when defending against a fireball attack.
-
-### Dwarf
-
-Elemental magic. Durable elemental enhanced weapons.
-
-### Human
-
-Electrical magic. Electronics. Constructs. Complex mechanical traps. Complex weapons such as firearms, crossbows, etc.
-
-### Elf
-
-Nature / spiritual magic. Potions. Healing magic. Clay golems. Sentient / living weapons.
-
-### Beast-Kin
-
-Self transformation / boosting magic. When changing into their animal form, use token pools equivalent to the creature you change into. Percent of remaining tokens should remain relatively similar.
-
-Transformation always succeeds and takes one full turn.
-
-# The Oracle Die
-
-S&S uses an oracle system which is easy to memorize (in my opinion) and a little more adaptable than the typical d6 oracle. Each side of the die can have multiple meanings depending on context.
-
-The oracle will give you the basic plot lines. It's up to you to weave that into an actual story.
-
-If you prefer a more traditional "yes, and" style oracle die, you can roll 2 dice and use:
-
-```
-0: No, and... (It's worse then you think)
-1: Definitely no
-2: Not likely, but possible
-3: Maybe, if...
-4: Probably, but there might be complications
-5: Definitely yes
-6: Yes, and... (It's better than you think)
-```
-
-Use the chart below to answer questions. An **A / B** question could be, "no / yes", "male / female", "evil / good", etc.
-
-| Die | Trait| Element | Race      | Relationship   | Attitude                         | A / B    |
-|-----|------|---------|-----------|----------------|----------------------------------|----------|
-|  0  | CON  | Earth   | Dwarf     | Family / Past  | Grounded / Solemn                | Very A   |
-|  1  | STR  | Water   | Human     | Friend         | Relaxed / Social / Helpful       | Mostly A |
-|  2  | DEX  | Air     | Elf       | Lover / In-Law | Excited / Active / Passionate    | Mostly B |
-|  3  | INT  | Fire    | Beast-kin | Enemy / Danger | Scared / Protective / Aggressive | Very B   |
-
-**The oracle is based around the 4 elements in order of state (solid, liquid, gas, plasma)**
-
-* Earth is the foundation. Your body / health / **CON**. The flat surface representing a flat field.
-* Water is strength of movement. The ability to carve through earth. Your **STR**. The single line represents a river.
-* Air is fast and flitting, like a bird. Your **DEX**. The two lines represent the movement of a breeze.
-* Fire has the power to modify the other elements. It is the danger of magic and the most active of the elements. Your **INT**. The three stripes represent the flame tips of a fire.
-
-**Creatures are ordered based on a matching element**
-
-* **Dwarfs** (Earth) live under the Earth. They work metal (Earth) using fire and wind to heat it, and water to quench it. So while they live in the Earth, they use the other elements to work it. (Hence, the use of elemental magic)
-* **Humans** (Water) live on the Earth. They till the Earth to plant food and build their homes. They master energy and electricity.
-* **Elves** (Air) are fast and light. They flit between tree branches, living high above the ground in the trees, using bows to attack. They are in tune with nature.
-* **Beast-kin** (Fire) are temperamental and dangerous. They're constantly changing to destroy anything in their way.
-
-**Relationships are represented by the lines on the die**
-
-* The blank side is your family, foundation, or past. Your starting point.
-* The single line is your friend. The person who will stand with you.
-* The two lines are the lovers, standing together.
-* The three lines are a group of people ganging together, an army.
 
 ## Example Adventures Using The Oracle Dice
 
