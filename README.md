@@ -2,6 +2,10 @@
 
 **S&S, a Makeshift Solo RPG for Survivalists**
 
+**S&S, a Survival Scouts RPG**
+
+**4S RPG**
+
 ### Why this RPG exists
 
 For many years, I've been learning to live off the land.  One thing that was in the back of my mind for a long time was, "How do I keep myself entertained?" I noticed while watching the TV show, "Alone", that this was also an issue with the contestants.
@@ -14,7 +18,7 @@ This is that RPG. It's not for everyone and it's not designed to replace an RPG 
 
 Weak enemies have a **LVL** which replaces the typical traits. They typically have the same **HP** as their **LVL**.
 
-Each PC gets **20 + LVL** tokens to divide between **CON**, **STR**, **DEX**, and **INT**. With at least one token each. They also get **HP** tokens equal to **CON** + **LVL**. Tokens can be spent to shift a roll up or down. **CON** is used on saving throws. **STR** is used on attacks. **DEX** is used on defense. **INT** is used for skills and magic. Ranged attacks take **2** actions. **HP** tokens can be spent on any roll and counts as physical damage.
+Each PC gets **20 + LVL** tokens to divide between **CON**, **STR**, **DEX**, and **INT**. With at least one token each. They also get **HP** tokens equal to **CON** + **LVL**. Tokens can be spent to shift a roll up or down. **CON** is used on saving throws. **STR** is used on attacks. **DEX** is used on defense. **INT** is used for skills and magic. Ranged attacks take **2** actions. **CON** tokens can be spent on any roll as a form of life energy.
 
 PCs also get a *narrative background* that will either add **1** point to a trait at relevant times, or add a new skill, such as a specific type of magic.
 
@@ -42,7 +46,7 @@ Use Milestone leveling, where the PCs and companions level after major events.
 
 Progression can represent anything that takes multiple attempts to accomplish. (Navigate a maze, bargain for a better price) Use a pile of tokens to represent the current amount of progress remaining. After a stage of progression is made through some action, roll on an appropriate **DIF** to see if a token is added or removed from the progress pile. A failed roll will often result in a setback to the progress.
 
-Relationships start with a progress of **5**. Gamble some progress by making an effort to advance the progress. Roll on a **DIF** equal to the current progress. If the effort is more than the gamble, subtract the difference from the **DIF**. If you reach **9** progress, you advance to the next stage. If you drop to **0**, you drop a stage.
+Relationships start with a progress of **5**. Actions and events gamble a number of progress tokens. The **DIF** is determined based on the outcome of the event. Roll on that to see if progress is removed or added. Each type of relationship (see oracle die) has 4 levels, from familiar to intimate.
 
 # Additional information
 
@@ -54,33 +58,33 @@ Examples of using the oracle die can be found after the full rules. Example batt
 
 There are four primary races of S&S. Each has a magic that's native to that race. There are plenty of other races, but these are the 4 represented on the Oracle Die.
 
-Each race can use weak versions of their racial magic without a background, but a background is required to become better at that magic, or to learn magic from another race. For example, a dwarf could light a candle with fire magic, but not cast a fireball. Each race would have natural resistance to their natural magic as well. For example, a dwarf would get a **+1** to **DEX** when defending against a fireball attack.
-
-Beast-Kin can all change to their one associate animal (a cat girl changes into a cat) but needs a background to change into other animals. (a cat girl that can change into a bear, or fly)
+Each race can use weak versions of their racial magic without a background, but a background is required to become better at that magic, or to learn magic from another race. For example, a dwarf could light a candle with fire magic, but not cast a fireball. Each race would have natural resistance to their natural magic as well. For example, a dwarf would get a **+1** to **DEX** when defending against a fireball attack, and can pickup hot metal without protection.
 
 ### Dwarf
 
-Elemental magic. Durable elemental enhanced weapons. All dwarfs can use their magic to mildly boost elements. (make things tougher or resilient to being moved, extract water, make wind blow harder, and make fire hotter)
+Elemental magic. Durable elemental enhanced weapons. Clay golums. All dwarfs can use their magic to mildly boost elements. For example, they can make things tougher or resilient to being moved, extract water, make wind blow harder, and make fire hotter.
 
 ### Human
 
-Electrical magic. Electronics. Constructs. Complex mechanical traps. Complex weapons such as firearms, crossbows, etc. All humans can power electrical devices with their magic.
+Electrical magic. Electronics. Constructs. Complex mechanical traps. Complex weapons such as firearms, crossbows, etc. All humans can power electrical devices with their magic, or anything that requires a spark.
 
 ### Elf
 
-Nature / spiritual magic. Potions. Healing magic. Clay golems. Sentient / living weapons. All elves can passively listen to plants and animals and have healing magic.
+Nature / spiritual magic. Potions. Healing magic. Plant golems. Sentient / living weapons. All elves can passively listen to plants and animals and have healing magic.
 
 ### Beast-Kin
 
-Self transformation / boosting magic. When changing into their animal form, move remaining tokens to better represent the traits of the creature you change into. For example, a "**5 1 5 10**" (**HP 6**) bear-kin may change their stats to "**9 8 4 0**" (**HP 10**) when changing into a bear. Spent tokens and damage remain after transformation. For example, for the above PC, if they spent **3 DEX**, their transformed state would have **1 DEX**, instead of **4**.
+Self transformation / boosting magic. Training and communicating with animals. All beast-Kin can change to their one associate animal (a cat girl changes into a cat) but needs a background to change into other animals. (a cat girl that can change into a bear, or bird)
 
-Transformation always* succeeds and takes one full turn.
+Their animal form will have its own stats at the same level as the human form. For example, a **5 1 5 10** (**HP 6**) bear-kin may change their stats to **10 6 5 0** (**HP 11**) when changing into a bear.
 
-\* transformation fails if transforming would cause **CON**, **STR**, or **DEX** to drop below **0**. **INT** always drops to **0** in animal form as the animal form has barely human intelligence and is susceptible to mental attacks.
+Transformation always succeeds and takes one full turn. No other action can be made that turn and no **DEX** tokens can be spent to get additional actions.
 
-When transforming back into human form, tokens spent in **CON**, **STR**, or **DEX** can be taken from **INT** or **HP** to make the transformation succeed. Otherwise a rest will be needed first.
+Each form has their own instance of damage and tokens. They can be played as if two separate entities that take a full turn to swap between. If one form drops to **0 HP**, but is still conscious, they can transform into their other form to avoid death. Rests affect both forms equally, but healing only heals the current form.
 
-Other races that can transform, like a half-pixie that changes between human and pixie form, would be played as a beast-kin, but with a recorded **INT** for their transformed state and cannot transform if **INT** would be negative.
+**INT** typically drops to **0** in animal form as the animal form has barely human intelligence and is susceptible to mental attacks.
+
+Other races that can transform, like a half-pixie that changes between human and pixie form, would be played like a beast-kin.
 
 # The Oracle Die
 
@@ -99,24 +103,24 @@ S&S uses a single long **d4** die. AKA: Stick die. It is cut from a stick with s
 If you prefer a more traditional "yes, and" style oracle die, you can roll the die 2 times and use:
 
 ```
-0: Critical No, and... (It's worse then you think)
+0: Critical No, and...
 1: No, and...
 2: No
 3: Maybe, if...
 4: Yes
 5: Yes, and...
-6: Critical Yes, and... (It's better than you think)
+6: Critical Yes, and...
 ```
 
-(A **0** or **6** has a **6.25%** chance of being rolled. Similar to a **0** or **20** on a d20)
+A **0** or **6** has a **6.25%** chance of being rolled. Similar to a **0** or **20** on a d20. A **3** has a **25%** chance of being rolled.
 
 Use the chart below to answer questions. An **A / B** question could be, "no / yes", "male / female", "evil / good", etc.
 
 | Die | Trait| Element | Race      | Relationship   | Attitude                         | A / B    |
 |-----|------|---------|-----------|----------------|----------------------------------|----------|
 |  0  | CON  | Earth   | Dwarf     | Family / Past  | Grounded / Solemn                | Very A   |
-|  1  | STR  | Water   | Human     | Friend         | Relaxed / Social / Helpful       | Mostly A |
-|  2  | DEX  | Air     | Elf       | Lover / In-Law | Excited / Active / Passionate    | Mostly B |
+|  1  | STR  | Water   | Human     | Friend         | Relaxed / Social / Helpful       | A |
+|  2  | DEX  | Air     | Elf       | Lover / In-Law | Excited / Active / Passionate    | B |
 |  3  | INT  | Fire    | Beast-kin | Enemy / Danger | Scared / Protective / Aggressive | Very B   |
 
 **The oracle is based around the 4 elements in order of state (solid, liquid, gas, plasma)**
@@ -129,7 +133,7 @@ Use the chart below to answer questions. An **A / B** question could be, "no / y
 **Creatures are ordered based on a matching element**
 
 * **Dwarfs** (Earth) live under the Earth. They work metal (Earth) using fire and wind to heat it, and water to quench it. So while they live in the Earth, they use the other elements to work it. (Hence, the use of elemental magic)
-* **Humans** (Water) live on the Earth. They till the Earth to plant food and build their homes. They master energy and electricity.
+* **Humans** (Water) live on the Earth. They till the Earth to plant food and build their homes. They master the use of energy.
 * **Elves** (Air) are fast and light. They flit between tree branches, living high above the ground in the trees, using bows to attack. They are in tune with nature.
 * **Beast-kin** (Fire) are temperamental and dangerous. They're constantly changing to destroy anything in their way.
 
@@ -167,13 +171,13 @@ Your **DEX** is how fast or nimble you are, how easily you can dodge an attack.
 
 And lastly, your **INT** is how smart you are. How skilled you are at fighting. How well you can resist mental attacks. And, if you choose to use magic, how powerful your spells are.
 
-You'll also want to add a pile of tokens for your **HP**. Each token removed from this pile represents damage your PC takes.
+You'll also want to add a pile of tokens (**CON** + **LVL**) for your **HP**. Each token removed from this pile represents damage your PC takes.
 
-A brand new character will start at level **1** with **21** points (**20 + level**) to distribute between your traits as desired, with at least one token each. 
+A brand new character will start at level **1** with **21** points (**20 + level**) to distribute between your traits as desired, with at least one token each.
 
 You also add a *narrative background* to your character. What they did before going on this adventure, as well as their personality. You use this *background* to add **1** point to any trait that is relevant to the current challenge.
 
-So, for example, if your *background* is, "*I was a used cart salesman*", you could add **1** to **INT** when trying to convince someone to join your side in a fight. If you're unable to write it down, you should try to keep the *background* simple enough to memorize.
+So, for example, if your *background* is, "*I was a used cart salesman*", you could add **1** to **INT** when trying to convince someone to join your side in a fight. If you're unable to write it down, you should keep the *background* simple enough to memorize.
 
 If you can do magic, that will be your *background*. For example, "*I was trained in the art of shadow magic*".
 
@@ -197,13 +201,13 @@ Take **CHA** for example. If you want to make a charismatic character, add a rel
 
 If you character is charismatic because of their appearance, such as a vampire, you would add this background to your **CON** score when making a charisma check. And if your character has to spend **CON** to help resist damage from sunlight, then they will look haggard or worn out, decreasing their charisma until they can rest.
 
-If, however, you character is charismatic because of how they speak, such as a politician, then you would add this background to your **INT** score. And if your character has to spend **INT** to pass some mental challenge, then they will be mentally exhausted and be less articulate until they can rest.
+If, however, you character is charismatic because of how they speak, such as a politician, then you would add this background to your **INT** score. And if your character has to spend **INT** to pass some mental challenge, then they will be mentally exhausted and less articulate until they can rest.
 
 ### Tokens
 
-At the start of each day in the adventure, your character will get a pile of tokens equal to your **HP** and each of your traits, **CON**, **STR**, **DEX**, and **INT**. When comparing a trait to a challenge level, you compare the remaining tokens in the pile, not the maximum value for that trait.
+At the start of each day in the adventure, your character will get piles of tokens for their **HP** and each of their traits, **CON**, **STR**, **DEX**, and **INT**. When comparing a trait to a challenge level, you compare the remaining tokens in the pile, not the maximum value for that trait.
 
-The tokens can be anything you have available.  You may want to have different valued tokens so the piles don't get too big. For example, you could use small pebbles for the "**3**" values and small segments of twigs for the "**1**" values. In my experience, using a second type of token with a value of "**3**", seems to use the smallest number of tokens over all and is the easiest to work with. I also use a token with a value of **9** (**3**x**3**) for larger values, like my **HP**.
+The tokens can be anything you have available.  You may want to have different valued tokens so the piles don't get too big. For example, you could use small pebbles worth "**3**" points and small segments of twigs worth "**1**" point. In my experience, using a second type of token with a value of "**3**", seems to use the smallest number of tokens over all and is the easiest to work with.
 
 ### Spending Tokens
 
@@ -213,13 +217,17 @@ For example, you can spend a **STR** token to add to an attack roll by pushing y
 
 Spending tokens represent pushing yourself beyond your limits. This wears you out and causes further use of that trait to be a little less effective until you can take a rest.
 
-### Spending HP
+### Spending CON
 
-You can spend **HP** in place of any other tokens. This is treated as damage to your body. If you spend **HP** on a long running spell, it will not regenerate until the next long rest after the spell ends.
+When you spend **CON**, your available HP will be limited to the new value of **CON** plus your level. An easy way to track this is you will always have at least as many tokens removed from **HP** as from **CON**.
+
+When **CON** is restored by a short rest, you do not regain the **HP** tokens. Only a long rest or a healing can restore **HP**.
+
+You can spend **CON** in place of any other tokens, as a form of life energy.
 
 ### Finding The DIF
 
-Once you calculate the "Difficulty Class" or "**DIF**" of a challenge, you will roll the die **3** times, adding each roll together, giving you a result from **0** to **9**. Each time you roll a **9**, you may roll **3** times again and add the results. You are rolling to try to meet or beat the **DIF**.
+Once you calculate the "Difficulty Class" or "**DIF**" of a challenge, you will roll the die **3** times, adding each roll together, (giving you a result from **0** to **9**) to try to meet or beat the **DIF**. Each time you roll a **9**, you may roll **3** more times and add the results.
 
 Compare the challenge level to the appropriate trait. If the two are within a point of each other, then the **DIF** is **5**, or **50%**.  For every **2** points further apart they are, add or subtract **1** from the **DIF**.
 
@@ -231,7 +239,7 @@ On the other hand, if you try to do a level **5 STR** challenge, and you have **
 
 The medium / middle number is **5**. When rolling on a **DIF** of **5**, you'll have a **50%** chance of success. A medium challenge is a level **5** and a medium monster would be a level **5**.
 
-Jumps in difficulty / damage / etc. occur every **2** values from the target number. For example, for every **2** points apart a trait is from a challenge level, you will add or subtract **1** from the **DIF**. For every **2** points you roll over the **DIF**, you add **1** extra point of *damage*.
+Jumps in difficulty / damage / etc. occur every **2** values from the target number. For example, for every **2** points apart a trait is from a challenge level, you will add or subtract **1** from the **DIF**. For every **2** points you roll over the **DIF** in an attack, you add **1** extra point of *damage*.
 
 ### Inventory
 
@@ -267,29 +275,35 @@ At the start of your turn, if you are poisoned, frozen, trapped in webbing, etc.
 
 ### Magic
 
-To cast any kind of magic, you spend **INT** tokens to roll the die, **1** per token, to charge your **manna**. Depending on the amount of **manna** charged, you choose a spell to cast. You can only roll **1** die per action, but you can spend **DEX** to get additional actions. You can also charge **manna** over several turns, but one hand must remain free to build up the charge.
+There are two types of magic, draining and non-draining.
 
-The approximate damage a spell can do is equal to one point per point of **manna**. A *magic bolt* will simply do the damage rolled. A *magic shield* will reduce damage by the amount rolled.
+To cast draining magic, you spend **INT** or **CON** tokens to roll the die, **1** per token, to charge your **manna**. Once your **manna** is charged, you choose a spell to cast. You can only roll **1** die per action, but you can spend **DEX** to get additional actions. You can also charge **manna** over several turns, but one hand must remain free to build up the charge.
 
-If a spell can be countered, then the **manna** rolled is compared to the trait used to counter the spell.
+Draining magic is typically used for creating, summoning, healing, resurrections, and other powerful effects. These spells always succeed, as long as you have enough manna charged.
 
-For example: You charge **3** **manna** to restrain an enemy. The enemy resists the restraint with its **5 STR**. You must then roll a **DIF 6** or the enemy will break free.
+The approximate damage, damage blocked, or healing that a draining spell can do is equal to one point per point of **manna**. The spell's **LVL**, for the purpose of countering, is equal to the amount of **manna** used on the spell.
+
+To cast non-draining magic, decide on the **LVL** of the spell. The **LVL** would be determined by the effort needed to counter the spell. You would then roll an **INT** vs **LVL** to cast the spell.  If the target is able to resist, they would then have to roll against the spell's **LVL** to counter the effects.
+
+For example, if you have **10 INT** you could cast a **LVL 8** binding spell with a successful **DIF 4** roll. If the creature you cast the spell on has a **STR** of **6**, (**2** under the spell **LVL**) it would be a **DIF 6** roll to break the binding.
 
 ### Summons
 
-A summon is any entity that exists in the material plane through magic. This can be a spirit, a construct (robot), a golum (animated clay entity), etc. A summon is considered a long running spell and has a **LVL** and the **damage** it can do. The cost of a summons is its **LVL** + **damage**.
+A summon is any entity that is animated in the material plane through magic. This can be a spirit, a construct (robot), a golum (animated clay entity), etc. All summons require some material component to animate, though the material will likely be mutated to match the summon. A summon is considered a long running spell and has a **LVL** and the **damage** it can do. The **manna** cost of a summons is its **LVL** + **damage**.
 
 For example, you could create a **LVL 5** golum that does **1 damage** per hit, or you could create a **LVL 3** golum that does **3 damage** per hit. Either golum would cost **6 manna**.
 
 The summons' **HP** is equal to its **LVL**.
 
+Some examples of required materials would be: clay, iron, plants, dead bodies or bones, magically formed ectoplasm. When a summon is destroyed, depending on how it was destroyed, roll a **DIF** to see if you can repair or reuse the materials for another summon.
+
 ### Companions
 
-A companion acts as a PC with **LVL** + **10** points to spend on its traits. A companion typically stays the same level as the PC it belongs to.
+A non-humanoid companion acts as a PC with **LVL** + **10** points to spend on its traits. A companion typically stays the same level as the PC it belongs to.
 
 ### Healing
 
-Healing has a cost of **1** **manna** per point healed. A revival has a **manna** cost of the target's total **HP**, and revives with **1 HP**. You cannot spend **HP** to heal yourself.
+Healing has a cost of **1 manna** per point healed. A revival / Resurrection has a **manna** cost of the target's total **HP**, plus **1 manna** for each **HP** healed, with a minimum of **1**.
 
 ### Rests
 
@@ -297,17 +311,23 @@ Between encounters, you can take a single *short rest*. This rest will recover a
 
 For example, if you need to climb a wall after an encounter, and you only have a few **DEX** tokens remaining, you can choose to climb the wall first, then rest to recover all your **DEX**, or take the rest first, so you have more **DEX** for the climb.
 
+You can take additional short rests between activities if you're in a safe enough environment. In some cases, you'll want to roll to see if a wondering monster finds you while resting. If it does, your rest is interrupted and you must defeat the monster before resting.
+
 At the end of the day, if you're in a safe place, you can take a *long rest*.  A *long rest* will recover all of your **HP** not used for *long running spells*.  If you haven't cast any magic since your previous *long rest*, you will also recover all tokens spent on *long running spells*. Using this rule, you can create self-sustained summons once every other day.
 
 ### Leveling
 
 S&S uses *milestone leveling*. This means you go up by **1** level after successfully completing a major challenge, such as defeating the big boss at the end of an adventure or finishing a quest to add a new *background*.
 
-For each level, you get **1** point to add to any trait. Since your level goes up by **1**, your **HP** will also go up by **1**. (**HP** = **Level** + **CON**)
+For each level, you get **1** point to add to any trait. Since your level goes up by **1**, your **HP** will also go up by at least **1**. (**HP** = **Level** + **CON**)
 
 ### Death
 
-When your **HP** reaches **0**, make a level **5** test with **CON**. You cannot push the dice on a death save. If you succeed, you gain **1 HP**. (**+1 HP** for every **2** you roll over the **DIF**) If you fail, you were knocked out and are either captured by the enemy, or wake up in the last town you visited. (Your body was found by a passing adventurer, your summons carried you away from danger, etc.)
+All adventurers wear a resurrection ring. This is standard gear for pretty much everyone. Each town's local church will freely weave the resurrection magic into any rings (or pendants, etc) you have. While wearing this ring, if you die, your body will automatically be teleported to the last church you passed by. Usually at the last town you visited. The church will recharge the ring's magic and supply you with simple rags to wear until you can retrieve your belongings. This has the same effect as a long rest. Rings can be given to all of your companions, but not summons. Your companions and / or summons can continue the battle or adventure without you, retrieve your belongings, etc.
+
+When your **HP** reaches **0**, make a **LVL 5** vs **CON** roll. You cannot push the dice on a death save. If you succeed, you gain **1 HP**. (**+1 HP** for every **2** you roll over the **DIF**) If you fail, your resurrection ring will activate.
+
+For story telling purposes, this could explain how someone could have survived getting attacked by bandits, had all their stuff stolen, and is now seeking help getting their things returned.
 
 # Dungeon Generation
 
@@ -333,55 +353,48 @@ To track a progression, place a number of tokens in a pile for the complexity of
 
 Each step of progress should also have some other potential task.
 
-The progress **DIF** is rolled directly, not vs any trait. The roll cannot be pushed with any traits. A **DIF 5** would mean you need to roll a **5** or higher to progress.  The **DIF** can be lowered by taking actions, finding items, etc. For example, finding a map of a maze, presenting a person with something they want, etc.
-
-### Example, Running a maze:
-
-The maze has **10** progress points. Each point of progress is a **DIF 3** roll. (Fairly easy maze, you'll get through it eventually) After each roll to progress, roll a die to see if you run across a monster or trap. The presence of monsters prevents you from resting, but the monsters are low level.
-
-* On **0** - **2**: Nothing happens.
-* On **3**: You find a monster or trap. Roll again to determine which.
-
-After rolling to see if you had to fight a monster (and defeating it) roll on a **DIF 3** to see if you can remove a progress point. Once you reach 0 points, you reach your destination.
+The progress **DIF** is rolled directly, not vs any trait. The roll cannot be pushed with any traits. A **DIF 5** would mean you need to roll a **5** or higher to progress.  The **DIF** can be lowered by taking actions, finding items, use of a relevant background, etc. For example, finding a map of a maze, presenting a person with something they want, or having a charismatic background.
 
 For every **2** you roll over **DIF**, you can remove an additional **1** token from the progress.
 
+### Example, Running a maze:
+
+The maze has **10** progress points. Each point of progress is a **DIF 3** roll. (Fairly easy maze, you'll get through it eventually) After each roll to progress, roll a die to see what you see based on the dungeon generation rules. If you find a secret passage, you automatically advance one progress point. The presence of monsters prevents you from resting, but the monsters are low level.
+
+After dealing with the current room, roll on a **DIF 3** to see if you can remove a progress point. Once you reach 0 points, you reach your destination.
+
 # Relationships
 
-Start with **5** progress tokens. If at any time you reach **0** tokens, you drop down a relationship level. If you reach **9** tokens, you advance a relationship level.
+Relationships work like other progressions. Start with **5** progress tokens. If at any time you reach **10** tokens, you drop down a relationship level. If you reach **0** tokens, you advance a relationship level.
 
-Make a series of progress attempts. At each attempt, you can bet any number of tokens at a **DIF** of the current progress.
+Each relationship type (friend, romantic, enemy) has 4 levels as listed below. Your progress can either be to raise or lower the current level. For example, lowing the enemy level, or raising the romantic level. Some events in your story may cause you to roll to lower or raise the current level outside of a normal attempt.
 
-For example, if you have **3** progress tokens, you can bet **1** and roll on a **DIF** of **3**. If you succeed, you will then have **4** tokens. But if you fail, you will then only have **2** token remaining.
+Each progress attempt is the result of some action or event. You gamble a number of progress points on some event, then after the outcome of the event is played out, then the **DIF** of the roll is calculated and the roll made.
 
-Before you make your roll, think about what you're attempting to do. Role play an action equal to the amount of points you're gambling. If you put more effort into the attempt than the amount gambled, subtract the different from the **DIF**.
-
-For example: You currently have a progress of **5** for becoming friends with a companion. You're betting **1** point of progress, but you're going on a short adventure which would normally be worth **3** points of progress, subtract **2** (3 - 1) from the **DIF**, so when you roll for advancing the progress, you'll roll a **DIF** of **2** while gambling **1** point of progress.
-
-After you make your roll, describe what went right or wrong to explain the outcome.
-
-Just as with a damage roll, for every **2** you roll over **DIF**, you can add **1** additional point of progress. Remember to describe what happened to cause such a jump in the relationship.
+Don't forget, this is a story, role play all attempts with as much details as you can, and after you make your roll, role play what went right or wrong to explain the outcome.
 
 **Here are the relationships according to the oracle die:**
 
-**Family (0)**: (Usually unchanging, but used to record a relationship status)
+**Family (0)**:
 
-1. Unknown or long-lost
-2. Familiar, but not close
-3. Parent, Child, Aunt, Uncle, Grandparent, etc.
-4. Sibling
+Related to your interactions, rather than your feeling about them or your biological connection. You may live with a mentor and still be rivals or even enemies in everything you do. This relationship can extend to people outside your biological family. Roles can be reversed. (ie: someone you're a mentor to)
+
+1. long-lost, or aware of but don't interact with
+2. Someone you could visit at their home (cousin, grandparent)
+3. A mentor you may live with, or have lived with (parent)
+4. Someone you might hang out with (sibling)
 
 **Friend (1)**:
 
-1. Someone you know
+1. On good terms with
 2. Teammate
 3. Friend
 4. Buddy / Best Friend
 
 **Romantic (2)**:
 
-1. Familiar, crush, flirty, etc.
-2. Friendly
+1. Familiar, crush, attracted to
+2. Friendly / flirty
 3. Girlfriend / Boyfriend
 4. Spouse
 
@@ -394,20 +407,20 @@ Just as with a damage roll, for every **2** you roll over **DIF**, you can add *
 
 ### Recording Characters
 
-When recording characters, I do it in these stages:
+When recording characters, I do it in these groupings:
 
 * size (1+) / gender / race (ie: "tall male elf", not "elf male tall")
 * relationships to main PC: type / level / progress (ie: "Friend(**1**) Teammate(**2**), Progress **5**)
 * traits (CON, STR, DEX, INT) (The only set with 4 values)
 * beast traits if a beast-kin (CON, STR, DEX)
 
-For size, I consider a pixie or brownie to be a **1**, a dwarf a **2**, a human a **3**, an orc a **4** and a giant a **5**. So a **2**, **3**, **2** would be a dwarf sized male human, or a male halfling. A **1**, **1**, **3** is a tiny female elf, or a female pixie.
+Any value with a **0**-**3** range that would be a zero can be changed to a **4**. So a "masculine male elf" would be a "**4 2**"
 
-Any value with a **0**-**3** range that would be a zero is changed to a **4**. So a "masculine male elf" would be a "**4 2**"
+For size, I consider a pixie or brownie to be a **0/4**, a dwarf a **1**, a human a **2**, an orc or giant a **3**. So a **1**, **1**, **1** would be a dwarf sized male human, or a male halfling. A **4**, **2**, **2** is a tiny female elf, or a female pixie.
 
-If the character is between progress stages, you should record that after the progress. So "**1 3 9**" would read as "friendly, **1** step away from a best friend", or "Close friend that's almost a best friend"
+If the character is between progress levels, you can record the remaining progress after the progress level. So "**1 3 1**" would read as "friendly, **1** step away from a best friend", or "Close friend that's almost a best friend"
 
-Someone can also have multiple relationship stages. For example, you may have someone that's "**4(0) 4, 1 4, 3 1**", which would be (a sibling) (you're best friends with), and (always in competition with).
+Someone can also have multiple relationship stages. For example, you may have someone that's "**4(0) 4, 1 4, 3 1**", which would be (a sibling) (you're best friends with), and (competitive with).
 
 Hopefully this would be enough information to keep track of the identity of each PC in your game, along with their **4** number stats.
 
@@ -421,9 +434,9 @@ If you have enough room, you can of course record all the data sequentially. Jus
 
 For example:
 
-**3 3 3, 2 3 7, 7 2 6 9, 10 10 4** would represent:
+**2 3 3, 2 3 2, 7 2 6 9, 10 10 4** would represent:
 
-(**3**) human sized (**3**)Female (girly) (**3**)beast kin (**2 3 7**) girlfriend (nearing wife levels) with (**7 2 6 9**) **CON 7**, **STR 2**, **DEX 6**, and **INT 9**. (**LVL 4**, **HP 11**) Considering the low **STR** and high **INT**, she's likely a magic user that uses her beast shifting skill when strength is needed. In her beast form, she has (**10 10 4**) **CON 10**, **STR 10**, **DEX 4**, and **INT 0**. (**HP 14**)
+(**2**) human sized (**3**)Female (girly) (**3**)beast kin (**2 3 2**) girlfriend (nearing wife levels) with (**7 2 6 9**) **CON 7**, **STR 2**, **DEX 6**, and **INT 9**. (**LVL 4**, **HP 11**) Considering the low **STR** and high **INT**, she's likely a magic user that uses her beast shifting skill when strength is needed. In her beast form, she has (**10 10 4**) **CON 10**, **STR 10**, **DEX 4**, and **INT 0**. (**HP 14**)
 
 ***
 
