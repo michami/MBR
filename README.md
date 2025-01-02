@@ -18,7 +18,7 @@ This is that RPG. It's not for everyone and it's not designed to replace an RPG 
 
 Weak enemies have a **LVL** which replaces the typical traits. They typically have the same **HP** as their **LVL**.
 
-Each PC gets **20 + LVL** tokens to divide between **CON**, **STR**, **DEX**, and **INT**. With at least one token each. They also get **HP** tokens equal to **CON** + **LVL**. Tokens can be spent to shift a roll up or down. **CON** is used on saving throws. **STR** is used on attacks. **DEX** is used on defense. **INT** is used for skills and magic. Ranged attacks take **2** actions. **CON** tokens can be spent on any roll as a form of life energy.
+Each PC (Player Character) gets **20** + **LVL** tokens to divide between **CON**, **STR**, **DEX**, and **INT**. With at least one token each. They also get **HP** tokens equal to **CON** + **LVL**. Tokens can be spent to shift a roll up or down. **CON** is used on saving throws. **STR** is used on attacks. **DEX** is used on defense. **INT** is used for skills and magic. Ranged attacks take **2** actions. **CON** tokens can be spent on any roll as a form of life energy.
 
 PCs also get a *narrative background* that will either add **1** point to a trait at relevant times, or add a new skill, such as a specific type of magic.
 
@@ -30,7 +30,7 @@ Healing has a **manna** cost equal to the amount of **HP** to heal. A resurrecti
 
 A summons has its cost split between its **LVL**/**HP** and the **damage** its capable of.
 
-Calculate the **DIF** by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used to the **LVL** of the challenge. For every **2** points over or under, add or subtract **1** to or from the **DIF**. Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the **DIF**. If you roll a **9**, roll again and add the result.
+Calculate the **DIF** by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used to the **LVL** of the challenge. For every **2** points over or under, add or subtract **1** to or from the **DIF**. Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the **DIF**. If you roll a **9**, roll the die again and add the result. Keep rolling for each **3** you roll.
 
 For every **2** points over the **DIF** rolled in an attack, do **1** extra point of damage.
 
@@ -153,7 +153,7 @@ For example, I want to grab an orc and throw him over a cliff. There's no specif
 
 If you have the resources, these rules can be expanded on with supplemental material. For example, specific monster stats, or a set list of weapons, skills, or spells.
 
-### A Brief Explanation of Traits and Tokens
+### Traits and Tokens
 
 Your character has traits that are assigned a value. You will use tokens to indicate the current value of the trait. You can spend tokens to shift the value of the dice rolls, as well as other actions, such as magic. Spending tokens will cause the value of that trait to decrease until you can rest.
 
@@ -187,6 +187,8 @@ You may add additional *backstories* after completing a relevant quest. For exam
 
 Remember, weaknesses are more interesting than strengths. Knowing only one spell (or one type of spell) requires you to be more creative with its use.
 
+You could also use a background to give yourself extra actions on your turn. For example, a "skilled archer" may get an extra turn while using his bow, allowing him to move and fire at the same time. Or a beast-kin that has "affinity with his beast form" may be able to transform in a single action.
+
 The four traits can be marked with notches on a stick, knots in a rope, etc. Since your total traits is equal to **20 + your level**, it shouldn't be necessary to record your level.
 
 For example, the PC: **10**, **6**, **4**, **6** (**CON**, **STR**, **DEX**, **INT**) is level **6**, since the sum of the traits is **26**. That example PC also has **16 HP**. (**CON 10** + **LVL 6**)
@@ -207,7 +209,7 @@ If, however, you character is charismatic because of how they speak, such as a p
 
 At the start of each day in the adventure, your character will get piles of tokens for their **HP** and each of their traits, **CON**, **STR**, **DEX**, and **INT**. When comparing a trait to a challenge level, you compare the remaining tokens in the pile, not the maximum value for that trait.
 
-The tokens can be anything you have available.  You may want to have different valued tokens so the piles don't get too big. For example, you could use small pebbles worth "**3**" points and small segments of twigs worth "**1**" point. In my experience, using a second type of token with a value of "**3**", seems to use the smallest number of tokens over all and is the easiest to work with.
+The tokens can be anything you have available.  You may want to have different valued tokens so the piles don't get too big. For example, you could use black pebbles worth "**2**" points and white pebbles worth "**1**" point. In this case, you'll always need at least **1** white pebble, in order to make change for a black pebble, so if the trait has an even number, use **2** white pebbles in place of a black. You'll end up with more black pebbles in your traits, but that leaves more white pebbles for keeping track of enemy **HP**.
 
 ### Spending Tokens
 
@@ -225,9 +227,11 @@ When **CON** is restored by a short rest, you do not regain the **HP** tokens. O
 
 You can spend **CON** in place of any other tokens, as a form of life energy.
 
-### Finding The DIF
+### Finding and Rolling The DIF
 
-Once you calculate the "Difficulty Class" or "**DIF**" of a challenge, you will roll the die **3** times, adding each roll together, (giving you a result from **0** to **9**) to try to meet or beat the **DIF**. Each time you roll a **9**, you may roll **3** more times and add the results.
+Once you calculate the "Difficulty" or "**DIF**" of a challenge, you will roll the die **3** times, adding each roll together, (giving you a result from **0** to **9**) to try to meet or beat the **DIF**.
+
+Each time you roll a **9**, you may roll the die again and add the results. Keep rolling for each **3** you roll. For example, you just rolled **3** **3**s, (for a total of **9**) you then rolled another **3**, (for a total of **12**) and finally a **2**. (for a final roll of **14**)
 
 Compare the challenge level to the appropriate trait. If the two are within a point of each other, then the **DIF** is **5**, or **50%**.  For every **2** points further apart they are, add or subtract **1** from the **DIF**.
 
@@ -271,7 +275,7 @@ If you kill an enemy, you can immediately attack another enemy. If an adjacent e
 
 ### Poison and other conditions
 
-At the start of your turn, if you are poisoned, frozen, trapped in webbing, etc. make a level **5** test with **CON**. If you succeed, you shake off the condition and return to normal. If you fail, the condition takes effect causing a loss of **HP**, loss of a turn, reduced movement, etc.
+At the start of your turn, if you are poisoned, frozen, trapped in webbing, etc. make a test with **CON** vs the level of the creature or object that created the condition. If you succeed, you shake off the condition and return to normal. If you fail, the condition takes effect causing a loss of **HP**, loss of a turn, reduced movement, etc.
 
 ### Magic
 
@@ -286,6 +290,10 @@ The approximate damage, damage blocked, or healing that a draining spell can do 
 To cast non-draining magic, decide on the **LVL** of the spell. The **LVL** would be determined by the effort needed to counter the spell. You would then roll an **INT** vs **LVL** to cast the spell.  If the target is able to resist, they would then have to roll against the spell's **LVL** to counter the effects.
 
 For example, if you have **10 INT** you could cast a **LVL 8** binding spell with a successful **DIF 4** roll. If the creature you cast the spell on has a **STR** of **6**, (**2** under the spell **LVL**) it would be a **DIF 6** roll to break the binding.
+
+Draining magic takes at least **2** actions to cast, one or more for charging, and 1 for the cast.
+
+Non-draining magic takes **2** actions to cast. It also has a charge and cast action, but it doesn't drain **INT** tokens to charge.
 
 ### Summons
 
@@ -416,17 +424,15 @@ When recording characters, I do it in these groupings:
 
 Any value with a **0**-**3** range that would be a zero can be changed to a **4**. So a "masculine male elf" would be a "**4 2**"
 
-For size, I consider a pixie or brownie to be a **0/4**, a dwarf a **1**, a human a **2**, an orc or giant a **3**. So a **1**, **1**, **1** would be a dwarf sized male human, or a male halfling. A **4**, **2**, **2** is a tiny female elf, or a female pixie.
+Size is not a set range. Is a **4**, **2**, **2** a female pixie, or a very short female elf? Is a **3**, **0**, **1** a tall male human, or a male orc? That's up to you. "Size" is just a suggestion to help differentiate between the characters in your story.
 
-If the character is between progress levels, you can record the remaining progress after the progress level. So "**1 3 1**" would read as "friendly, **1** step away from a best friend", or "Close friend that's almost a best friend"
+If the character is between relationship progress levels, you can record the remaining progress after the progress level. So "**1 3 1**" would read as "friendly, **1** step away from a best friend", or "Close friend that's almost a best friend"
 
-Someone can also have multiple relationship stages. For example, you may have someone that's "**4(0) 4, 1 4, 3 1**", which would be (a sibling) (you're best friends with), and (competitive with).
+Someone can also have multiple relationship stages. For example, you may have someone that's "**(4(0) 4), (1 4), (3 1)**", which would be (a sibling) (you're best friends with), and (competitive with).
 
 Hopefully this would be enough information to keep track of the identity of each PC in your game, along with their **4** number stats.
 
 If recorded on rope, it might be a good idea to use multiple short lengths, each tied to another rope, or a short stick, etc. Tie a large stopper knot at the top of the main rope to indicate where to start reading from.
-
-If you use the various relationship values a lot, you could add **4** strands of rope representing the **4** relationship types and just record the progress values.
 
 If recorded on a stick, you can rotate the stick for each stage.
 
@@ -730,6 +736,12 @@ I'm now at **10**, **3**, **1**, **0** (**11**) (**-3 INT** and **+4 HP**)
 After a *short rest*, I regain my lost trait tokens.
 
 I'm now at **10**, **5**, **4**, **3** (**11**)
+
+# Optional Rules
+
+To reduce the number of tokens needed, you can reduce, or eliminate the number of tokens used by **STR**, **DEX**, and possibly **CON**. **INT** should still use all the tokens needed for the sake of draining magic.
+
+For example, if your character is: **6**, **5**, **5**, **5**, you could choose to only use 2 tokens for **STR** and **DEX**, so they would never drop below **3** each, but still allow some level of shifting the dice, causing exhaustion.
 
 # Alternative Dice
 
