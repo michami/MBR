@@ -12,7 +12,7 @@ For many years, I've been learning to live off the land.  One thing that was in 
 
 I decided to design a solo RPG with rules simple enough to memorize, does not need any information written down, and used some type of "oracle" to aid in story creation.
 
-This is that RPG. It's not for everyone and it's not designed to replace an RPG you might play in the comfort of your home. It's designed to be a form of entertainment that you can create with nothing but sticks and stones. (and a knife, if you have one)
+This is that RPG. It's not for everyone and it's not designed to replace an RPG you might play in the comfort of your home. It's designed to be a form of entertainment that you can create with nothing but sticks and stones. (and a knife, though you could use a stone knife)
 
 # Summary
 
@@ -22,9 +22,11 @@ Each PC (Player Character) gets **20** + **LVL** tokens to divide between **CON*
 
 PCs also get a *narrative background* that will either add **1** point to a trait at relevant times, or add a new skill, such as a specific type of magic.
 
-Companions have the same stats as PCs, but have **10 + LVL** tokens.
+Companions (pets) have the same stats as PCs, but have **10 + LVL** tokens.
 
-Magic spends **INT** to charge **manna** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell. Focused attacks can do extra damage, but can also be dodged.
+"Draining magic" spends **INT** to charge **manna** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell. Draining magic has a life of its own, and always succeeds, as long as you have enough **manna**.
+
+"Non-draining magic" has a difficulty **LVL** which is rolled against vs **INT** to cast. If the target can try to counter the spell, they roll against **LVL** vs the appropriate trait.
 
 Healing has a **manna** cost equal to the amount of **HP** to heal. A resurrection costs as much as the **max HP** of the target, but revives with **1 HP**.
 
@@ -281,7 +283,7 @@ At the start of your turn, if you are poisoned, frozen, trapped in webbing, etc.
 
 There are two types of magic, draining and non-draining.
 
-To cast draining magic, you spend **INT** or **CON** tokens to roll the die, **1** per token, to charge your **manna**. Once your **manna** is charged, you choose a spell to cast. You can only roll **1** die per action, but you can spend **DEX** to get additional actions. You can also charge **manna** over several turns, but one hand must remain free to build up the charge.
+To cast draining magic, you spend **INT** or **CON** tokens to roll the die, **1** per token, to charge your **manna**. Once your **manna** is charged, you choose a spell to cast. You can only roll **1** die per action, but you can spend **DEX** to get additional actions. You can also charge **manna** over several turns, but one hand must remain free to build up the charge. Draining magic contains some of your life force and intelligence, so it's able to succeed where non-draining magic might fail.
 
 Draining magic is typically used for creating, summoning, healing, resurrections, and other powerful effects. These spells always succeed, as long as you have enough manna charged.
 
