@@ -76,15 +76,17 @@ Nature / spiritual magic. Potions. Healing magic. Plant golems. Sentient / livin
 
 ### Beast-Kin
 
-Self transformation / boosting magic. Training and communicating with animals. All beast-Kin can change to their one associate animal (a cat girl changes into a cat) but needs a background to change into other animals. (a cat girl that can change into a bear, or bird)
+Self transformation / boosting magic. Training and communicating with animals. All beast-Kin can heal themselves and change to their one associate animal (a cat girl changes into a cat) but needs a background to change into other animals. (a cat girl that can change into a bear, or bird)
 
-Their animal form will have its own stats at the same level as the human form. For example, a **5 1 5 10** (**HP 6**) bear-kin may change their stats to **10 6 5 0** (**HP 11**) when changing into a bear.
+Their animal form will have its own stats at the same level as the human form. For example, a **5 1 5 10** (**HP 6**) bear-kin may change their stats to **10 6 4 1** (**HP 11**) when changing into a bear.
 
 Transformation always succeeds and takes one full turn. No other action can be made that turn and no **DEX** tokens can be spent to get additional actions.
 
-Each form has their own instance of damage and tokens. They can be played as if two separate entities that take a full turn to swap between. If one form drops to **0 HP**, they transform into their other form automatically and cannot change back until a long rest, or a specialty spell / potion that specifically targets the other form. Rests affect both forms equally, but healing only heals the current form.
+Each form has their own instance of damage and tokens. They are played as if two separate entities that take a full turn to swap between. If one form drops to **0 HP**, they transform into their other form automatically and cannot change back until a long rest, or a specialty spell / potion that is specifically made to heal their other form is used. Rests affect both forms equally, but healing only heals the current form.
 
-**INT** typically drops to **0** in animal form as the animal form has barely human intelligence and is susceptible to mental attacks.
+**INT** typically drops to **1** in animal form as the animal form has barely human intelligence and is susceptible to mental attacks. **INT** may be used in animal form for healing or to represent an instinctive reaction to shift a roll.
+
+Beast-kin healing is a single action in either form, as they have natural fast healing.
 
 Other races that can transform, like a half-pixie that changes between human and pixie form, would be played like a beast-kin.
 
