@@ -82,7 +82,7 @@ Their animal form will have its own stats at the same level as the human form. F
 
 Transformation always succeeds and takes one full turn. No other action can be made that turn and no **DEX** tokens can be spent to get additional actions.
 
-Each form has their own instance of damage and tokens. They can be played as if two separate entities that take a full turn to swap between. If one form drops to **0 HP**, but is still conscious, they can transform into their other form to avoid death. Rests affect both forms equally, but healing only heals the current form.
+Each form has their own instance of damage and tokens. They can be played as if two separate entities that take a full turn to swap between. If one form drops to **0 HP**, they transform into their other form automatically and cannot change back until a long rest, or a specialty spell / potion that specifically targets the other form. Rests affect both forms equally, but healing only heals the current form.
 
 **INT** typically drops to **0** in animal form as the animal form has barely human intelligence and is susceptible to mental attacks.
 
@@ -269,7 +269,7 @@ Attacks use the attacker's **STR**.
 
 Ranged attacks take **2** actions, one to prepare / aim, and another to fire the projectile.
 
-The damage done is based on the weapon used and is usually **1** or **2** dice of damage, but may use a modifier, ie: **1d+1** damage.
+The damage done is based on the weapon used and is usually **1** or **2** dice of damage, but may use a modifier, ie: **1d+1** damage. At low levels, or just for simplicity, you can have all weapons do a flat **1** point of damage.
 
 For every **2** you roll over the **TN**, you do **1** extra point of damage.
 
@@ -306,6 +306,8 @@ For example, you could create a **LVL 5** golum that does **1 damage** per hit, 
 The summons' **HP** is equal to its **LVL**.
 
 Some examples of required materials would be: clay, iron, plants, dead bodies or bones, magically formed ectoplasm. When a summon is destroyed, depending on how it was destroyed, roll a **TN** to see if you can repair or reuse the materials for another summon.
+
+Anyone that can create a summon can also heal the same type of summon using the healing rules.
 
 ### Companions
 
@@ -375,7 +377,7 @@ After dealing with the current room, roll on a **TN 3** to see if you can remove
 
 # Relationships
 
-Relationships work like other progressions. Start with **5** progress tokens. If at any time you reach **10** tokens, you drop down a relationship level. If you reach **0** tokens, you advance a relationship level.
+Relationships work like other progressions. Start with **5** progress tokens. If at any time you reach **10** tokens, the relationship level moves away from the direction you're trying to go. If you reach **0** tokens, you succeed in moving the relationship in the direction you're trying to go.
 
 Each relationship type (friend, romantic, enemy) has 4 levels as listed below. Your progress can either be to raise or lower the current level. For example, lowing the enemy level, or raising the romantic level. Some events in your story may cause you to roll to lower or raise the current level outside of a normal attempt.
 
@@ -419,14 +421,14 @@ Related to your interactions, rather than your feeling about them or your biolog
 
 When recording characters, I do it in these groupings:
 
-* size (1+) / gender / race (ie: "tall male elf", not "elf male tall")
-* relationships to main PC: type / level / progress (ie: "Friend(**1**) Teammate(**2**), Progress **5**)
+* size (**1**+) / gender / race (ie: "tall male elf", not "elf male tall")
+* relationships to main PC: type / level / progress (ie: "Friend(**1**) Teammate(**2**), Progress (**5**))
 * traits (CON, STR, DEX, INT) (The only set with 4 values)
 * beast traits if a beast-kin (CON, STR, DEX)
 
 Any value with a **0**-**3** range that would be a zero can be changed to a **4**. So a "masculine male elf" would be a "**4 2**"
 
-Size is not a set range. Is a **4**, **2**, **2** a female pixie, or a very short female elf? Is a **3**, **0**, **1** a tall male human, or a male orc? That's up to you. "Size" is just a suggestion to help differentiate between the characters in your story.
+Size is not a set range. Is a **1**, **2**, **2** a female pixie, or a very short female elf? Is a **4**, **0**, **1** a tall male human, or a male orc? That's up to you. "Size" is just a suggestion to help differentiate between the characters in your story.
 
 If the character is between relationship progress levels, you can record the remaining progress after the progress level. So "**1 3 1**" would read as "friendly, **1** step away from a best friend", or "Close friend that's almost a best friend"
 
@@ -601,19 +603,19 @@ I attack wolf 1 again with a **TN 4** (**5** vs **3**) [**6**] **2** over **TN**
 
 Wolf 1 is dead, wolf 2 is now at **2 HP**
 
-The remaining 2 wolves attack at **TN 5** (**3** vs **3**) [**7**, **4**]
+The remaining 2 wolves attack at **TN 5** (**3** vs **4**) [**7**, **4**]
 
 I spend **2 DEX** to get **2** reactions. I then spend **1 INT** to try to cause roots to grab the wolf around the legs. (**1** action to charge the magic, **1** action to cast) [**2**] I can stop **2** damage, the amount the wolf would have done.
 
 > As one wolf prepares to jump at my throat, I think quickly and use my magic to cause roots to grow rapidly from the ground, stopping the wolf. The wolf is able to break free, but not finish its attack.
 
-I'm now at **10**, **5**, **2**, **1** (**11**) (**-2 DEX** and **-1 INT**)
+I'm now at **10**, **5**, **2**, **2** (**11**) (**-2 DEX** and **-1 INT**)
 
 I attack the weaker wolf at **TN 4** (**5** vs **3**) [**3**]
 
 > I try to attack the wolves, but using my magic so suddenly has drained me, causing me to miss.
 
-The remaining 2 wolves attack at **TN 4** (**3** vs **1**) [**2**, **2**]
+The remaining 2 wolves attack at **TN 5** (**3** vs **2**) [**2**, **2**]
 
 > The wolves and I square off, neither able to damage the other.
 
@@ -623,17 +625,17 @@ I attack the weaker wolf at **TN 4** (**5** vs **3**) [**6**]
 
 I could do a morale check here to see if I scared off the last wolf, but I decided not to.
 
-The last wolf attacks at **TN 4** (**3** vs **1**) [**7**] (**+3** over **TN**, so **+1** damage)
+The last wolf attacks at **TN 5** (**3** vs **2**) [**7**] (**+2** over **TN**, so **+1** damage)
 
 > With my sword stuck in a wolf, the last wolf lunges at me, tearing into my arm.
 
-I'm now at **10**, **5**, **2**, **1** (**9**) (**-2 HP**)
+I'm now at **10**, **5**, **2**, **2** (**9**) (**-2 HP**)
 
-I attack the last wolf at **TN 4** (**5** vs **3**) [**3**] I could spend **1 STR** to increase my attack by **1**, but then the **TN** would to up to **5**, so I'll just allow the miss.
+I attack the last wolf at **TN 4** (**5** vs **3**) [**3**] I could spend **1 STR** to increase my attack by **1**, but then the **TN** would go up to **5** on my following attacks, so I'll just allow the miss.
 
 > With my arm damaged, I try to swing at the last wolf, but miss.
 
-Wolf attacks at **TN 4** (**3** vs **1**) [**2**]
+Wolf attacks at **TN 5** (**3** vs **2**) [**2**]
 
 > The wolf attacks, but I'm able to keep it at a distance with my sword.
 
@@ -641,17 +643,17 @@ I attack the wolf at **TN 4** (**5** vs **3**) [**2**]
 
 > We're at another standstill, who will get the next blow?
 
-Wolf attacks at **TN 4** (**3** vs **1**) [**7**] (**3** over **TN**)
+Wolf attacks at **TN 5** (**3** vs **2**) [**7**] (**+2** over **TN**)
 
 > Looks like I slacked off on my defense, as the wolf attacks, it tears into me. My injured arm is dripping blood around my feet, and my health is failing.
 
-I'm now at **10**, **5**, **2**, **1** (**7**) (**-2 HP**)
+I'm now at **10**, **5**, **2**, **2** (**7**) (**-2 HP**)
 
-I attack the wolf at **TN 4** (**5** vs **3**) [**5**] I spend **4 STR** to raise it to a **8**, **4** over **TN**, for +2 damage
+I attack the wolf at **TN 4** (**5** vs **3**) [**5**] I spend **4 STR** to raise it to a **8**, **4** over **TN**, for **+2** damage
 
 > I need to end this soon, so I decide to put all my strength into one final attack. Seeing my opportunity, I put the full weight of my body into one massive swing of my sword, cutting the wolf's head off.
 
-I'm now at **10**, **1**, **2**, **1** (**7**) (**-4 STR**)
+I'm now at **10**, **1**, **2**, **2** (**7**) (**-4 STR**)
 
 > I use the last of my healing magic on myself [**1**, **0**] but I had pushed myself too far in that battle, and I'm only able to heal the most minor of wounds. After that, I rest, restoring my strength and wits.
 
@@ -673,7 +675,7 @@ Since this is an ambush, the wolves attack first.
 
 They spend **1** action moving into ambush range.
 
-The wolves attack with a **TN 5** (**3** vs **4**) [**5**, **4**, **8**] One hit at **TN** and one at +8 **TN**. I'll spend **1 DEX** to avoid the first attack.
+The wolves attack with a **TN 5** (**3** vs **4**) [**5**, **4**, **8**] One hit at **TN** and one at **3** over **TN**. I'll spend **1 DEX** to avoid the first attack.
 
 > I dodge the first two wolves, but the last wolf is in place to attack me from the rear, biting my neck. I break free, but I'm seriously injured.
 
@@ -681,7 +683,7 @@ I'm now at **10**, **5**, **3**, **3** (**10**) (**-1 DEX** and **-2 HP**)
 
 I attack wolf 1 with a **TN 4** (**5** vs **3**) [**4**]
 
-My damage is [**3**]
+Attack lands, and my damage is [**3**]
 
 > The lead wolf sees me on the ground and lunges at me. I raise my sword and drive it through its chest, killing it.
 
@@ -697,13 +699,15 @@ I'm now at **10**, **5**, **2**, **3** (**10**) (**-1 DEX**)
 
 Wolf 2 is now at **1 HP**
 
-The remaining 2 wolves attack at **TN 5** (**3** vs **2**) [**6**, **9**] The first wolf does **1** damage, but the second rolled **4** over **TN**, so I'll spend **1 STR** to lower it by **1**. A **+3** to **TN** is still **+1** to its damage.
+The remaining 2 wolves attack at **TN 5** (**3** vs **2**) [**6**, **9**] The first wolf does **1** damage, but the second rolled **4** over **TN**, so I'll spend **1 STR** to lower it by **1**. A **+3** over **TN** is still **+1** to its damage.
 
 > Both wolves attack at once, tearing into me. One wolf goes for my face, but I'm able to bat it aside with the pummel of my sword. Its teeth tear at my jaw but I avoid most of the damage. I need to end this fast.
 
 I'm now at **10**, **4**, **2**, **3** (**7**) (**-1 STR** and **-3 HP**)
 
 I attack wolf 2 with a **TN 5** (**4** vs **3**) [**5**]
+
+Attack lands and my damage is [**1**]
 
 > I drive my sword into the wolf biting my leg. It's injured leg keeps it from dodging and I'm able to kill it.
 
@@ -727,11 +731,11 @@ My damage is [**3**] + **1** for **4** total damage. More than enough to kill th
 
 > The wolf, weak and injured, stumbles towards me. I swing my sword hard and slice the wolf's head clean off.
 
-I'm now at **10**, **3**, **1**, **3** (**7**) (**-1 STR**)
+I'm now at **10**, **2**, **1**, **3** (**7**) (**-2 STR**)
 
 I reserved my **INT** for healing, which I'll do now. [**0**, **2**, **2**] Allowing me to heal **4 HP** to bring me back to **11 HP**.
 
-I'm now at **10**, **3**, **1**, **0** (**11**) (**-3 INT** and **+4 HP**)
+I'm now at **10**, **2**, **1**, **0** (**11**) (**-3 INT** and **+4 HP**)
 
 > Using healing magic, I charge my manna and heal my broken body. I then rest to gain my strength back.
 
