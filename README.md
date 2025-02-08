@@ -14,6 +14,14 @@ I decided to design a solo RPG with rules simple enough to memorize, does not ne
 
 This is that RPG. It's not for everyone and it's not designed to replace an RPG you might play in the comfort of your home. It's designed to be a form of entertainment that you can create with nothing but sticks and stones. (and a knife, though you could use a stone knife)
 
+### The Die
+
+S&S uses a single long **d4** die. AKA: Stick die. It is cut from a stick with straight edges and a square cross section. One side is left blank, then cut **1**, **3**, and **2** notches, in that order, on the other sides.
+
+![d4dice](d4dice.png)
+
+- *Examples of makeshift d4 dice*
+
 # Summary
 
 Weak enemies have a **LVL** which replaces the typical traits. They typically have the same **HP** as their **LVL**.
@@ -28,11 +36,11 @@ Companions (pets) have the same stats as PCs, but have **10 + LVL** tokens.
 
 "Non-draining magic" has a difficulty **LVL** which is rolled against vs **INT** to cast. If the target can try to counter the spell, they roll against **LVL** vs the appropriate trait.
 
-Healing has a **manna** cost equal to the amount of **HP** to heal. A resurrection costs as much as the **max HP** of the target, but revives with **1 HP**.
+Healing has a **manna** cost equal to the amount of **HP** to heal. A resurrection has a cost of the **max HP** of the target, and revives with **1 HP**.
 
-A summons has its cost split between its **LVL**/**HP** and the **damage** its capable of.
+A summons has its cost split between its **LVL** and the **damage** its capable of.
 
-Calculate the **TN** (Target Number) by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used to the **LVL** of the challenge. For every **2** points over or under, add or subtract **1** to or from the **TN**. Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the **TN**. If you roll a **9**, roll the die again and add the result. Keep rolling for each **3** you roll.
+Calculate the **TN** (Target Number) by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used to the **LVL** of the challenge. For every **2** points over or under, add or subtract **1** to or from the **TN**. Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the **TN**. If you roll a **9**, roll the die again and add the result. Keep rolling and adding each **3** you roll after that.
 
 For every **2** points over the **TN** rolled in an attack, do **1** extra point of damage.
 
@@ -48,11 +56,11 @@ Use Milestone leveling, where the PCs and companions level after major events.
 
 Progression can represent anything that takes multiple attempts to accomplish. (Navigate a maze, bargain for a better price) Use a pile of tokens to represent the current amount of progress remaining. After a stage of progression is made through some action, roll on an appropriate **TN** to see if a token is added or removed from the progress pile. A failed roll will often result in a setback to the progress.
 
-Relationships start with a progress of **5**. Actions and events gamble a number of progress tokens. The **TN** is determined based on the outcome of the event. Roll on that to see if progress is removed or added. Each type of relationship (see oracle die) has 4 levels, from familiar to intimate.
+Relationships start with a progress of **5**. Actions and events gamble a number of progress tokens. The **TN** is determined based on the outcome of an event. Roll on that to see if progress is removed or added. Each type of relationship (see oracle die) has 4 levels, from familiar to intimate.
 
 # Additional information
 
-Since the rules reference the oracle die, and the oracle die references the main races, I'll describe them here at the top of the official rules. This is also an important reminder, so it's directly after the rules summary.
+Since the rules reference the oracle die, and the oracle die references the main races, I'll describe them here at the top of the official rules.
 
 Examples of using the oracle die can be found after the full rules. Example battles can be found after that.
 
@@ -64,7 +72,7 @@ Each race can use weak versions of their racial magic without a background, but 
 
 ### Dwarf
 
-Elemental magic. Durable elemental enhanced weapons. Clay golums. All dwarfs can use their magic to mildly boost elements. For example, they can make things tougher or resilient to being moved, extract water, make wind blow harder, and make fire hotter.
+Elemental (earth, water, wind, fire) magic. Durable elemental enhanced weapons. Clay golums. All dwarfs can use their magic to mildly boost elements. For example, they can make things tougher or resilient to being moved, extract water, make wind blow harder, and make fire hotter.
 
 ### Human
 
@@ -76,13 +84,13 @@ Nature / spiritual magic. Potions. Healing magic. Plant golems. Sentient / livin
 
 ### Beast-Kin
 
-Self transformation / boosting magic. Training and communicating with animals. All beast-Kin can heal themselves and change to their one associate animal (a cat girl changes into a cat) but needs a background to change into other animals. (a cat girl that can change into a bear, or bird)
+Self transformation / boosting magic. All beast-kin have some understanding of most animals' intents, can communicate with the same type of animal as their animal form, can heal themselves, and can transform into their one associate animal (a cat girl changes into a cat) but they need a background to change into other animals. (a cat girl that can change into a bear, or bird)
 
-Their animal form will have its own stats at the same level as the human form. For example, a **5 1 5 10** (**HP 6**) bear-kin may change their stats to **10 6 4 1** (**HP 11**) when changing into a bear.
+Their animal form will have its own stats at the same level as the human form. For example, a **5 1 5 10** (**HP 6**) bear-kin may change their stats to **10 6 4 1** (**HP 11**) when transformed into a bear.
 
-Transformation always succeeds and takes one full turn. No other action can be made that turn and no **DEX** tokens can be spent to get additional actions.
+Transformation always succeeds and takes two actions.
 
-Each form has their own instance of damage and tokens. They are played as if two separate entities that take a full turn to swap between. If one form drops to **0 HP**, they transform into their other form automatically and cannot change back until a long rest, or a specialty spell / potion that is specifically made to heal their other form is used. Rests affect both forms equally, but healing only heals the current form.
+Each form has their own instance of tokens and damage. They are played like two separate entities that take two actions to swap between. If one form drops to **0 HP**, they transform into their other form automatically and cannot change back until a long rest, or a specialty spell / potion that is specifically made to heal their other form is used. Rests affect both forms equally, but healing only heals the current form.
 
 **INT** typically drops to **1** in animal form as the animal form has barely human intelligence and is susceptible to mental attacks. **INT** may be used in animal form for healing or to represent an instinctive reaction to shift a roll.
 
@@ -96,15 +104,7 @@ S&S uses an oracle system which is easy to memorize (in my opinion) and a little
 
 The oracle will give you the basic plot lines. It's up to you to weave that into an actual story.
 
-### The Die
-
-S&S uses a single long **d4** die. AKA: Stick die. It is cut from a stick with straight edges and a square cross section. One side is left blank, then cut **1**, **3**, and **2** notches, in that order, on the other sides.
-
-![d4dice](d4dice.png)
-
-- *Examples of makeshift d4 dice*
-
-If you prefer a more traditional "yes, and" style oracle die, you can roll the die 2 times and use:
+If you prefer a more traditional "*yes, and*" style oracle die, you can roll the die 2 times, sum the results, and use:
 
 ```
 0: Critical No, and...
@@ -123,7 +123,7 @@ Use the chart below to answer questions. An **A / B** question could be, "no / y
 | Die | Trait| Element | Race      | Relationship   | Attitude                         | A / B    |
 |-----|------|---------|-----------|----------------|----------------------------------|----------|
 |  0  | CON  | Earth   | Dwarf     | Family / Past  | Grounded / Solemn                | Very A   |
-|  1  | STR  | Water   | Human     | Friend         | Relaxed / Social / Helpful       | A |
+|  1  | STR  | Water   | Human     | Friend / Present | Relaxed / Social / Helpful       | A |
 |  2  | DEX  | Air     | Elf       | Lover / In-Law | Excited / Active / Passionate    | B |
 |  3  | INT  | Fire    | Beast-kin | Enemy / Danger | Scared / Protective / Aggressive | Very B   |
 
