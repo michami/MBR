@@ -28,19 +28,23 @@ Weak enemies have a **LVL** which replaces the typical traits. They typically ha
 
 Each PC (Player Character) gets **20** + **LVL** tokens to divide between **CON**, **STR**, **DEX**, and **INT**. With at least one token each. They also get **HP** tokens equal to **CON** + **LVL**. Tokens can be spent to shift a roll up or down. **CON** is used on saving throws. **STR** is used on attacks. **DEX** is used on defense. **INT** is used for skills and magic. Ranged attacks take **2** actions. **CON** tokens can be spent on any roll as a form of life energy.
 
-PCs also get a *narrative background* that will either add **1** point to a trait at relevant times, or add a new skill, such as a specific type of magic.
+PCs also get a *narrative background* that will either add **1** point to a trait at relevant times, or add a new skill, such as a specific type of magic. (ie: "Sword master", "Merchant", "Skilled in Fire magic")
+
+You may gain additional backgrounds by going on quests to acquire the needed knowledge or experience.
 
 Companions (pets) have the same stats as PCs, but have **10 + LVL** tokens.
 
-"Draining magic" spends **INT** to charge **manna** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell. Draining magic has a life of its own, and always succeeds, as long as you have enough **manna**.
+"*Draining magic*" spends **INT** to charge **manna** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell. *Draining magic* has a life of its own, so it almost always succeeds, as long as you have enough **manna**. *Draining magic* that can be countered, such as a restraint, is rolled against the amount of **manna** spent to cast it.
 
-"Non-draining magic" has a difficulty **LVL** which is rolled against vs **INT** to cast. If the target can try to counter the spell, they roll against **LVL** vs the appropriate trait.
+"*Non-draining magic*" has a difficulty **LVL** which is rolled against vs **INT** to cast. If the target can try to counter the spell, they roll against **LVL** vs the appropriate trait.
 
 Healing has a **manna** cost equal to the amount of **HP** to heal. A resurrection has a cost of the **max HP** of the target, and revives with **1 HP**.
 
 A summons has its cost split between its **LVL** and the **damage** its capable of.
 
-Calculate the **TN** (Target Number) by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used to the **LVL** of the challenge. For every **2** points over or under, add or subtract **1** to or from the **TN**. Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the **TN**. If you roll a **9**, roll the die again and add the result. Keep rolling and adding each **3** you roll after that.
+Calculate the **TN** (Target Number) by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used to the **LVL** of the challenge. For every **2** points over or under, add or subtract **1** to or from the **TN**.
+
+Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the **TN**. If you roll a **9**, roll the die again and add the result. Keep rolling and adding each **3** you roll after that.
 
 For every **2** points over the **TN** rolled in an attack, do **1** extra point of damage.
 
@@ -231,11 +235,7 @@ When **CON** is restored by a short rest, you do not regain the **HP** tokens. O
 
 You can spend **CON** in place of any other tokens, as a form of life energy.
 
-### Finding and Rolling The Target Number
-
-Once you calculate the "Target Number" or "**TN**" of a challenge, you will roll the die **3** times, adding each roll together, (giving you a result from **0** to **9**) to try to meet or beat the **TN**.
-
-Each time you roll a **9**, you may roll the die again and add the results. Keep rolling for each **3** you roll. For example, you just rolled **3** **3**s, (for a total of **9**) you then rolled another **3**, (for a total of **12**) and finally a **2**. (for a final roll of **14**)
+### Finding The Target Number (TN)
 
 Compare the challenge level to the appropriate trait. If the two are within a point of each other, then the **TN** is **5**, or **50%**.  For every **2** points further apart they are, add or subtract **1** from the **TN**.
 
@@ -243,31 +243,26 @@ For example, if you try to do a level **5 STR** challenge, and you only have **2
 
 On the other hand, if you try to do a level **5 STR** challenge, and you have **7** tokens in **STR**, then the **TN** would be **4**, since your **STR** is **2** points over the challenge level.
 
+
+### Rolling Against The Target Number (TN)
+
+Once you calculate the **TN** of a challenge, you will roll the die **3** times, adding each roll together, (giving you a result from **0** to **9**) to try to match or beat the **TN**.
+
+Each time you roll a **9**, you may roll the die again and add the results. Keep rolling for each **3** you roll. For example, you just rolled **3** **3**s, (for a total of **9**) you then rolled another **3**, (for a total of **12**) and finally a **2**. (for a final roll of **14**)
+
 ### Numbers To Keep In Mind
 
 The medium / middle number is **5**. When rolling on a **TN** of **5**, you'll have a **50%** chance of success. A medium challenge is a level **5** and a medium monster would be a level **5**.
 
 Jumps in difficulty / damage / etc. occur every **2** values from the target number. For example, for every **2** points apart a trait is from a challenge level, you will add or subtract **1** from the **TN**. For every **2** points you roll over the **TN** in an attack, you add **1** extra point of *damage*.
 
-### Inventory
-
-S&S uses a "*quantum inventory*". It is assumed your PC is more knowledgeable on what they should bring on a trip than you are. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume the PC has the item, or roll on a **TN** to see if the PC had the foresight to bring the item. It's up to you how much inventory they have, how much room each item should take up, or if the PC would have had enough money to buy the item they need.
-
-For example, you can assume your PC has rope, so you don't need to roll for it. They probably brought extra climbing equipment, so you can roll on a low **TN**, maybe **3** or **4**. They probably didn't bring a chisel and hammer, but it's possible, so roll on a high **TN**, maybe **6** or **7**.
-
-Similarly, you can roll to see if an item they have is the right item, such as if a key they found opens a specific door or chest.
-
-Obviously, health potions are something all adventurers would want, but might not be able to afford, so you may want to roll on the likelihood that your PC could have afforded to purchase any before going on the adventure. If you fail the roll, there's no point rolling again later, since you already decided they don't have the item.
-
-This has the benefit of not having to keep track of an inventory, since S&S is designed to be paperless.
-
 ### Combat
 
 During combat, on your charter's turn, you get **2** actions. These actions can each consist of moving to a new location, drawing your bow, charging a spell, etc. Only **1** action can be used for an attack of any kind. You can spend up to two **DEX** tokens to give yourself additional actions, including additional attacks. You can also spend **DEX** tokens on reactions on another character's turn. For example, staying out of range of a moving enemy, or giving a potion to an ally.
 
-Defending an attack usually uses **DEX** to dodge. It may use **INT** for a magical shield or when resisting a spell or mental attack.
+Defending an attack usually uses **DEX** to dodge. It may use **INT** for a magical shield or when resisting a spell or mental attack. If you're already in a defensive posture, you may use **STR** to resist an attack.
 
-Attacks use the attacker's **STR**.
+Physical attacks use the attacker's **STR**. Also see the *magic* section below.
 
 Ranged attacks take **2** actions, one to prepare / aim, and another to fire the projectile.
 
@@ -303,7 +298,7 @@ Non-draining magic takes **2** actions to cast. It also has a charge and cast ac
 
 A summon is any entity that is animated in the material plane through magic. This can be a spirit, a construct (robot), a golum (animated clay entity), etc. All summons require some material component to animate, though the material will likely be mutated to match the summon. A summon is considered a long running spell and has a **LVL** and the **damage** it can do. The **manna** cost of a summons is its **LVL** + **damage**.
 
-For example, you could create a **LVL 5** golum that does **1 damage** per hit, or you could create a **LVL 3** golum that does **3 damage** per hit. Either golum would cost **6 manna**.
+For example, you could create a **LVL 5** golum that does **1 damage** per hit, or you could create a **LVL 3** golum that does **3 damage** per hit. Either golum would cost **6 manna** to summon.
 
 The summons' **HP** is equal to its **LVL**.
 
@@ -314,6 +309,18 @@ Anyone that can create a summon can also heal the same type of summon using the 
 ### Companions
 
 A non-humanoid companion acts as a PC with **LVL** + **10** points to spend on its traits. A companion typically stays the same level as the PC it belongs to.
+
+### Inventory
+
+S&S uses a "*quantum inventory*". It is assumed your PC is more knowledgeable on what they should bring on a trip than you are. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume the PC has the item, or roll on a **TN** to see if the PC had the foresight to bring the item. It's up to you how much inventory they have, how much room each item should take up, or if the PC would have had enough money to buy the item they need.
+
+For example, you can assume your PC has rope, so you don't need to roll for it. They probably brought extra climbing equipment, so you can roll on a low **TN**, maybe **3** or **4**. They probably didn't bring a chisel and hammer, but it's possible, so roll on a high **TN**, maybe **6** or **7**.
+
+Similarly, you can roll to see if an item they have is the right item, such as if a key they found opens a specific door or chest.
+
+Obviously, health potions are something all adventurers would want, but might not be able to afford, so you may want to roll on the likelihood that your PC could have afforded to purchase any before going on the adventure. If you fail the roll, there's no point rolling again later, since you already decided they don't have the item.
+
+This has the benefit of not having to keep track of an inventory, since S&S is designed to be paperless.
 
 ### Healing
 
@@ -701,7 +708,7 @@ I'm now at **10**, **5**, **2**, **3** (**10**) (**-1 DEX**)
 
 Wolf 2 is now at **1 HP**
 
-The remaining 2 wolves attack at **TN 5** (**3** vs **2**) [**6**, **9**] The first wolf does **1** damage, but the second rolled **4** over **TN**, so I'll spend **1 STR** to lower it by **1**. A **+3** over **TN** is still **+1** to its damage.
+The remaining 2 wolves attack at **TN 5** (**3** vs **2**) [**6**, **9**(+**0**)] The first wolf does **1** damage, but the second rolled **4** over **TN**, so I'll spend **1 STR** to lower it by **1**. A **+3** over **TN** is still **+1** to its damage.
 
 > Both wolves attack at once, tearing into me. One wolf goes for my face, but I'm able to bat it aside with the pummel of my sword. Its teeth tear at my jaw but I avoid most of the damage. I need to end this fast.
 
