@@ -243,7 +243,6 @@ For example, if you try to do a level **5 STR** challenge, and you only have **2
 
 On the other hand, if you try to do a level **5 STR** challenge, and you have **7** tokens in **STR**, then the **TN** would be **4**, since your **STR** is **2** points over the challenge level.
 
-
 ### Rolling Against The Target Number (TN)
 
 Once you calculate the **TN** of a challenge, you will roll the die **3** times, adding each roll together, (giving you a result from **0** to **9**) to try to match or beat the **TN**.
@@ -274,7 +273,7 @@ If you kill an enemy, you can immediately attack another enemy. If an adjacent e
 
 ### Poison and other conditions
 
-At the start of your turn, if you are poisoned, frozen, trapped in webbing, etc. make a test with **CON** vs the level of the creature or object that created the condition. If you succeed, you shake off the condition and return to normal. If you fail, the condition takes effect causing a loss of **HP**, loss of a turn, reduced movement, etc.
+At the start of your turn, if you are poisoned, frozen, trapped in webbing, etc. make a test with **CON** vs the level of the creature or object that created the condition. If you succeed, you shake off the condition and return to normal. If you fail, the condition takes effect causing a loss of **CON**, loss of a turn, reduced movement, etc.
 
 ### Magic
 
