@@ -2,10 +2,6 @@
 
 **S&S, a Makeshift Solo RPG for Survivalists**
 
-**S&S, a Survival Scouts RPG**
-
-**4S RPG**
-
 ### Why this RPG exists
 
 For many years, I've been learning to live off the land.  One thing that was in the back of my mind for a long time was, "How do I keep myself entertained?" I noticed while watching the TV show, "Alone", that this was also an issue with the contestants.
