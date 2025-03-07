@@ -1,6 +1,10 @@
-# Sticks & Stones
+![Ember Logo](logo.png)
 
-**S&S, a Makeshift Solo RPG for Survivalists**
+# EMBER
+
+**MBR: Makeshift Basic RPG**
+
+**A Solo RPG for Emergencies**
 
 ### Why this RPG exists
 
@@ -12,13 +16,15 @@ This is that RPG. It's not for everyone and it's not designed to replace an RPG 
 
 ### The Die
 
-S&S uses a single long **d4** die. AKA: Stick die. It is cut from a stick with straight edges and a square cross section. One side is left blank, then cut **1**, **3**, and **2** notches, in that order, on the other sides.
+Ember uses a single long **d4** die. AKA: Stick die. It is cut from a stick with straight edges and a square cross section. Leave one side blank, then cut **1**, **3**, and **2** notches, in that order, on the other sides. Each notch will wrap around **2** sides and opposite sides will add up to **3**.
 
 ![d4dice](d4dice.png)
 
 - *Examples of makeshift d4 dice*
 
 # Summary
+
+The complete rules, along with examples, are listed after this summary.
 
 Weak enemies have a **LVL** which replaces the typical traits. They typically have the same **HP** as their **LVL**.
 
@@ -64,9 +70,9 @@ Since the rules reference the oracle die, and the oracle die references the main
 
 Examples of using the oracle die can be found after the full rules. Example battles can be found after that.
 
-# Races of S&S
+# Races of Ember
 
-There are four primary races of S&S. Each has a magic that's native to that race. There are plenty of other races, but these are the 4 represented on the Oracle Die.
+There are four primary races of Ember. Each has a magic that's native to that race. There are plenty of other races, but these are the 4 represented on the Oracle Die.
 
 Each race can use weak versions of their racial magic without a background, but a background is required to become better at that magic, or to learn magic from another race. For example, a dwarf could light a candle with fire magic, but not cast a fireball. Each race would have natural resistance to their natural magic as well. For example, a dwarf would get a **+1** to **DEX** when defending against a fireball attack, and can pickup hot metal without protection.
 
@@ -100,7 +106,7 @@ Other races that can transform, like a half-pixie that changes between human and
 
 # The Oracle Die
 
-S&S uses an oracle system which is easy to memorize (in my opinion) and a little more adaptable than the typical d6 oracle. Each side of the die can have multiple meanings depending on context.
+Ember uses an oracle system which is easy to memorize (in my opinion) and a little more adaptable than the typical d6 oracle. Each side of the die can have multiple meanings depending on context.
 
 The oracle will give you the basic plot lines. It's up to you to weave that into an actual story.
 
@@ -149,7 +155,7 @@ Use the chart below to answer questions. An **A / B** question could be, "no / y
 * The **three lines** are a group of people ganging together, an **army**.
 
 
-# The Rules
+# The Full Rules
 
 These rules are designed to be the foundation of a game, but there's always situations where you will need to use your best judgment. This is known as, "rulings over rules".
 
@@ -307,7 +313,7 @@ A non-humanoid companion acts as a PC with **LVL** + **10** points to spend on i
 
 ### Inventory
 
-S&S uses a "*quantum inventory*". It is assumed your PC is more knowledgeable on what they should bring on a trip than you are. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume the PC has the item, or roll on a **TN** to see if the PC had the foresight to bring the item. It's up to you how much inventory they have, how much room each item should take up, or if the PC would have had enough money to buy the item they need.
+Ember uses a "*quantum inventory*". It is assumed your PC is more knowledgeable on what they should bring on a trip than you are. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume the PC has the item, or roll on a **TN** to see if the PC had the foresight to bring the item. It's up to you how much inventory they have, how much room each item should take up, or if the PC would have had enough money to buy the item they need.
 
 For example, you can assume your PC has rope, so you don't need to roll for it. They probably brought extra climbing equipment, so you can roll on a low **TN**, maybe **3** or **4**. They probably didn't bring a chisel and hammer, but it's possible, so roll on a high **TN**, maybe **6** or **7**.
 
@@ -315,7 +321,7 @@ Similarly, you can roll to see if an item they have is the right item, such as i
 
 Obviously, health potions are something all adventurers would want, but might not be able to afford, so you may want to roll on the likelihood that your PC could have afforded to purchase any before going on the adventure. If you fail the roll, there's no point rolling again later, since you already decided they don't have the item.
 
-This has the benefit of not having to keep track of an inventory, since S&S is designed to be paperless.
+This has the benefit of not having to keep track of an inventory, since Ember is designed to be paperless.
 
 ### Healing
 
@@ -333,7 +339,7 @@ At the end of the day, if you're in a safe place, you can take a *long rest*.  A
 
 ### Leveling
 
-S&S uses *milestone leveling*. This means you go up by **1** level after successfully completing a major challenge, such as defeating the big boss at the end of an adventure or finishing a quest to add a new *background*.
+Ember uses *milestone leveling*. This means you go up by **1** level after successfully completing a major challenge, such as defeating the big boss at the end of an adventure or finishing a quest to add a new *background*.
 
 For each level, you get **1** point to add to any trait. Since your level goes up by **1**, your **HP** will also go up by at least **1**. (**HP** = **Level** + **CON**)
 
@@ -395,7 +401,7 @@ Don't forget, this is a story, role play all attempts with as much details as yo
 
 Related to your interactions, rather than your feeling about them or your biological connection. You may live with a mentor and still be rivals or even enemies in everything you do. This relationship can extend to people outside your biological family. Roles can be reversed. (ie: someone you're a mentor to)
 
-1. long-lost, or aware of but don't interact with
+1. Long-lost, or aware of but don't interact with
 2. Someone you could visit at their home (cousin, grandparent)
 3. A mentor you may live with, or have lived with (parent)
 4. Someone you might hang out with (sibling)
@@ -751,7 +757,7 @@ I'm now at **10**, **5**, **4**, **3** (**11**)
 
 To reduce the number of tokens needed, you can reduce, or eliminate the number of tokens used by **STR**, **DEX**, and possibly **CON**. **INT** should still use all the tokens needed for the sake of draining magic.
 
-For example, if your character is: **6**, **5**, **5**, **5**, you could choose to only use 2 tokens for **STR** and **DEX**, so they would never drop below **3** each, but still allow some level of shifting the dice, causing exhaustion.
+For example, if your character is: **6**, **5**, **5**, **5**, you could choose to only use **2** tokens for **STR** and **DEX**, so they would never drop below **3** each, but still allow some level of shifting the dice, causing exhaustion.
 
 # Alternative Dice
 
@@ -776,13 +782,13 @@ You can flip **3** coins at the same time, adding **1** for each heads, then fli
 
 ### Using A Single d6
 
-Roll a **d6** and add **1**. The **TN** should be limited to a range of **3** to **7**.
+Roll a **d6** and add **1**. The **TN** is limited to a range of **3** to **7**. (**5** +/- **2**)
 
 The probabilities aren't exactly the same, but they are within about 2%.
 
-To roll for damage, or charging **manna**, roll the die, then add **1**, on **3 or lower** or **2**, on **4 or higher**. This will give you an average of **1.5** points per roll, the same as the **d4** die. Or alternatively, use the coin flip trick any time you would roll a single d4.
+To roll for damage, or charging **manna**, use similar rules as the coin flip.  Roll the **1d6** twice, on the first roll, if the die is **4** or higher, add **1**. On the second roll, if the die is **4** or higher, add **2**. Or use two different colored dice and designate one die as the **1** point die and the other as the **2** point die.
 
-### TN vs Roll percentages
+### Dice Roll Percentages
 **3d03 vs 1d6+1**
 
 |  TN  |  1  |  2  |  3 |  4 |  5 |  6  |  7  |  8  |  9 |
@@ -792,7 +798,7 @@ To roll for damage, or charging **manna**, roll the die, then add **1**, on **3 
 
 # Alternative Tokens
 
-An easy alternative for the tokens, if you're playing at home, would be to use dice, of course. Any time you're using values 6 or under, I would use a d6, since they're very stable, and less likely to change value if brushed with a sleeve.
+An easy alternative for the tokens, if you're playing at home, would be to use dice. I would use the optional rule of only spending part of your tokens (up to **6**) along with a single **d6** die to keep track of the tokens you can spend. Since a **d6** is very stable, it's less likely to change value if brushed with a sleeve, unlike bigger size dice. For **HP**, use multiple dice.
 
 # Alternative Rules
 
@@ -809,3 +815,7 @@ If you're focused, subtract **1** from the **TN**. (can stack with advantage or 
 For example, if you have disadvantage but are also focused, then the **TN** remains **5**. If you have advantage and are focused, then the **TN** is **3**. But, as according to the rules, if you have both advantage and disadvantage, then the **TN** is **6**, since disadvantage overrides advantage.
 
 Since the *TinyD6* monster stats consist mainly of **HP** and a set of **traits**, you can use the same bestiary and adventures with the rules outlined here. Your character will be more powerful, so you might need to add additional enemies, or give the existing enemies additional **HP**.
+
+# Final Note
+
+You may be wondering why I **bold** numbers and traits in the rules here. This is to make it easier to find rules when quickly searching through visually. You may be thinking, "What was the rule about DEX?" or "How many tokens do I start with again?". By bolding the numbers and traits, they stand out from the rest of the text and your eyes are drawn more quickly to them. For example, when looking through this paragraph, you'll notice it's much easier to spot the word, "bold" than it is "DEX", despite "DEX" being in all uppercase.
