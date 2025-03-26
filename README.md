@@ -36,9 +36,9 @@ You may gain additional backgrounds by going on quests to acquire the needed kno
 
 Companions (pets) have the same stats as PCs, but have **10 + LVL** tokens.
 
-"*Draining magic*" spends **INT** to charge **manna** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell. *Draining magic* has a life of its own, so it almost always succeeds, as long as you have enough **manna**. *Draining magic* that can be countered, such as a restraint, is rolled against the amount of **manna** spent to cast it.
+"**Draining magic**" spends **INT** to charge **manna** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell. *Draining magic* has a life of its own, so it almost always succeeds, as long as you have enough **manna**. *Draining magic* that can be countered, such as a restraint, is rolled against the amount of **manna** spent to cast it.
 
-"*Non-draining magic*" has a difficulty **LVL** which is rolled against vs **INT** to cast. If the target can try to counter the spell, they roll against **LVL** vs the appropriate trait.
+"**Non-draining magic**" has a difficulty **LVL** which is rolled against vs **INT** to cast. If the target can try to counter the spell, they roll against **LVL** vs the appropriate trait.
 
 Healing has a **manna** cost equal to the amount of **HP** to heal. A resurrection has a cost of the **max HP** of the target, and revives with **1 HP**.
 
@@ -54,15 +54,15 @@ On your turn, you get **2** actions, **1** can be an attack. You can spend **DEX
 
 You get **1** *short rest* between battles, and **1** *long rest* at the end of the in-game day. *Short rests* recover **non-HP** tokens.  *Long rests* recover **all** tokens not used for long running spells.
 
-*Long running spells*, such as summons, don't regenerate the tokens spent on it until the spell ends.  After **2** *consecutive long rests* without using any magic between them, the tokens spent will regenerate.
+**Long running spells**, such as summons, don't regenerate the tokens spent on it until the spell ends.  After **2** *consecutive long rests* without using any magic between them, the tokens spent will regenerate.
 
-Use a *quantum inventory* for items you don't specifically keep track of. Roll on an appropriate **TN** to see if the PC has the item needed.
+Use a **quantum inventory** for items you don't specifically keep track of. Roll on an appropriate **TN** to see if the PC has the item needed.
 
 Use Milestone leveling, where the PCs and companions level after major events.
 
-Progression can represent anything that takes multiple attempts to accomplish. (Navigate a maze, bargain for a better price) Use a pile of tokens to represent the current amount of progress remaining. After a stage of progression is made through some action, roll on an appropriate **TN** to see if a token is added or removed from the progress pile. A failed roll will often result in a setback to the progress.
+**Progression** can represent anything that takes multiple attempts to accomplish. (Navigate a maze, bargain for a better price) Use a pile of tokens to represent the current amount of progress remaining. After a stage of progression is made through some action, roll on an appropriate **TN** to see if a token is added or removed from the progress pile. A failed roll will often result in a setback to the progress.
 
-Relationships start with a progress of **5**. Actions and events gamble a number of progress tokens. The **TN** is determined based on the outcome of an event. Roll on that to see if progress is removed or added. Each type of relationship (see oracle die) has 4 levels, from familiar to intimate.
+**Relationships** start with a progress of **5**. Actions and events gamble a number of progress tokens. The **TN** is determined based on the outcome of an event. Roll on that to see if progress is removed or added. Each type of relationship (see oracle die) has 4 levels, from familiar to intimate.
 
 # Additional information
 
@@ -74,11 +74,13 @@ Examples of using the oracle die can be found after the full rules. Example batt
 
 There are four primary races of Ember. Each has a magic that's native to that race. There are plenty of other races, but these are the 4 represented on the Oracle Die.
 
-Each race can use weak versions of their racial magic without a background, but a background is required to become better at that magic, or to learn magic from another race. For example, a dwarf could light a candle with fire magic, but not cast a fireball. Each race would have natural resistance to their natural magic as well. For example, a dwarf would get a **+1** to **DEX** when defending against a fireball attack, and can pickup hot metal without protection.
+Each can use their racial magic without a background, but a background is required to become stronger at that magic, or to learn magic from another race. For example, a dwarf could light a candle with fire magic, but not cast a fireball. Each race would have natural resistance to their natural magic as well. For example, a dwarf would get a **+1** to **DEX** when defending against a fire attack, and can pickup hot metal without protection.
+
+If you want, a character could be skilled at one specific aspect of their racial magic without the use of a background. For example, a dwarf that's good at water magic, but weak at other elemental magic.
 
 ### Dwarf
 
-Elemental (earth, water, wind, fire) magic. Durable elemental enhanced weapons. Clay golums. All dwarfs can use their magic to mildly boost elements. For example, they can make things tougher or resilient to being moved, extract water, make wind blow harder, and make fire hotter.
+Elemental (earth, water, wind, fire) magic. Durable elemental enhanced weapons. Clay golums. All dwarfs can use their magic to mildly boost elements. For example, they can make things tougher or resistant to being moved, extract water, make wind blow harder, and make fire hotter.
 
 ### Human
 
@@ -313,7 +315,7 @@ A non-humanoid companion acts as a PC with **LVL** + **10** points to spend on i
 
 ### Inventory
 
-Ember uses a "*quantum inventory*". It is assumed your PC is more knowledgeable on what they should bring on a trip than you are. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume the PC has the item, or roll on a **TN** to see if the PC had the foresight to bring the item. It's up to you how much inventory they have, how much room each item should take up, or if the PC would have had enough money to buy the item they need.
+Ember uses a "**quantum inventory**". It is assumed your PC is more knowledgeable on what they should bring on a trip than you are. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume the PC has the item, or roll on a **TN** to see if the PC had the foresight to bring the item. It's up to you how much inventory they have, how much room each item should take up, or if the PC would have had enough money to buy the item they need.
 
 For example, you can assume your PC has rope, so you don't need to roll for it. They probably brought extra climbing equipment, so you can roll on a low **TN**, maybe **3** or **4**. They probably didn't bring a chisel and hammer, but it's possible, so roll on a high **TN**, maybe **6** or **7**.
 
@@ -759,6 +761,8 @@ To reduce the number of tokens needed, you can reduce, or eliminate the number o
 
 For example, if your character is: **6**, **5**, **5**, **5**, you could choose to only use **2** tokens for **STR** and **DEX**, so they would never drop below **3** each, but still allow some level of shifting the dice, causing exhaustion.
 
+A good rule you may want to implement is to limit the range of your traits to no more than **4** points. (**1** point per trait) Meaning if your highest trait is **10**, your lowest cannot be less than **6**. This means if you want to max your **CON** on your level **1** PC, for example, your stats would be something like, **8 5 4 4**
+
 # Alternative Dice
 
 ### Using a standard d4 die
@@ -789,11 +793,11 @@ The probabilities aren't exactly the same, but they are within about 2%.
 To roll for damage, or charging **manna**, use similar rules as the coin flip.  Roll the **1d6** twice, on the first roll, if the die is **4** or higher, add **1**. On the second roll, if the die is **4** or higher, add **2**. Or use two different colored dice and designate one die as the **1** point die and the other as the **2** point die.
 
 ### Dice Roll Percentages
-**3d03 vs 1d6+1**
+**3d0-3 vs 1d6+1**
 
 |  TN  |  1  |  2  |  3 |  4 |  5 |  6  |  7  |  8  |  9 |
 |------|-----|-----|----|----|----|-----|-----|-----|-----|
-| **3d03** | 98% | 94% | 84%| 69%| 50%| 31% | 16% | 6%  | 2% |
+| **3d0-3** | 98% | 94% | 84%| 69%| 50%| 31% | 16% | 6%  | 2% |
 | **1d6+1** | 100% | 100%| **83%**| **67%**| **50%**| **33%** | **17%** | 0% | 0% |
 
 # Alternative Tokens
@@ -818,4 +822,4 @@ Since the *TinyD6* monster stats consist mainly of **HP** and a set of **traits*
 
 # Final Note
 
-You may be wondering why I **bold** numbers and traits in the rules here. This is to make it easier to find rules when quickly searching through visually. You may be thinking, "What was the rule about DEX?" or "How many tokens do I start with again?". By bolding the numbers and traits, they stand out from the rest of the text and your eyes are drawn more quickly to them. For example, when looking through this paragraph, you'll notice it's much easier to spot the word, "bold" than it is "DEX", despite "DEX" being in all uppercase.
+You may be wondering why I **bold** numbers and traits in the rules here. This is to make it easier to find rules when quickly searching through visually. You may be thinking, "What was the rule about DEX?" or "How many tokens do I start with again?". By bolding the numbers and traits, they stand out from the rest of the text and your eyes are drawn more quickly to them. For example, when looking through this paragraph, you'll notice it's much easier to spot the word, "bold" then it is "DEX", despite "DEX" being in all uppercase.
