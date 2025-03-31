@@ -460,7 +460,7 @@ For example:
 
 ***
 
-## Example Adventures Using The Oracle Dice
+# Example Adventures Using The Oracle Dice
 
 **Created with actual rolls**
 
@@ -817,6 +817,70 @@ If you're focused, subtract **1** from the **DC**. (can stack with advantage or 
 For example, if you have disadvantage but are also focused, then the **DC** remains **5**. If you have advantage and are focused, then the **DC** is **3**. But, as according to the rules, if you have both advantage and disadvantage, then the **DC** is **6**, since disadvantage overrides advantage.
 
 Since the *TinyD6* monster stats consist mainly of **HP** and a set of **traits**, you can use the same bestiary and adventures with the rules outlined here. Your character will be more powerful, so you might need to add additional enemies, or give the existing enemies additional **HP**.
+
+# Variety is the spice of life
+
+Now, you might be thinking, "Only 4 sides on the oracle die, isn't that limiting? Won't I keep getting the same stories?"
+
+To answer that, let me give some examples. Each of these will use the rolls: **0**, **1**, **2**, **3**.
+
+**The most straightforward answers**
+
+What is this about? [**0**] Family
+
+What about the family? [**1**] A friend (of the family?)
+
+What about this friend of the family? [**2**] Lovers, he's getting married.
+
+Are there any other issues? [**3**] There's a danger. An old enemy of his is going to try to attack during the wedding. I need to stop him before he can.
+
+**OR**
+
+**...**
+
+Are there any other issues? [**3**] I found evidence that his fiance is going to try to kill him on their wedding night.
+
+**OR**
+
+**...**
+
+What about this friend of the family? [**2**] Her and I have flirted for years, she finally admitted to me her feeling and wants to date me.
+
+Any problems? [**3**] My life is dangerous, so I need to take her out on an adventure (escort mission) to show her the life I live before we take it any further.
+
+**OR**
+
+What is this about? [**0**] My past
+
+What about my past? [**1**] A friend I haven't seen in a long time. An old adventuring buddy.
+
+What about my friend? [**2**] He has a girlfriend, but there's a problem.
+
+What's the problem? [**3**] He suspects some kind of vague danger. Maybe her attitude changed drastically recently, and he's not sure if she's the same person, or if a shape shifter took her place. There's only one way to know for sure and he needs my help.
+
+**OR maybe I don't want relationships in my story right now**
+
+What about my friend? [**2**] There's something he's passionate about, something he really wants to do.
+
+What does he want to do? [**3**] He wants to go on one last adventure. Or maybe he wants to finish an adventure we abandoned years ago and he's wanted to finish it, the completionist that he is. (I would continue rolling to fill in the details)
+
+**OR**
+
+I'm in a Lovecraftian game, no family or friends around. I approach a building.
+
+What happens? [**0**] Since nobody I know is around, this could represent "Earth" or something underground.
+
+What do I see? [**1**] A man acting friendly comes out of the cellar of the building.
+
+Does he want something? [**2**] He's married, something to do with his wife.
+
+What's wrong? [**3**] His wife is in danger.
+
+Remember to always turn the rolls into an actual story. Speak it out loud, or write it down if you can.
+
+**The story...**
+
+I walk up to the building, looking for an entrance. Suddenly, a door to the cellar opens up and a man crawls out. He's startled by my presence. "Are you... no, you're not one of the cult members." he says, while looking me over. I notice he's wearing a cult robe. "No, I'm not part of your cult, I'm just looking around. I heard some people were missing so I came here to ask some questions.", I lie. The man looks at me pleadingly, "Can you... Can you help me?? My wife went missing a week ago. I was able to track her here. I joined the cult to try to infiltrate them, but I can't find her. Please, I need your help!"
 
 # Final Note
 
