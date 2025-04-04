@@ -36,11 +36,11 @@ You may gain additional backgrounds by going on quests to acquire the needed kno
 
 Companions (pets) have the same stats as PCs, but have **10 + LVL** tokens.
 
-"**Draining magic**" spends **INT** to charge **manna** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell. *Draining magic* has a life of its own, so it almost always succeeds, as long as you have enough **manna**. *Draining magic* that can be countered, such as a restraint, is rolled against the amount of **manna** spent to cast it.
+"**Draining magic**" spends **INT** to charge **mana** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell. *Draining magic* has a life of its own, so it almost always succeeds, as long as you have enough **mana**. *Draining magic* that can be countered, such as a restraint, is rolled against the amount of **mana** spent to cast it.
 
 "**Non-draining magic**" has a difficulty **LVL** which is rolled against vs **INT** to cast. If the target can try to counter the spell, they roll against **LVL** vs the appropriate trait.
 
-Healing has a **manna** cost equal to the amount of **HP** to heal. A resurrection has a cost of the **max HP** of the target, and revives with **1 HP**.
+Healing has a **mana** cost equal to the amount of **HP** to heal. A resurrection has a cost of the **max HP** of the target, and revives with **1 HP**.
 
 A summons has its cost split between its **LVL** and the **damage** its capable of.
 
@@ -283,11 +283,11 @@ At the start of your turn, if you are poisoned, frozen, trapped in webbing, etc.
 
 There are two types of magic, draining and non-draining.
 
-To cast draining magic, you spend **INT** or **CON** tokens to roll the die, **1** per token, to charge your **manna**. Once your **manna** is charged, you choose a spell to cast. You can only roll **1** die per action, but you can spend **DEX** to get additional actions. You can also charge **manna** over several turns, but one hand must remain free to build up the charge. Draining magic contains some of your life force and intelligence, so it's able to succeed where non-draining magic might fail.
+To cast draining magic, you spend **INT** or **CON** tokens to roll the die, **1** per token, to charge your **mana**. Once your **mana** is charged, you choose a spell to cast. You can only roll **1** die per action, but you can spend **DEX** to get additional actions. You can also charge **mana** over several turns, but one hand must remain free to build up the charge. Draining magic contains some of your life force and intelligence, so it's able to succeed where non-draining magic might fail.
 
-Draining magic is typically used for creating, summoning, healing, resurrections, and other powerful effects. These spells always succeed, as long as you have enough manna charged.
+Draining magic is typically used for creating, summoning, healing, resurrections, and other powerful effects. These spells always succeed, as long as you have enough mana charged.
 
-The approximate damage, damage blocked, or healing that a draining spell can do is equal to one point per point of **manna**. The spell's **LVL**, for the purpose of countering, is equal to the amount of **manna** used on the spell.
+The approximate damage, damage blocked, or healing that a draining spell can do is equal to one point per point of **mana**. The spell's **LVL**, for the purpose of countering, is equal to the amount of **mana** used on the spell.
 
 To cast non-draining magic, decide on the **LVL** of the spell. The **LVL** would be determined by the effort needed to counter the spell. You would then roll an **INT** vs **LVL** to cast the spell.  If the target is able to resist, they would then have to roll against the spell's **LVL** to counter the effects.
 
@@ -297,9 +297,9 @@ Both draining and non-draining magic takes at least **2** actions to cast, **1**
 
 ### Summons
 
-A summon is any entity that is animated in the material plane through magic. This can be a spirit, a construct (robot), a golum (animated clay entity), etc. All summons require some material component to animate, though the material will likely be mutated to match the summon. A summon is considered a long running spell and has a **LVL** and the **damage** it can do. The **manna** cost of a summons is its **LVL** + **damage**.
+A summon is any entity that is animated in the material plane through magic. This can be a spirit, a construct (robot), a golum (animated clay entity), etc. All summons require some material component to animate, though the material will likely be mutated to match the summon. A summon is considered a long running spell and has a **LVL** and the **damage** it can do. The **mana** cost of a summons is its **LVL** + **damage**.
 
-For example, you could create a **LVL 5** golum that does **1 damage** per hit, or you could create a **LVL 3** golum that does **3 damage** per hit. Either golum would cost **6 manna** to summon.
+For example, you could create a **LVL 5** golum that does **1 damage** per hit, or you could create a **LVL 3** golum that does **3 damage** per hit. Either golum would cost **6 mana** to summon.
 
 The summons' **HP** is equal to its **LVL**.
 
@@ -325,7 +325,7 @@ This has the benefit of not having to keep track of an inventory, since Ember is
 
 ### Healing
 
-Healing has a cost of **1 manna** per point healed. A revival / Resurrection has a **manna** cost of the target's total **HP**, plus **1 manna** for each **HP** healed, with a minimum of **1**.
+Healing has a cost of **1 mana** per point healed. A revival / Resurrection has a **mana** cost of the target's total **HP**, plus **1 mana** for each **HP** healed, with a minimum of **1**.
 
 ### Rests
 
@@ -747,7 +747,7 @@ I reserved my **INT** for healing, which I'll do now. [**0**, **2**, **2**] Allo
 
 I'm now at **10**, **2**, **1**, **0** (**11**) (**-3 INT** and **+4 HP**)
 
-> Using healing magic, I charge my manna and heal my broken body. I then rest to gain my strength back.
+> Using healing magic, I charge my mana and heal my broken body. I then rest to gain my strength back.
 
 After a *short rest*, I regain my lost trait tokens.
 
@@ -788,7 +788,7 @@ Roll a **d6** and add **1**. The **DC** is limited to a range of **3** to **7**.
 
 The probabilities aren't exactly the same, but they are within about 2%.
 
-To roll for damage, or charging **manna**, use similar rules as the coin flip.  Roll the **1d6** twice, on the first roll, if the die is **4** or higher, add **1**. On the second roll, if the die is **4** or higher, add **2**. Or use two different colored dice and designate one die as the **1** point die and the other as the **2** point die.
+To roll for damage, or charging **mana**, use similar rules as the coin flip.  Roll the **1d6** twice, on the first roll, if the die is **4** or higher, add **1**. On the second roll, if the die is **4** or higher, add **2**. Or use two different colored dice and designate one die as the **1** point die and the other as the **2** point die.
 
 ### Dice Roll Percentages
 **3d0-3 vs 1d6+1**
