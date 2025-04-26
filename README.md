@@ -436,13 +436,13 @@ When recording characters, I do it in these groupings:
 * traits (CON, STR, DEX, INT) (The only set with 4 values)
 * beast traits if a beast-kin (CON, STR, DEX)
 
-Any value with a **0**-**3** range that would be a zero can be changed to a **4**. So a "masculine male elf" would be a "**4 2**"
+To record a **0**, you can cut an **X** on a stick, or use a different knot on a string, like a double overhand or a figure 8.
 
 Size is not a set range. Is a **1**, **2**, **2** a female pixie, or a very short female elf? Is a **4**, **0**, **1** a tall male human, or a male orc? That's up to you. "Size" is just a suggestion to help differentiate between the characters in your story.
 
 If the character is between relationship progress levels, you can record the remaining progress after the progress level. So "**1 3 1**" would read as "friendly, **1** step away from a best friend", or "Close friend that's almost a best friend"
 
-Someone can also have multiple relationship stages. For example, you may have someone that's "**(4(0) 4), (1 4), (3 1)**", which would be (a sibling) (you're best friends with), and (competitive with).
+Someone can also have multiple relationship stages. For example, you may have someone that's "**(0 4), (1 4), (3 1)**", which would be (a sibling) (you're best friends with), and (competitive with).
 
 Hopefully this would be enough information to keep track of the identity of each PC in your game, along with their **4** number stats.
 
@@ -881,6 +881,14 @@ Remember to always turn the rolls into an actual story. Speak it out loud, or wr
 **The story...**
 
 I walk up to the building, looking for an entrance. Suddenly, a door to the cellar opens up and a man crawls out. He's startled by my presence. "Are you... no, you're not one of the cult members." he says, while looking me over. I notice he's wearing a cult robe. "No, I'm not part of your cult, I'm just looking around. I heard some people were missing so I came here to ask some questions.", I lie. The man looks at me pleadingly, "Can you... Can you help me?? My wife went missing a week ago. I was able to track her here. I joined the cult to try to infiltrate them, but I can't find her. Please, I need your help!"
+
+# Changing the oracle results
+
+Lets say you roll three 3s. You may be thinking, "Danger, Danger, Animal?" So maybe a dangerous animal is in danger, or maybe a rare animal in is grave danger of becoming extinct?
+
+But just remember, you can always reinterpret previous rolls. You could reinterpret that as 3 fire symbols, representing a forest fire, an intelligent creature with fire magic, or a large group of enemies advancing on your position. Mentally you might think, "Danger... Danger... Danger? No, not danger, fire!"
+
+It's easy to get in a rut with the interpretations. But each side of the die can mean many things, so don't forget to mix it up, and sometimes change the interpretation of previous rolls to better synergize with later rolls.
 
 # Final Note
 
