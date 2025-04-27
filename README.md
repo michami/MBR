@@ -139,7 +139,7 @@ Use the chart below to answer questions. An **A / B** question could be, "no / y
 
 * Earth is the foundation. Your body / health / **CON**. The flat surface representing a flat field.
 * Water is strength of movement. The ability to carve through earth. Your **STR**. The single line represents a river.
-* Air is fast and light. Your **DEX**. The two lines represent two leaves blowing in a breeze.
+* Air is fast and light. Your **DEX**. The two lines are how wind is typically drawn, with one side of the lines curling away from each other.
 * Fire has the power to modify the other elements. It is the danger of magic and the most active of the elements. Your **INT**. The three stripes represent the tips of a large fire.
 
 **Creatures are ordered based on a matching element**
@@ -431,12 +431,14 @@ Related to your interactions, rather than your feeling about them or your biolog
 
 When recording characters, I do it in these groupings:
 
-* size (**1**+) / gender / race (ie: "tall male elf", not "elf male tall")
+* size / gender / race (ie: "tall male elf", not "elf male tall")
 * relationships to main PC: type / level / progress (ie: "Friend(**1**) Teammate(**2**), Progress (**5**))
-* traits (CON, STR, DEX, INT) (The only set with 4 values)
-* beast traits if a beast-kin (CON, STR, DEX)
+* traits (CON, STR, DEX, INT) (The only set, except beast traits, with 4 values)
+* beast traits if a beast-kin (CON, STR, DEX, INT)
 
-To record a **0**, you can cut an **X** on a stick, or use a different knot on a string, like a double overhand or a figure 8.
+To read, the first set of **3** numbers is the description. The following sets of **3** numbers are the relationship levels. The sets of **4** numbers are the traits. The PC may only have one or two sets of **4** numbers, the traits.
+
+To record a **0**, you can cut an **X** on a stick, or use a different type of knot on a string, like a figure 8, instead of an overhand knot.
 
 Size is not a set range. Is a **1**, **2**, **2** a female pixie, or a very short female elf? Is a **4**, **0**, **1** a tall male human, or a male orc? That's up to you. "Size" is just a suggestion to help differentiate between the characters in your story.
 
@@ -454,9 +456,15 @@ If you have enough room, you can of course record all the data sequentially. Jus
 
 For example:
 
-**2 3 3, 2 3 2, 7 2 6 9, 10 10 4** would represent:
+**2 3 3, 2 3 2, 7 2 6 9, 10 9 4 1** would represent:
 
-(**2**) human sized (**3**)Female (girly) (**3**)beast kin (**2 3 2**) girlfriend (nearing wife levels) with (**7 2 6 9**) **CON 7**, **STR 2**, **DEX 6**, and **INT 9**. (**LVL 4**, **HP 11**) Considering the low **STR** and high **INT**, she's likely a magic user that uses her beast shifting skill when strength is needed. In her beast form, she has (**10 10 4**) **CON 10**, **STR 10**, **DEX 4**, and **INT 0**. (**HP 14**)
+(**2**) human sized (**3**)Female (girly) (**3**)beast kin
+
+(**2 3 2**) girlfriend (nearing wife levels) with
+
+**CON 7**, **STR 2**, **DEX 6**, and **INT 9**. (**LVL 4**, **HP 11**) Considering the low **STR** and high **INT**, she's likely a magic user that uses her beast shifting skill when strength is needed.
+
+In her beast form, she has **CON 10**, **STR 9**, **DEX 4**, and **INT 1**. (**LVL 4**, **HP 14**)
 
 ***
 
