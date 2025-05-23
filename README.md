@@ -44,9 +44,9 @@ Healing has a **mana** cost equal to the amount of **HP** to heal. A resurrectio
 
 A summons has its cost split between its **LVL** and the **damage** its capable of.
 
-Calculate the **DC** (Difficulty Class) by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used to the **LVL** of the challenge. For every **2** points over or under, add or subtract **1** to or from the **DC**.
+Calculate the **DC** (Difficulty Class) by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used vs the **LVL** of the challenge. For every **2** points over or under, add or subtract **1** to or from the **DC**.
 
-Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the **DC**. If you roll a **9**, roll the die again and add the result. Keep rolling and adding each **3** you roll after that.
+Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the **DC**. If you roll a **9**, roll the die again and add the result. Keep rolling and adding for each **3** you roll after that. ie: after rolling a 9, you roll again and roll a 3, you then roll again and roll a 2. Your total is 9+3+2 = 14.
 
 For every **2** points over the **DC** rolled in an attack, do **1** extra point of damage.
 
