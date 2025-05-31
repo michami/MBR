@@ -44,25 +44,25 @@ Healing has a **mana** cost equal to the amount of **HP** to heal. A resurrectio
 
 A summons has its cost split between its **LVL** and the **damage** its capable of.
 
-Calculate the **DC** (Difficulty Class) by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used vs the **LVL** of the challenge. For every **2** points over or under, add or subtract **1** to or from the **DC**.
+Calculate the **DC** (Difficulty Class) of a challenge by starting at **5** (**50%**) and comparing the *remaining tokens* for the trait used vs the **LVL** of the challenge. For every **2** points over or under, add or subtract **1** to or from the **DC**.
 
-Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the **DC**. If you roll a **9**, roll the die again and add the result. Keep rolling and adding for each **3** you roll after that. ie: after rolling a 9, you roll again and roll a 3, you then roll again and roll a 2. Your total is 9+3+2 = 14.
+Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the **DC**. If you roll a **9**, roll the die again and add the result. Keep rolling and adding for each additional **3** you roll. ie: after rolling a **9**, you roll again and roll a **3**, you then roll again and roll a **2**. Your total is **9**+**3**+**2** = **14**.
 
 For every **2** points over the **DC** rolled in an attack, do **1** extra point of damage.
 
-On your turn, you get **2** actions, **1** can be an attack. You can spend **DEX** to get extra actions.
+On your turn, you get **2** actions, **1** can be an attack. You can spend **DEX** to get up to **2** extra actions.
 
-You get **1** *short rest* between battles, and **1** *long rest* at the end of the in-game day. *Short rests* recover **non-HP** tokens.  *Long rests* recover **all** tokens not used for long running spells.
+You get **1** *short rest* between encounters, and **1** *long rest* at the end of the in-game day. *Short rests* recover **non-HP** tokens.  *Long rests* recover **all** tokens not used for long running spells.
 
 **Long running spells**, such as summons, don't regenerate the tokens spent on it until the spell ends.  After **2** *consecutive long rests* without using any magic between them, the tokens spent will regenerate.
 
 Use a **quantum inventory** for items you don't specifically keep track of. Roll on an appropriate **DC** to see if the PC has the item needed.
 
-Use Milestone leveling, where the PCs and companions level after major events.
+Use **Milestone leveling**, where the PCs and companions level after major events.
 
 **Progression** can represent anything that takes multiple attempts to accomplish. (Navigate a maze, bargain for a better price) Use a pile of tokens to represent the current amount of progress remaining. After a stage of progression is made through some action, roll on an appropriate **DC** to see if a token is added or removed from the progress pile. A failed roll will often result in a setback to the progress.
 
-**Relationships** start with a progress of **5**. Actions and events gamble a number of progress tokens. The **DC** is determined based on the outcome of an event. Roll on that to see if progress is removed or added. Each type of relationship (see oracle die) has 4 levels, from familiar to intimate.
+**Relationships** start with a progress of **5**. Actions and events gamble a number of progress tokens. The **DC** is determined based on the outcome of an event. Roll on that to see if progress is removed or added. Each type of relationship (see oracle die) has **4** levels, from familiar to intimate.
 
 # Additional information
 
