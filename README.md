@@ -50,6 +50,8 @@ Use a **d4** die, numbered **0**-**3**, rolled **3** times to match or beat the 
 
 For every **2** points over the **DC** rolled in an attack, do **1** extra point of damage.
 
+If you roll triplets, (**3** of the same value) it represents a twist in the story. Success or failure doesn't change, but something else changes.
+
 On your turn, you get **2** actions, **1** can be an attack. You can spend **DEX** to get up to **2** extra actions.
 
 You get **1** *short rest* between encounters, and **1** *long rest* at the end of the in-game day. *Short rests* recover **non-HP** tokens.  *Long rests* recover **all** tokens not used for long running spells.
@@ -252,6 +254,10 @@ On the other hand, if you try to do a level **5 STR** challenge, and you have **
 Once you calculate the **DC** of a challenge, you will roll the die **3** times, adding each roll together, (giving you a result from **0** to **9**) to try to match or beat the **DC**.
 
 Each time you roll a **9**, you may roll the die again and add the results. Keep rolling for each **3** you roll. For example, you just rolled **3** **3**s, (for a total of **9**) you then rolled another **3**, (for a total of **12**) and finally a **2**. (for a final roll of **14**)
+
+If you roll triplets, (**3** of the same value) it represents a twist in the story. Success or failure doesn't change, but something else changes. This could be success at a cost, a failure in an unexpected way, or simply change the way you thought the outcome would happen.
+
+For example, if you're rolling to convince someone to join your team at a **DC 5** and you roll **3** **2**s, maybe they do join the team, but only if you promise to help them with their own quest first.
 
 ### Numbers To Keep In Mind
 
