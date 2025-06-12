@@ -28,7 +28,7 @@ The complete rules, along with examples, are listed after this summary.
 
 Weak enemies have a **LVL** which replaces the typical traits. They typically have the same **HP** as their **LVL**.
 
-Each PC (Player Character) gets **20** + **LVL** tokens to divide between **CON**, **STR**, **DEX**, and **INT**. With at least one token each. They also get **HP** tokens equal to **CON** + **LVL**. Tokens can be spent to shift a roll up or down. **CON** is used on saving throws. **STR** is used on attacks. **DEX** is used on defense. **INT** is used for skills and magic. Ranged attacks take **2** actions. **CON** tokens can be spent on any roll as a form of life energy.
+Each PC (Player Character) gets **20** + **LVL** tokens to divide between **CON**, **STR**, **DEX**, and **INT**. With at least one token each. The highest trait cannot be more than **4** times the lowest trait. They also get **HP** tokens equal to **CON** + **LVL**. Tokens can be spent to shift a roll up or down. **CON** is used on saving throws. **STR** is used on attacks. **DEX** is used on defense. **INT** is used for skills and magic. Ranged attacks take **2** actions. **CON** tokens can be spent on any roll as a form of life energy.
 
 PCs also get a *narrative background* that will either add **1** point to a trait at relevant times, or add a new skill, such as a specific type of magic. (ie: "Sword master", "Merchant", "Skilled in Fire magic")
 
@@ -187,7 +187,7 @@ And lastly, your **INT** is how smart you are. How skilled you are at fighting. 
 
 You'll also want to add a pile of tokens (**CON** + **LVL**) for your **HP**. Each token removed from this pile represents damage your PC takes.
 
-A brand new character will start at level **1** with **21** points (**20 + level**) to distribute between your traits as desired, with at least one token each.
+A brand new character will start at level **1** with **21** points (**20 + level**) to distribute between your traits as desired, with at least one token each. The highest trait cannot be more than **4** times the lowest trait. So if your lowest trait is **2**, then the highest cannot be more than **8**.
 
 You also add a *narrative background* to your character. What they did before going on this adventure, as well as their personality. You use this *background* to add **1** point to any trait that is relevant to the current challenge.
 
