@@ -38,6 +38,8 @@ Companions (pets) have the same stats as PCs, but have **10 + LVL** tokens.
 
 "**Draining magic**" spends **INT** to charge **mana** with dice rolls. One roll per token spent. The result is the approximate damage, protection, or healing done by the spell. *Draining magic* has a life of its own, so it almost always succeeds, as long as you have enough **mana**. *Draining magic* that can be countered, such as a restraint, is rolled against the amount of **mana** spent to cast it.
 
+All *long running spells*, or *spells that use some intelligence*, must use **draining magic**.
+
 "**Non-draining magic**" has a difficulty **LVL** which is rolled against vs **INT** to cast. If the target can try to counter the spell, they roll against **LVL** vs the appropriate trait.
 
 Healing has a **mana** cost equal to the amount of **HP** to heal. A resurrection has a cost of the **max HP** of the target, and revives with **1 HP**.
@@ -223,7 +225,7 @@ If, however, you character is charismatic because of how they speak, such as a p
 
 At the start of each day in the adventure, your character will get piles of tokens for their **HP** and each of their traits, **CON**, **STR**, **DEX**, and **INT**. When comparing a trait to a challenge level, you compare the remaining tokens in the pile, not the maximum value for that trait.
 
-The tokens can be anything you have available.  You may want to have different valued tokens so the piles don't get too big. For example, you could use black pebbles worth "**2**" points and white pebbles worth "**1**" point. In this case, you'll always need at least **1** white pebble, in order to make change for a black pebble, so if the trait has an even number, use **2** white pebbles in place of a black. You'll end up with more black pebbles in your traits, but that leaves more white pebbles for keeping track of enemy **HP**.
+The tokens can be anything you have available.  You may want to have different valued tokens so the piles don't get too big. For example, you could use black pebbles worth "**2**" points and white pebbles worth "**1**" point.
 
 ### Spending Tokens
 
@@ -243,7 +245,7 @@ You can spend **CON** in place of any other tokens, as a form of life energy.
 
 ### Finding The Difficulty Class (DC)
 
-Compare the challenge level to the appropriate trait. If the two are within a point of each other, then the **DC** is **5**, or **50%**.  For every **2** points further apart they are, add or subtract **1** from the **DC**.
+Compare the challenge level to the appropriate trait. If they are within a point of each other, then the **DC** is **5**, or **50%**.  For every **2** points further apart they are, add or subtract **1** from the **DC**.
 
 For example, if you try to do a level **5 STR** challenge, and you only have **2** tokens in your **STR**, then the **DC** would be **6**. If your **STR** dropped to **1** token, (**4** below the challenge level) the **DC** would become a **7**. (The challenge gets harder as you wear yourself out)
 
@@ -257,7 +259,13 @@ Each time you roll a **9**, you may roll the die again and add the results. Keep
 
 If you roll triplets, (**3** of the same value) it represents a twist in the story. Success or failure doesn't change, but something else changes. This could be success at a cost, a failure in an unexpected way, or simply change the way you thought the outcome would happen.
 
-For example, if you're rolling to convince someone to join your team at a **DC 5** and you roll **3** **2**s, maybe they do join the team, but only if you promise to help them with their own quest first.
+Some examples of twists:
+
+You're being attacked by three bandits. On an attack, you roll **0, 0, 0**. Your attack misses, but two of the bandits trip over each other to avoid it, causing them to be unable to attack next turn. Or you roll **2, 2, 2**, landing the attack but your weapon gets stuck, increasing the **DC** of your next roll by **1**. Or you roll **3, 3, 3, 2**, killing the bandit with a single hit, but one of the remaining bandits blows a whistle, calling out a new opponent you didn't see earlier. (Another bandit, pet, etc.)
+
+You're rolling to convince someone to join your team at a **DC 5** and you roll **3, 3, 3, 1**. They join the team, but only if you promise to help them with their own quest first.
+
+You're rolling to see if you have a health potion at a **DC 4**. You roll **1, 1, 1**. You're out of health potions, but you do have some bandages, which will heal you for half the **HP** a potion would have. Or alternatively, you found you accidentally packed a manna potion instead, which you can use to recharge your **INT** after you use a healing spell.
 
 ### Numbers To Keep In Mind
 
@@ -292,6 +300,8 @@ There are two types of magic, draining and non-draining.
 To cast draining magic, you spend **INT** or **CON** tokens to roll the die, **1** per token, to charge your **mana**. Once your **mana** is charged, you choose a spell to cast. You can only roll **1** die per action, but you can spend **DEX** to get additional actions. You can also charge **mana** over several turns, but one hand must remain free to build up the charge. Draining magic contains some of your life force and intelligence, so it's able to succeed where non-draining magic might fail.
 
 Draining magic is typically used for creating, summoning, healing, resurrections, and other powerful effects. These spells always succeed, as long as you have enough mana charged.
+
+All *long running spells*, or *spells that use some intelligence*, must use **draining magic**. For example, an illusion, a spell to decipher an unknown written language, raising the dead, talking to animals.
 
 The approximate damage, damage blocked, or healing that a draining spell can do is equal to one point per point of **mana**. The spell's **LVL**, for the purpose of countering, is equal to the amount of **mana** used on the spell.
 
@@ -335,7 +345,7 @@ Healing has a cost of **1 mana** per point healed. A revival / Resurrection has 
 
 ### Rests
 
-Between encounters, you can take a single *short rest*. This rest will recover all your **non-HP** tokens except for tokens used on *long running spells*. You can choose to take this rest before or after any other actions you may take between encounters, but you may only rest when you aren't under attack.
+Between encounters, you can take a single *short rest*. This rest will recover all your **non-HP** tokens except for tokens currently being used on *long running spells*. You can choose to take this rest before or after any other actions you may take between encounters, but you may only rest when you aren't under attack.
 
 For example, if you need to climb a wall after an encounter, and you only have a few **DEX** tokens remaining, you can choose to climb the wall first, then rest to recover all your **DEX**, or take the rest first, so you have more **DEX** for the climb.
 
