@@ -78,9 +78,7 @@ After each attack, weather it's successful or not, you will then roll for the en
 
 ## Rests
 
-TODO
-
------
+Between combats, you take a short rest and recover **HP** equal to the **DC** of the combat.
 
 ## Leveling
 
