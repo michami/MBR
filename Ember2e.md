@@ -196,7 +196,7 @@ Probability of adding to progress per DC
 |  **6**   | 25.00| 6.25 | 0.00 | 0.00 | 0.00|
 |  **7**   | 14.07| 1.56 | 0.00 | 0.00 | 0.00|
 
-Average number of rolls to reach a certain progress per DC
+Average number of rolls to reach a certain progress per DC (not counting use of luck)
 
 |          | Prog 3|  4  |  5  |  6  |  7  |  8  |  9  | 10  |
 |----------|-------|-----|-----|-----|-----|-----|-----|-----|
