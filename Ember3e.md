@@ -12,6 +12,8 @@ Each number of the die has a meaning, is connected to one of the **4** elements,
 
 **3** is fire, your mind and magic (**INT**), the lines showing the tips of a flame. It's also a group of people, an army or mob, representing a danger. They will not help you, and may even try to sabotage your efforts.
 
+![d4dice](d4dice.png)
+
 ## Rolling
 
 Roll **3** dice once, or a single die **3** times and add the results. Any time you roll all the same number, it represents a plot twist in the current scene. You then add to the results any relevant stats or backgrounds as explained later. If the result is equal to or greater than **10**, you succeed.
