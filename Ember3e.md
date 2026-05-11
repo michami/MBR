@@ -224,9 +224,9 @@ Since all stats have a specific order and value, they can be recorded as notches
 * **HP**
 * **Luck**
 
-An NPC that has all three of these sets of values could be recorded on 3 lengths of string, each tied in a row on a stick or another piece of string.
+These values could be recorded on lengths of string or rope, each tied in a row on a stick or another piece of string.
 
-You can tell the different sets apart by their position and length. The description is always the first set, any personal quests have **2** values, the relationships have **3** values, and finally, stats have **4** values. If a character is a changeling, (see beast-kin below) there will be **2** sets of stats, with their default form first and their secondary form second. **HP** and luck are at the end.
+You can tell the different sets apart by their position and length. The description is always the first set, any personal quests have **2** values, the relationships have **3** values, stats have **4** values. If a character is a changeling, (see beast-kin below) there will be **2** sets of stats, with their default form first and their secondary form second. **HP** and luck are at the end.
 
 Backgrounds cannot be easily recorded, which is why each PC starts with only **1** background and must put effort into gaining additional backgrounds. If you want, you could carve a symbol or object in wood to represent a character's background. For example, a sword for a fighter, a book for a magic user, or a key for a thief. This can be carved on a stick and tied to the rope.  This also works for personal quests.
 
