@@ -219,15 +219,17 @@ Since all stats have a specific order and value, they can be recorded as notches
 **Description:** (Always first. Especially useful for NPCs)
 
 * Size (abstract, relative number)
-* Gender (0=Male, 3=Female)
+* Gender (0: Manly Man, 1: Male, 2: Female, 3: Girly Girl)
 * Race (See races)
+
+The description order is the order a character would be described. ie: "short girly female human" or "tall male dwarf".
 
 **Personal quest progress:**
 
 * Level
 * Progress
 
-**Relationship to PC:** (NPCs only, may have multiple sets)
+**Relationship to PC:** (NPCs only. May have multiple sets)
 
 * Type
 * Level
