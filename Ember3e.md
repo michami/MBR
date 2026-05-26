@@ -16,12 +16,10 @@ Each number of the die has a meaning, is connected to one of the **4** elements,
 
 ## Rolling
 
-Roll **3** dice once, or a single die **3** times and add the results. Any time you roll all the same number, it represents a plot twist in the current scene. You then add to the results any relevant stats or backgrounds as explained later. If the result is equal to or greater than **10**, you succeed.
+Roll **3** dice once, or a single die **3** times and add the results. Any time you roll all the same number, it represents a plot twist in the current scene. You then add to the results any relevant **stats** or **backgrounds** as explained later. If the result is equal to or greater than **10**, you succeed.
 
 <!-- div style="page-break-before: always;"/ -->
 No bonus added to the roll can be less than **0** or greater than **9**. This means there's always the chance of a failure, even with a **+9** to the roll.  (If you roll a **0**)
-
-Keep in mind: A **+5** bonus has a **50%** chance of success. Everything else is relative to this.
 
 **Optional Rule**
 
@@ -29,15 +27,20 @@ Optionally, never add more than **8** to a roll. Limiting your bonus to an **8**
 
 ## A note about numbers
 
+A **+5** bonus has a **50%** chance of success. Everything else is relative to this.
+
 A roll of **0**, is always a failure. The range of **3** to **7** are fairly evenly distributed. Numbers outside this range are unlikely to be rolled, making smaller values too difficult and larger values to easy.
+
 
 ## Stats (CON, STR, DEX, INT)
 
-Your character starts with **5** points for each of the **4** stats indicated by the dice: **CON**, **STR**, **DEX**, and **INT**. You may distribute the points as you wish between the stats, but each stat must have no less than **3** points and no more than **7** points. If the points are evenly distributed, there's a **50%** chance of a success on all rolls using only the stats.
+Your character has **20** stat points, **5** for each of the **4** stats indicated by the dice, **CON**, **STR**, **DEX**, and **INT**. You may distribute the points as you wish between the stats, but each stat must have no less than **3** points and no more than **7** points. If the points are evenly distributed, there's a **50%** chance of a success on all rolls using only the stats.
 
 You get **HP** tokens equal to **5** plus your **CON**. Any damage you take will be subtracted from your **HP**.
 
-Your character will also start with one **background** which is applied contextually. The **background** usually adds **+1** to a relevant roll that uses that **background** but can add **+2** for a highly specific **background**. For example, a thief can pick locks, sneak in shadows, pick pockets, etc. so they only add **+1** when picking locks. But a locksmith's skills are only used when picking locks, so they would add **+2** when picking locks. If you have multiple relevant backgrounds, (as described later) you may add **+2**, but no more.
+Your character will also start with one **background** which is applied contextually. The **background** usually adds **+1** to a relevant roll that uses that **background** but can add **+2** for a highly specific **background**.
+
+For example, a thief is a general **background** that can pick locks, sneak in shadows, pick pockets, etc. so they add **+1** when picking locks. But a locksmith is a specific **background** that can only used when picking locks, so they would add **+2** when picking locks. If you have multiple relevant backgrounds, (as described later) you may add up to **+2**, but no more.
 
 Use the stats in a way that makes sense. For example, if you're trying to talk someone into giving you a deal using:
 
@@ -52,23 +55,23 @@ Weapons and items can act like additional backgrounds. Some items may have speci
 
 ## Luck Tokens (replace a dice roll with luck)
 
-Every impactful failed roll gives you a luck token. You can replace any roll, excluding progress related rolls, with your total luck tokens. If you do, reset your tokens back to **0**. You cannot accumulate more than **9** luck tokens.
+Every impactful failed roll gives you a **luck** token. You can replace any roll, excluding progress related rolls, with your total **luck** tokens. If you do, reset your tokens back to **0**. You cannot accumulate more than **9** **luck** tokens.
 
-If your character is lucky, or has a lucky charm, then, after spending your luck tokens, you would reset your luck tokens to a predefined value, likely **1** or **2**. This means you will build up your luck faster the more lucky you are.
+If your character has a "lucky" **background**, or has a lucky charm, then, after spending your **luck** tokens, you would reset your **luck** tokens to a predefined value, likely **1** or **2**. This means you will build up your **luck** faster the more lucky you are.
 
 ## Progress Tracks (dice + EP)
 
 When you have some task or goal you need to make progress towards, you will create a progress track. The progress track has an "Ease of Progress" (**EP**) which indicates how easy it is to add to the progress.  Each time you make an action to further your progress, you will add the **EP** to your roll to see if you can add a point to the progress.
 
-The **EP** could change depending on the action you're taking. For example: Finding a map showing the location of an item you're trying to find would have a higher **EP** than hearing rumors about where the item may be.
+The **EP** could change depending on the action you're taking. For example: Finding a map showing the location of an item you're trying to find would have a higher **EP** than only hearing rumors about where the item may be.
 
 For every **2** points over **10** on your final score, (roll + **EP**) you add another **+1** point of progress. This means an easy task with an **EP** of **9** could add up to **5** points of progress in a single roll.
 
-For example, if you have a task with an **EP** of **8** and you roll a **6**, your final score is **14**, and you can add **3** points to your progress. **1** point for a successful roll, plus another **2** points for getting **4** points over **10**
+For example, if you have a task with an **EP** of **8** and you roll a **6**, your final score is **14**, and you can add **3** points to your progress: **1** point for a successful roll, plus another **2** points for rolling **4** over **10**. Odd numbers are rounded down. So a total score of **15** would still only add **3** to your progress.
 
 You cannot make more than **9** progress.
 
-You cannot use luck to add progress, though a failed roll will give you a luck token.
+You cannot use **luck** to add progress, though a failed roll will give you a **luck** token.
 
 Once you feel that your progress is high enough, you will make a progress roll.
 
@@ -76,7 +79,7 @@ Once you feel that your progress is high enough, you will make a progress roll.
 
 On a progress roll, you add your current progress to the dice instead of a stat or background. If you fail the roll, you subtract the difference from your progress.  For example, if you have **5** progress and you roll a **3**, for a total of **8**, then you fail the roll and subtract **2** (**10** - **8**) from your progress, bringing it down to **3**. If you fail a roll, you need to make at least **1** more point towards your progress before you can make another progress roll.
 
-You cannot use luck on a progress roll, though a failed roll will give a luck token.
+You cannot use **luck** on a progress roll, though a failed roll will give a **luck** token.
 
 ## Failure Tracks (Failure is an option)
 
@@ -86,7 +89,7 @@ A failure track is a track that can cause your progress to fail for another reas
 * Reach a location before an enemy does
 * Pick a lock before the guards return
 
-A failure track is a second progress track that fills on a different condition. When you make a progress roll on your main track, roll on the failure track as well. If the failure track fills up, (reaches **9**) it forces a progress roll on both tracks. Failure tracks that are time based may add a point of progress every turn without rolling. To make the time shorter, start with some progress already filled.
+A failure track is a second progress track that fills on a different condition. When you make a progress roll on your main track, roll on the failure track as well. If the failure track fills up, (reaches **9**) it forces a progress roll on both tracks.
 
 **Roll Results**
 
@@ -98,7 +101,9 @@ If you only succeed on the failure track, then you failed the task at hand.
 
 If you don't succeed on either track, nothing has happened yet. You could apply the rules for a failed progress roll to both tracks and keep going.
 
-For example, you need to pick a lock before the guards return. You have a progress track, **EP 6** that advances when you succeed at a **+INT** roll. You also have a time based failure track with **2** progress pre-filled. After **5** turns the failure track fills to **7** and you decide to roll a progress roll. Your lock picking track is only at a **6** but you succeed at your picking progress roll.  You then roll on the failure track and it succeeds as well. The result is, you get the door open just as the guards notice you. You rush inside and block the door. The guards pound on the door, trying to break it open.  You have a limited time now to find the item you're looking for and escape out the window. Time to add another time based failure track.
+For example, you need to pick a lock before the guards return. You have a progress track, **EP 6** that advances when you succeed at a **+INT** roll. You also have a time based failure track also with an **EP 6**. After **5** turns the failure track fills to **7** and you decide to roll a progress roll. Your lock picking track is only at a **6**. You succeed at your picking progress roll.  You then roll on the failure track and it succeeds as well. The result is:
+
+> You get the door open just as the guards notice you. You rush inside and block the door. The guards pound on the door, trying to break it open.  You have a limited time now to find the item you're looking for and escape out the window. Time to add another time based failure track.
 
 Another example could be when disabling a trap. Every time you fail to mark progress on the "disable trap" track, you roll to add progress to the failure track. Even if you make more progress in the success track, there's always the chance that something will trigger at the last second. In this case, a failure on the disable track or a success on the failure track could trigger the trap.
 
@@ -130,11 +135,11 @@ Without a background specifically about pets, each PC can have one pet appropria
 
 ## Rests & Healing
 
-Between combats, you take a short rest and recover **50%** of your lost **HP**, rounded down. If you have healing magic, you can use it during a rest. Healing spells work by rolling once to see if it succeeds. If it does, it acts like a second rest. For every **+2** over **10** you roll, you heal an extra **1** point of **HP**.
+Between combats, you take a short rest and recover **50%** of your lost **HP**, rounded down. If you have healing magic, you can use it during a rest. Healing spells work by rolling **+INT** to see if it succeeds. If it does, it acts like a second rest. For every **+2** over **10** you roll, you heal an extra **1** point of **HP**.
 
 For example, your team has a fighter and a healer. The fighter looses **9 HP** after a battle. They take a rest, and recover **4 HP**. The healer then uses their healing magic, adding **+1** for their background and **+6 INT** to their roll.  They roll a **5** + **1** + **6** for a total of **12** and the spell succeeds. They recover **50%** of the remaining **5 HP** lost, (**2**) plus an extra **1 HP** for rolling **2** over **10**, healing a total of **3** more **HP**. The fighter is now only down **2 HP** from their max.
 
-When in a town, restore full **HP** from the local healer.
+If you take a long rest, a day passes, you heal **100%** of your **HP** and your **luck** is reset.
 
 ## Leveling
 
@@ -226,7 +231,7 @@ Since all stats have a specific order and value, they can be recorded as notches
 
 These values could be recorded on lengths of string or rope, each tied in a row on a stick or another piece of string.
 
-You can tell the different sets apart by their position and length. The description is always the first set, any personal quests have **2** values, the relationships have **3** values, stats have **4** values. If a character is a changeling, (see beast-kin below) there will be **2** sets of stats, with their default form first and their secondary form second. **HP** and luck are at the end.
+You can tell the different sets apart by their position and length. The description is always the first set, any personal quests have **2** values, the relationships have **3** values, stats have **4** values. If a character is a changeling, (see beast-kin below) there will be **2** sets of stats, with their default form first and their secondary form second. **HP** and **luck** are at the end.
 
 Backgrounds cannot be easily recorded, which is why each PC starts with only **1** background and must put effort into gaining additional backgrounds. If you want, you could carve a symbol or object in wood to represent a character's background. For example, a sword for a fighter, a book for a magic user, or a key for a thief. This can be carved on a stick and tied to the rope.  This also works for personal quests.
 
@@ -337,7 +342,7 @@ Their animal form will have its own stats. For example, a **5 3 3 9** (**HP 10**
 
 Transformations into their base animal form always succeed and take **1** full turn. An enemy may attack during this time and if successful, will harm both forms. When rolling to avoid damage, use the **+DEX** from the form with the lowest value.
 
-Each form has their own instance of **HP** and luck. They are played like two separate entities. If one form drops to **0 HP**, they transform into their other form automatically and cannot change back until healed. Short rests and external healing only heals the current form. Long rests and self healing magic heal both forms an equal amount.
+Each form has their own instance of **HP** and **luck**. They are played like two separate entities. If one form drops to **0 HP**, they transform into their other form automatically and cannot change back until healed. Short rests and external healing only heals the current form. Long rests and self healing magic heal both forms an equal amount.
 
 **INT** can drop down to **1** in animal form (the only time a stat can drop below **3**) as the animal form can have below human intelligence.
 
