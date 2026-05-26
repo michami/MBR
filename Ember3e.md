@@ -135,6 +135,8 @@ Ranged attacks roll **+INT** (skillful strikes)
 
 Dodge an attack roll **+DEX** (dodge quickly)
 
+When you roll on an attack, for every **2** points you roll over **10**, you make an additional progress roll.
+
 If you fail to dodge an attack, you lose **1 HP**. If any attack would drop your **HP** to **0** or less, you need to make a saving roll **+CON**. If you fail, you die. If you succeed, you remain at **0** and must make another saving roll every time you take damage.
 
 While in combat, any action can result in an attack from an enemy. Taking a healing potion or running away gives the enemy a change to strike. Every turn of combat allows for one action by the PC and one reaction by the enemy. If you're playing with multiple PCs or enemies, they each get an action if it makes sense for them to. Large groups of enemies may attack as a single unit.
