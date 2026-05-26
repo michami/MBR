@@ -1,3 +1,19 @@
+![Ember Logo](logo.png)
+
+# EMBER
+
+**MBR: Makeshift Basic RPG**
+
+**A Solo RPG for Emergencies**
+
+### Why this RPG exists
+
+For many years, I've been learning to live off the land.  One thing that was in the back of my mind for a long time was, "How do I keep myself entertained?" I noticed while watching the TV show, "Alone", that this was also an issue with the contestants.
+
+I decided to design a solo RPG with rules simple enough to memorize, does not need any information written down, and used some type of "oracle" to aid in story creation.
+
+This is that RPG. It's not for everyone and it's not designed to replace an RPG you might play in the comfort of your home. It's designed to be a form of entertainment that you can create with nothing but sticks and stones. (and a knife, though you could use a stone knife)
+
 ## The Dice
 
 Ember uses a single long **d4** die. AKA: Stick die. It is cut from a stick with straight edges and a square cross section. Leave one side blank, then cut **1**, **3**, and **2** notches, in that order, on the other sides. Each notch will wrap around **2** sides and opposite sides will add up to **3**.
