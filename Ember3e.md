@@ -358,13 +358,13 @@ Beast-Kin are half animal and can change fully into their animal shapes. They ar
 
 Transformation, healing, and boosting magic, but only on themselves. All beast-kin have some understanding of other animals' instincts, can fully communicate with the same type of animal as their animal form, and can transform into their one associated animal (a cat girl can change into a cat) but they need a background to change into other animals, and need to roll for success. (a cat girl that can change into a bird)
 
-Their animal form will have its own stats. For example, a **5 3 3 9** (**HP 10**) bear-kin mage may change their stats to **10 6 3 1** (**HP 15**) when transformed into a bear.
+Their animal form will have its own stats. For example, a **5 3 3 9** (**HP 10**) bear-kin mage may change their stats to **8 7 4 1** (**HP 13**) when transformed into a bear.
 
 Transformations into their base animal form always succeed and take **1** full turn. An enemy may attack during this time and if successful, will harm both forms. When rolling to avoid damage, use the **+DEX** from the form with the lowest value.
 
 Each form has their own instance of **HP** and **luck**. They are played like two separate entities. If one form drops to **0 HP**, they transform into their other form automatically and cannot change back until healed. Short rests and external healing only heals the current form. Long rests and self healing magic heal both forms an equal amount.
 
-**INT** can drop down to **1** in animal form (the only time a stat can drop below **3**) as the animal form can have below human intelligence.
+**INT** can drop down to **1** in animal form (the only time a stat can drop below **3**) as the animal form can have below human intelligence. You may also increase **CON** up to **8** if desired.
 
 Other races that can transform, like a half-pixie that changes between human and pixie forms, would be played as a beast-kin.
 
