@@ -1,6 +1,6 @@
-![Ember Logo](logo.png)
+![Ember Logo](logo3e.png)
 
-# EMBER
+# EMBER 3E
 
 **MBR: Makeshift Basic RPG**
 
@@ -97,31 +97,13 @@ On a progress roll, you add your current progress to the dice instead of a stat 
 
 You cannot use **luck** on a progress roll, though a failed roll will give a **luck** token.
 
-## Failure Tracks (Failure is an option)
+## Clocks
 
-A failure track is a track that can cause your progress to fail for another reason other than not finishing your progress. Some examples are:
+To start a clock, create a pile of tokens representing the clock. Every time you roll to add progress, remove a token from the clock. Once you remove the last token, you are forced to make a progress roll. If you succeed in the progress roll, consider it a mixed result, since it was forced.
 
-* Defuse a bomb before a timer ends
-* Reach a location before an enemy does
-* Pick a lock before the guards return
+For example: The guards have left a door and you're trying to pick the lock. The lock as an **EP** of **7**. You give yourself a clock with **4** tokens. On your **4th** roll, the clock runs out and you have **7** progress filled. You make a progress roll and succeed. But since the clock ran out, the guards have returned and see you enter the room.
 
-A failure track is a second progress track that fills on a different condition. When you make a progress roll on your main track, roll on the failure track as well. If the failure track fills up, (reaches **9**) it forces a progress roll on both tracks.
-
-**Roll Results**
-
-If you only succeed at the progress track, then everything worked out.
-
-If you succeed on both tracks, you succeed, but at a cost. Figure out what the cost should be.
-
-If you only succeed on the failure track, then you failed the task at hand.
-
-If you don't succeed on either track, nothing has happened yet. You could apply the rules for a failed progress roll to both tracks and keep going.
-
-For example, you need to pick a lock before the guards return. You have a progress track, **EP 6** that advances when you succeed at a **+INT** roll. You also have a time based failure track also with an **EP 6**. After **5** turns the failure track fills to **7** and you decide to roll a progress roll. Your lock picking track is only at a **6**. You succeed at your picking progress roll.  You then roll on the failure track and it succeeds as well. The result is:
-
-> You get the door open just as the guards notice you. You rush inside and block the door. The guards pound on the door, trying to break it open.  You have a limited time now to find the item you're looking for and escape out the window. Time to add another time based failure track.
-
-Another example could be when disabling a trap. Every time you fail to mark progress on the "disable trap" track, you roll to add progress to the failure track. Even if you make more progress in the success track, there's always the chance that something will trigger at the last second. In this case, a failure on the disable track or a success on the failure track could trigger the trap.
+A good rule of thumb: For challenges that are an **EP** of **6** or higher, you generally want the clock tokens plus the **EP** to equal around **11**. You can add or subtract **1** token to remove or add tension to the situation.
 
 ## Combat
 
@@ -140,6 +122,12 @@ When you roll on an attack, for every **2** points you roll over **10**, you mak
 If you fail to dodge an attack, you lose **1 HP**. If any attack would drop your **HP** to **0** or less, you need to make a saving roll **+CON**. If you fail, you die. If you succeed, you remain at **0** and must make another saving roll every time you take damage.
 
 While in combat, any action can result in an attack from an enemy. Taking a healing potion or running away gives the enemy a change to strike. Every turn of combat allows for one action by the PC and one reaction by the enemy. If you're playing with multiple PCs or enemies, they each get an action if it makes sense for them to. Large groups of enemies may attack as a single unit.
+
+## VS Roll
+
+If you're making a roll where two characters are using stats against each other, for example, one character trying to restrain another using **STR**, roll on both stats and the winner is the one with the highest final value. Backgrounds, of course, can be added. So a character with a "Wrestler" background would get a **+1** or maybe **+2** (since this is a specific skill) to actions around restraining or breaking a restraint.
+
+You could do all combat using VS rolls, (**STR** vs **DEX**, etc) but that would mean each enemy would need their own stats. This makes for richer combat but would require additional information and tracking of **HP** and other stats.
 
 ## Magic (If your world allows it)
 
