@@ -65,6 +65,12 @@ Use the stats in a way that makes sense. For example, if you're trying to talk s
 * Slight of hand, roll **+DEX**
 * Bargaining, roll **+INT**
 
+## Temporary Bonuses
+
+If the situation gives you an advantage or disadvantage during play, then add or subtract **1** from your final score.
+
+For example, if you succeed in causing a distraction in order to sneak away in the chaos, then you should get a **+1** bonus while sneaking. If you fail at the distraction, you should get a **-1** to your score because you drew attention to yourself and put the guards on alert.
+
 ## Weapons and Items
 
 Weapons and items can act like additional backgrounds. Some items may have special abilities, like a good luck charm as described next.
