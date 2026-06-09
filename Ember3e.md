@@ -71,43 +71,44 @@ Weapons and items can act like additional backgrounds. Some items may have speci
 
 ## Luck Tokens (replace a dice roll with luck)
 
-Every impactful failed roll gives you a **luck** token. You can replace any roll, excluding progress related rolls, with your total **luck** tokens. If you do, reset your tokens back to **0**. You cannot accumulate more than **9** **luck** tokens.
+Every impactful failed roll gives you a **luck** token. You can replace any roll, excluding all progress related rolls, with your total **luck** tokens. If you do, reset your tokens back to **0**. You cannot accumulate more than **9** **luck** tokens.
 
 If your character has a "lucky" **background**, or has a lucky charm, then, after spending your **luck** tokens, you would reset your **luck** tokens to a predefined value, likely **1** or **2**. This means you will build up your **luck** faster the more lucky you are.
 
-## Progress Tracks (dice + EP)
+## Progress Tracks & Add Progress Rolls (dice + EP)
 
-When you have some task or goal you need to make progress towards, you will create a progress track. The progress track has an "Ease of Progress" (**EP**) which indicates how easy it is to add to the progress.  Each time you make an action to further your progress, you will add the **EP** to your roll to see if you can add a point to the progress.
+When you have some task or goal you need to make progress towards, you will create a progress 
+track. The progress track has an "Ease of Progress" (**EP**) which indicates how easy it is to add to the progress.  Each time you make an action to further your progress, you will make an "Add Progress Roll." To do that, add the **EP** to a roll, and if you succeed, add **+1** point to the progress.
+
+For every **2** points over **10** on your "Add Progress Roll" you add another **+1** point of progress. This means an easy task with an **EP** of **9** could add up to **5** points of progress in a single roll.
 
 The **EP** could change depending on the action you're taking. For example: Finding a map showing the location of an item you're trying to find would have a higher **EP** than only hearing rumors about where the item may be.
 
-For every **2** points over **10** on your final score, (roll + **EP**) you add another **+1** point of progress. This means an easy task with an **EP** of **9** could add up to **5** points of progress in a single roll.
-
-For example, if you have a task with an **EP** of **8** and you roll a **6**, your final score is **14**, and you can add **3** points to your progress: **1** point for a successful roll, plus another **2** points for rolling **4** over **10**. Odd numbers are rounded down. So a total score of **15** would still only add **3** to your progress.
+For example, if you have a task with an **EP** of **8** and you roll a **6**, your final score is **14**, and you can add **3** points to your progress: **1** point for a successful roll, plus another **2** points for rolling **4** over **10**. Odd numbers are rounded down. So a total score of **15** would add **3** to your progress.
 
 You cannot make more than **9** progress.
 
 You cannot use **luck** to add progress, though a failed roll will give you a **luck** token.
 
-Once you feel that your progress is high enough, you will make a progress roll.
+Once you feel that your progress is high enough, you will make a "Finish Progress Roll."
 
-## Progress Roll (dice + progress)
+## Finish Progress Roll (dice + progress)
 
-On a progress roll, you add your current progress to the dice instead of a stat or background. If you fail the roll, you subtract the difference from your progress.  For example, if you have **5** progress and you roll a **3**, for a total of **8**, then you fail the roll and subtract **2** (**10** - **8**) from your progress, bringing it down to **3**. If you fail a roll, you need to make at least **1** more point towards your progress before you can make another progress roll.
+On a "Finish Progress Roll", you add your current progress to the dice instead of a stat or background. If you fail the roll, you subtract the difference from your progress.  For example, if you have **5** progress, and you roll a **3**, for a total of **8**, then you fail the roll and subtract **2** (**10** - **8**) from your progress, bringing it down to **3**. If you fail a roll, you need to make at least **1** more point towards your progress before you can make another progress roll.
 
 You cannot use **luck** on a progress roll, though a failed roll will give a **luck** token.
 
 ## Clocks
 
-To start a clock, create a pile of tokens representing the clock. Every time you roll to add progress, remove a token from the clock. Once you remove the last token, you are forced to make a progress roll. If you succeed in the progress roll, consider it a mixed result, since it was forced.
+To start a clock, create a pile of tokens representing the clock. Every time you make an "Add Progress Roll", remove a token from the clock. Once you remove the last token, you are forced to make a "Finish Progress Roll." If you succeed, consider it a mixed result, since it was forced.
 
-For example: The guards have left a door and you're trying to pick the lock. The lock as an **EP** of **7**. You give yourself a clock with **4** tokens. On your **4th** roll, the clock runs out and you have **7** progress filled. You make a progress roll and succeed. But since the clock ran out, the guards have returned and see you enter the room.
+For example: The guards have left a door, and you're trying to pick the lock. The lock as an **EP** of **7**. You give yourself a clock with **4** tokens. On your **4th** roll, the clock runs out and you have **7** progress filled. You make a progress roll and succeed. But since the clock ran out, you succeeded in picking the lock, but the guards have returned and see you enter the room.
 
 A good rule of thumb: For challenges that are an **EP** of **6** or higher, you generally want the clock tokens plus the **EP** to equal around **11**. You can add or subtract **1** token to remove or add tension to the situation.
 
 ## Combat
 
-Combat is tracked as progress against an enemy. The **EP** of the progress represents how easy it is to defeat the enemy. Each time you land an attack on an enemy, you roll to add progress.  Large groups of enemies can use a single progress track.
+Combat is tracked as progress against an enemy. The **EP** of the progress represents how easy it is to defeat the enemy. Each time you land an attack on an enemy, you make an "Add Progress Roll".  Large groups of enemies can use a single progress track.
 
 After each attack, weather it's successful or not, you will then roll for the enemy to attack you, if they're able.
 
@@ -115,11 +116,11 @@ Melee attacks roll **+STR** (powerful strikes)
 
 Ranged attacks roll **+INT** (skillful strikes)
 
-Dodge an attack roll **+DEX** (dodge quickly)
+Dodge an attack roll **+DEX** (dodge strikes)
 
-When you roll on an attack, for every **2** points you roll over **10**, you make an additional progress roll.
+When you roll on an attack, for every **2** points you roll over **10**, you make an additional "Add Progress Roll."
 
-If you fail to dodge an attack, you lose **1 HP**. If any attack would drop your **HP** to **0** or less, you need to make a saving roll **+CON**. If you fail, you die. If you succeed, you remain at **0** and must make another saving roll every time you take damage.
+If you fail to dodge an attack, you lose **1 HP**. If any attack drops your **HP** to **0**, you need to make a saving roll **+CON**. If you fail, you die. If you succeed, you remain at **0** and must make another saving roll every time you take damage. (You cannot have less than 0 HP)
 
 While in combat, any action can result in an attack from an enemy. Taking a healing potion or running away gives the enemy a change to strike. Every turn of combat allows for one action by the PC and one reaction by the enemy. If you're playing with multiple PCs or enemies, they each get an action if it makes sense for them to. Large groups of enemies may attack as a single unit.
 
@@ -143,9 +144,9 @@ Without a background specifically about pets, each PC can have one pet appropria
 
 Between combats, you take a short rest and recover **50%** of your lost **HP**, rounded down. If you have healing magic, you can use it during a rest. Healing spells work by rolling **+INT** to see if it succeeds. If it does, it acts like a second rest. For every **+2** over **10** you roll, you heal an extra **1** point of **HP**.
 
-For example, your team has a fighter and a healer. The fighter looses **9 HP** after a battle. They take a rest, and recover **4 HP**. The healer then uses their healing magic, adding **+1** for their background and **+6 INT** to their roll.  They roll a **5** + **1** + **6** for a total of **12** and the spell succeeds. They recover **50%** of the remaining **5 HP** lost, (**2**) plus an extra **1 HP** for rolling **2** over **10**, healing a total of **3** more **HP**. The fighter is now only down **2 HP** from their max.
+For example, your team has a fighter and a healer. The fighter looses **9 HP** after a battle. They take a rest, and recover **4 HP**. The healer then uses their healing magic, adding **+1** for their background and **+6 INT** to their roll.  They roll a **5** + **1** + **6** for a total of **12** and the spell succeeds. They recover **50%** of the remaining **5 HP** lost, (**2**) plus an extra **1 HP** for rolling **2** over **10**, healing a total of **3** more **HP**. The fighter is now only down **2 HP** from before the battle.
 
-If you take a long rest, a day passes, you heal **100%** of your **HP** and your **luck** is reset.
+If you take a long rest, a night passes, you heal **100%** of your **HP** and your **luck** is reset.
 
 ## Leveling
 
@@ -212,7 +213,7 @@ Since all stats have a specific order and value, they can be recorded as notches
 * Gender (0: Manly Man, 1: Male, 2: Female, 3: Girly Girl)
 * Race (See races)
 
-The description order is the order a character would be described. ie: "short girly female human" or "tall male dwarf".
+The description order is the order a character would be described. ie: "short girly female human" (1, 3, 1) or "tall male dwarf". (3, 1, 0)
 
 **Personal quest progress:**
 
