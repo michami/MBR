@@ -32,10 +32,12 @@ Each number of the die has a meaning, is connected to one of the **4** elements,
 
 ## Rolling
 
-Roll **3** dice once, or a single die **3** times and add the results. Any time you roll all the same number, it represents a plot twist in the current scene. You then add to the results any relevant **stats** or **backgrounds** as explained later. If the result is equal to or greater than **10**, you succeed.
+Roll **3** dice once, or a single die **3** times and add the results. You then add to the results any relevant **stats** or **backgrounds** as explained later. If the result is equal to or greater than **10**, you succeed.
 
 <!-- div style="page-break-before: always;"/ -->
 No bonus added to the roll can be less than **0** or greater than **9**. This means there's always the chance of a failure, even with a **+9** to the roll.  (If you roll a **0**)
+
+If you roll doubles, something changes about the current situation. If you roll triples, it's a major plot twist. Whether the change is good or bad depends on the outcome of the roll.
 
 **Optional Rule**
 
