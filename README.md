@@ -104,6 +104,8 @@ Once you feel that your progress is high enough, you will make a "Finish Progres
 
 On a "Finish Progress Roll", you add your current progress to the dice instead of a stat or background. If you fail the roll, you subtract the difference from your progress.  For example, if you have **5** progress, and you roll a **3**, for a total of **8**, then you fail the roll and subtract **2** (**10** - **8**) from your progress, bringing it down to **3**. If you fail a roll, you need to make at least **1** more point towards your progress before you can make another progress roll.
 
+It is possible that the progress will end before a "Finish Progress Roll." For example, if an enemy runs away, the progress simply ends. If the enemy attacks again from an ambush, the progress would continue from the same value.
+
 You cannot use **luck** on a progress roll, though a failed roll will give a **luck** token.
 
 ## Clocks
@@ -365,3 +367,4 @@ Each form has their own instance of **HP** and **luck**. They are played like tw
 
 Other races that can transform, like a half-pixie that changes between human and pixie forms, would be played as a beast-kin.
 
+If a beast-kin cannot transform, then their stats would be recorded without a second stat block, representing that they only have one form.
