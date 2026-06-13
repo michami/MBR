@@ -8,23 +8,23 @@
 
 ### Why this RPG exists
 
-For many years, I've been learning to live off the land.  One thing that was in the back of my mind for a long time was, "How do I keep myself entertained?" I noticed while watching the TV show, "Alone", that this was also an issue with the contestants.
+For many years, I've been learning to live off the land.  One thing that was in the back of my mind for a long time was, "How do I keep myself entertained?" Then I noticed while watching the TV show, "Alone", that this was also an issue with the contestants. Boredom can be difficult to deal with.
 
-I decided to design a solo RPG with rules simple enough to memorize, does not need any information written down, and used some type of "oracle" to aid in story creation.
+As a solution to this, I decided to design a solo RPG with rules simple enough to memorize, does not need any information written down, and used some type of "oracle" to aid in story creation. I also made sure to include rules for relationships to help with feelings of loneliness.
 
 This is that RPG. It's not for everyone and it's not designed to replace an RPG you might play in the comfort of your home. It's designed to be a form of entertainment that you can create with nothing but sticks and stones. (and a knife, though you could use a stone knife)
 
 ## The Dice
 
-Ember uses a single long **d4** die. AKA: Stick die. It is cut from a stick with straight edges and a square cross section. Leave one side blank, then cut **1**, **3**, and **2** notches, in that order, on the other sides. Each notch will wrap around **2** sides and opposite sides will add up to **3**.
+Ember uses a single long **d4** die. (Singular of "dice") AKA: Stick die. It is cut from a stick with straight edges and a square cross section. Leave one side blank, then cut **1**, **3**, and **2** notches, in that order, on the other sides. Each notch will wrap around **2** sides and opposite sides will add up to **3**.
 
 Each number of the die has a meaning, is connected to one of the **4** elements, and represents one of your **4** stats. By itself, a single die can act as a simple oracle that you roll to describe a situation or person.
 
-**0** is earth, your constitution (**CON**), The smooth surface is the face of a stone. Your foundation. This means your past or family. Someone with a down to earth personality. They will likely help out of responsibility.
+**0** is Earth, your constitution (**CON**), The smooth surface is the face of a stone, your foundation. This means your past or family. Someone with a down to earth personality. They will likely help you out of a sense of responsibility.
 
 **1** is water, your strength (**STR**), the single line is a river or a friend who stands with you. Someone with an outgoing personality. They will likely help because they like you.
 
-**2** is wind, your dexterity (**DEX**), two lines showing the blowing air. It's also two lovers, someone who's passionate, loving, and caring, but maybe not to you. Possibly a pacifist. They will likely NOT help you because you're not the one they care most about.
+**2** is wind, your dexterity (**DEX**), the two lines showing the blowing air. It's also two lovers, someone who's passionate, loving, and caring, but maybe not to you. Possibly a pacifist. They will likely NOT help you because you're not the one they care most about.
 
 **3** is fire, your mind and magic (**INT**), the lines showing the tips of a flame. It's also a group of people, an army or mob, representing a danger. They will not help you, and may even try to sabotage your efforts.
 
@@ -32,7 +32,7 @@ Each number of the die has a meaning, is connected to one of the **4** elements,
 
 ## Rolling
 
-Roll **3** dice once, or a single die **3** times and add the results. You then add to the results any relevant **stats** or **backgrounds** as explained later. If the result is equal to or greater than **10**, you succeed.
+Roll the die **3** times and add the results. You then add to the results any relevant **stats** or **backgrounds** as explained later. If the result is equal to or greater than **10**, you succeed.
 
 <!-- div style="page-break-before: always;"/ -->
 No bonus added to the roll can be less than **0** or greater than **9**. This means there's always the chance of a failure, even with a **+9** to the roll.  (If you roll a **0**)
@@ -52,13 +52,13 @@ A roll of **0**, is always a failure. The range of **3** to **7** are fairly eve
 
 ## Stats (CON, STR, DEX, INT)
 
-Your character has **20** stat points, **5** for each of the **4** stats indicated by the dice, **CON**, **STR**, **DEX**, and **INT**. You may distribute the points as you wish between the stats, but each stat must have no less than **3** points and no more than **7** points. If the points are evenly distributed, there's a **50%** chance of a success on all rolls using only the stats.
+Your character has **20** stat points, **5** for each of the **4** stats indicated by the die: **CON**, **STR**, **DEX**, and **INT**. You may distribute the points as you wish between the stats, but each stat must have no less than **3** points and no more than **7** points. If the points are evenly distributed, there's a **50%** chance of a success on all rolls using only the stats. (Beast-kin do have an exception to this rule, see below)
 
 You get **HP** tokens equal to **5** plus your **CON**. Any damage you take will be subtracted from your **HP**.
 
 Your character will also start with one **background** which is applied contextually. The **background** usually adds **+1** to a relevant roll that uses that **background** but can add **+2** for a highly specific **background**.
 
-For example, a thief is a general **background** that can pick locks, sneak in shadows, pick pockets, etc. so they add **+1** when picking locks. But a locksmith is a specific **background** that can only used when picking locks, so they would add **+2** when picking locks. If you have multiple relevant backgrounds, (as described later) you may add up to **+2**, but no more.
+For example, a thief is a general **background** that can pick locks, sneak in shadows, climb walls, etc. so they add **+1** when picking locks. But a locksmith is a specific **background** that can only used when picking locks, so they would add **+2** when picking locks. If you have multiple relevant backgrounds, (as described later) you may add up to **+2**, but no more.
 
 Use the stats in a way that makes sense. For example, if you're trying to talk someone into giving you a deal using:
 
