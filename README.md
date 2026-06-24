@@ -79,20 +79,21 @@ Weapons and items can act like additional backgrounds. Some items may have speci
 
 ## Luck Tokens (replace a dice roll with luck)
 
-Every impactful failed roll gives you a **luck** token. You can replace any roll, excluding all progress related rolls, with your total **luck** tokens. If you do, reset your tokens back to **0**. You cannot accumulate more than **9** **luck** tokens.
+Every impactful failed roll gives you a **luck** token. You can replace any roll, excluding any progress related rolls, with your total **luck** tokens. If you do, reset your tokens back to **0**. You cannot accumulate more than **9** **luck** tokens.
+
+If you spend your luck, narrate how your luck changed your situation to your benefit.
 
 If your character has a "lucky" **background**, or has a lucky charm, then, after spending your **luck** tokens, you would reset your **luck** tokens to a predefined value, likely **1** or **2**. This means you will build up your **luck** faster the more lucky you are.
 
 ## Progress Tracks & Add Progress Rolls (dice + EP)
 
-When you have some task or goal you need to make progress towards, you will create a progress 
-track. The progress track has an "Ease of Progress" (**EP**) which indicates how easy it is to add to the progress.  Each time you make an action to further your progress, you will make an "Add Progress Roll." To do that, add the **EP** to a roll, and if you succeed, add **+1** point to the progress.
+When you have some task or goal you need to make progress towards, you will create a progress track. The progress track has an "Ease of Progress" (**EP**) which indicates how easy it is to add to the progress.  Each time you make an action to further your progress, you will make an "Add Progress Roll." To do that, add the **EP** to a roll, and if you succeed, add **+1** point to the progress.
 
 For every **2** points over **10** on your "Add Progress Roll" you add another **+1** point of progress. This means an easy task with an **EP** of **9** could add up to **5** points of progress in a single roll.
 
 The **EP** could change depending on the action you're taking. For example: Finding a map showing the location of an item you're trying to find would have a higher **EP** than only hearing rumors about where the item may be.
 
-For example, if you have a task with an **EP** of **8** and you roll a **6**, your final score is **14**, and you can add **3** points to your progress: **1** point for a successful roll, plus another **2** points for rolling **4** over **10**. Odd numbers are rounded down. So a total score of **15** would add **3** to your progress.
+If you have a task with an **EP** of **8** and you roll a **6**, your final score is **14**, and you can add **3** points to your progress: **1** point for a successful roll, (**10** or greater) plus another **2** points for rolling **4** over **10**. Odd numbers are rounded down. So a total score of **15** would add **3** to your progress.
 
 You cannot make more than **9** progress.
 
