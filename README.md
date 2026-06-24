@@ -363,7 +363,7 @@ Transformations into their base animal form always succeed and take **1** full t
 
 Each form has their own instance of **HP** and **luck**. They are played like two separate entities. If one form drops to **0 HP**, they transform into their other form automatically and cannot change back until healed. Short rests and external healing only heals the current form. Long rests and self healing magic heal both forms an equal amount.
 
-**INT** can drop down to **1** in animal form (the only time a stat can drop below **3**) as the animal form can have below human intelligence. You may also increase **CON** up to **8** if desired.
+A beast-kin's animal form can exceed their human form's limits. This means the lower limit is dropped to **1** and the upper limit is raised to **9**. Most often this means **INT** is dropped to **1** while one other stat is raised to **9**. A cat, for example, might have the stats **7 3 9 1**. Showing a cat's nine lives, low **STR**, very high **DEX**, and very low **INT**.
 
 Other races that can transform, like a half-pixie that changes between human and pixie forms, would be played as a beast-kin.
 
