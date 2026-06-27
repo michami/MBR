@@ -135,6 +135,8 @@ While in combat, any action can result in an attack from an enemy. Taking a heal
 
 If you're making a roll where two characters are using stats against each other, for example, one character trying to restrain another using **STR**, roll on both stats and the winner is the one with the highest final value. Backgrounds, of course, can be added. So a character with a "Wrestler" background would get a **+1** or maybe **+2** (since this is a specific skill) to actions around restraining or breaking a restraint.
 
+On a tie, the winner is the one with the highest bonus, or things stay as they are. If that doesn't make sense in the fiction, roll again until there's a clear winner.
+
 You could do all combat using VS rolls, (**STR** vs **DEX**, etc) but that would mean each enemy would need their own stats. This makes for richer combat but would require additional information and tracking of **HP** and other stats.
 
 ## Magic (If your world allows it)
