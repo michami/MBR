@@ -81,19 +81,19 @@ Weapons and items can act like additional backgrounds. Some items may have speci
 
 Every impactful failed roll gives you a **luck** token. You can replace any roll, excluding any progress related rolls, with your total **luck** tokens. If you do, reset your tokens back to **0**. You cannot accumulate more than **9** **luck** tokens.
 
-If you spend your luck, narrate how your luck changed your situation to your benefit.
+If you spend your luck, envision how your luck changed your situation to your benefit.
 
 If your character has a "lucky" **background**, or has a lucky charm, then, after spending your **luck** tokens, you would reset your **luck** tokens to a predefined value, likely **1** or **2**. This means you will build up your **luck** faster the more lucky you are.
 
-## Progress Tracks & Add Progress Rolls (dice + EP)
+## Progress Tracks & Add Progress Rolls (dice + PS)
 
-When you have some task or goal you need to make progress towards, you will create a progress track. The progress track has an "Ease of Progress" (**EP**) which indicates how easy it is to add to the progress.  Each time you make an action to further your progress, you will make an "Add Progress Roll." To do that, add the **EP** to a roll, and if you succeed, add **+1** point to the progress.
+When you have some task or goal you need to make progress towards, you will create a progress track. The progress track has a "Progress Speed" (**PS**) which indicates how quickly you can add progress.  Each time you make an action to further your progress, you will make an "Add Progress Roll." To do that, make a roll and add the **PS**. If you succeed, add **+1** point to the progress.
 
-For every **2** points over **10** on your "Add Progress Roll" you add another **+1** point of progress. This means an easy task with an **EP** of **9** could add up to **5** points of progress in a single roll.
+For every **2** points over **10** on your "Add Progress Roll" you add another **+1** point of progress. This means an easy task with an **PS** of **9** could add up to **5** points of progress in a single roll.
 
-The **EP** could change depending on the action you're taking. For example: Finding a map showing the location of an item you're trying to find would have a higher **EP** than only hearing rumors about where the item may be.
+The **PS** could change depending on the action you're taking. For example: Finding a map showing the location of an item you're trying to find would have a higher **PS** than only hearing rumors about where the item may be.
 
-If you have a task with an **EP** of **8** and you roll a **6**, your final score is **14**, and you can add **3** points to your progress: **1** point for a successful roll, (**10** or greater) plus another **2** points for rolling **4** over **10**. Odd numbers are rounded down. So a total score of **15** would add **3** to your progress.
+If you have a task with an **PS** of **8** and you roll a **6**, your final score is **14**, and you can add **3** points to your progress: **1** point for a successful roll, (**10** or greater) plus another **2** points for rolling **4** over **10**. Odd numbers are rounded down. So a total score of **15** would add **3** to your progress.
 
 You cannot make more than **9** progress.
 
@@ -113,13 +113,13 @@ You cannot use **luck** on a progress roll, though a failed roll will give a **l
 
 To start a clock, create a pile of tokens representing the clock. Every time you make an "Add Progress Roll", remove a token from the clock. Once you remove the last token, you are forced to make a "Finish Progress Roll." If you succeed, consider it a mixed result, since it was forced.
 
-For example: The guards have left a door, and you're trying to pick the lock. The lock as an **EP** of **7**. You give yourself a clock with **4** tokens. On your **4th** roll, the clock runs out and you have **7** progress filled. You make a progress roll and succeed. But since the clock ran out, you succeeded in picking the lock, but the guards have returned and see you enter the room.
+For example: The guards have left a door, and you're trying to pick the lock. The lock as an **PS** of **7**. You give yourself a clock with **4** tokens. On your **4th** roll, the clock runs out and you have **7** progress filled. You make a progress roll and succeed. But since the clock ran out, you succeeded in picking the lock, but the guards have returned and see you enter the room.
 
-A good rule of thumb: For challenges that are an **EP** of **6** or higher, you generally want the clock tokens plus the **EP** to equal around **11**. You can add or subtract **1** token to remove or add tension to the situation.
+A good rule of thumb: For challenges that are an **PS** of **6** or higher, you generally want the clock tokens plus the **PS** to equal around **11**. You can add or subtract **1** token to remove or add tension to the situation.
 
 ## Combat
 
-Combat is tracked as progress against an enemy. The **EP** of the progress represents how easy it is to defeat the enemy. Each time you land an attack on an enemy, you make an "Add Progress Roll".  Large groups of enemies can use a single progress track.
+Combat is tracked as progress against an enemy. The **PS** of the progress represents how easy it is to defeat the enemy. Each time you land an attack on an enemy, you make an "Add Progress Roll".  Large groups of enemies can use a single progress track.
 
 After each attack, weather it's successful or not, you will then roll for the enemy to attack you, if they're able.
 
@@ -273,11 +273,11 @@ Probability of a successful roll for each add to the roll
 
 **Chance of rolling triples:** 6.25%
 
-Probability of adding to progress per **EP**
+Probability of adding to progress per **PS**
 
 |          |  +1    |  +2    |  +3    |  +4    | +5    |
 |----------|--------|--------|--------|--------|-------|
-|  **EP 9**| 14.06% | 34.38% | 34.37% | 14.07% | 1.56% |
+|  **PS 9**| 14.06% | 34.38% | 34.37% | 14.07% | 1.56% |
 |  **8**   | 25.00% | 37.50% | 25.00% | 6.25   | 0%    |
 |  **7**   | 34.38% | 34.37% | 14.07% | 1.56   | 0%    |
 |  **6**   | 37.50% | 25.00% | 6.25   | 0%     | 0%    |
@@ -285,11 +285,11 @@ Probability of adding to progress per **EP**
 |  **4**   | 25.00% | 6.25%  | 0%     | 0%     | 0%    |
 |  **3**   | 14.07% | 1.56%  | 0%     | 0%     | 0%    |
 
-Average number of rolls to reach a certain progress per **EP**
+Average number of rolls to reach a certain progress per **PS**
 
 |          | Prog 3 |  4   |  5   |  6   |  7   |  8   |  9   |
 |----------|--------|------|------|------|------|------|------|
-|  **EP 9**| 1.2    | 1.6  | 2.0  | 2.4  | 2.8  | 3.2  | 3.6  |
+|  **PS 9**| 1.2    | 1.6  | 2.0  | 2.4  | 2.8  | 3.2  | 3.6  |
 |  **8**   | 1.5    | 2.0  | 2.5  | 3.0  | 3.5  | 4.0  | 4.5  |
 |  **7**   | 2.0    | 2.6  | 3.3  | 4.0  | 4.6  | 5.3  | 5.9  |
 |  **6**   | 2.8    | 3.8  | 4.7  | 5.6  | 6.6  | 7.5  | 8.5  |
