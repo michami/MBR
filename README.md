@@ -85,25 +85,21 @@ If you spend your luck, envision how your luck changed your situation to your be
 
 If your character has a "lucky" **background**, or has a lucky charm, then, after spending your **luck** tokens, you would reset your **luck** tokens to a predefined value, likely **1** or **2**. This means you will build up your **luck** faster the more lucky you are.
 
-## Progress Tracks & Add Progress Rolls (dice + PS)
+## Progress Tracks & Add Progress Roll (dice + PS)
 
-When you have some task or goal you need to make progress towards, you will create a progress track. The progress track has a "Progress Speed" (**PS**) which indicates how quickly you can add progress.  Each time you make an action to further your progress, you will make an "Add Progress Roll." To do that, make a roll and add the **PS**. If you succeed, add **+1** point to the progress.
+When you have some task or goal you need to make progress towards, you will create a progress track. Whenever you do something to advance the progress of the task, you will decide on the *Progress Speed* (**PS**) you just made. This indicates how quickly or likely you are to add progress from the action you just took. You then make a *Add Progress Roll* by rolling **+PS**. If you succeed, add **+1** point to the progress. The **PS** should not be lower than **3**, but it can be as high as **9**. For every **2** points over **10** on your *Add Progress Roll* you add another **+1** point of progress. This means an easy task with an **PS** of **9** could add up to **5** points of progress in a single roll.
 
-For every **2** points over **10** on your "Add Progress Roll" you add another **+1** point of progress. This means an easy task with an **PS** of **9** could add up to **5** points of progress in a single roll.
-
-The **PS** could change depending on the action you're taking. For example: Finding a map showing the location of an item you're trying to find would have a higher **PS** than only hearing rumors about where the item may be.
-
-If you have a task with an **PS** of **8** and you roll a **6**, your final score is **14**, and you can add **3** points to your progress: **1** point for a successful roll, (**10** or greater) plus another **2** points for rolling **4** over **10**. Odd numbers are rounded down. So a total score of **15** would add **3** to your progress.
+For example: You have a progress track for finding the Sword of MacGuffin. You hear rumors of the sword's location and roll **+5** on an *Add Progress Roll*. Later, after some oracle rolls, you find a map to the sword's exact location. Since this is a huge progress, you roll **+7** on an *Add Progress Roll*. On this second roll, you roll a **7** and add your **+7** bonus for a total of **14**. You then add **3** points to your progress: **1** point for a successful roll, (**10** or greater) plus another **2** points for rolling **4** over the target of **10**.
 
 You cannot make more than **9** progress.
 
 You cannot use **luck** to add progress, though a failed roll will give you a **luck** token.
 
-Once you feel that your progress is high enough, you will make a "Finish Progress Roll."
+Once you feel that your progress is high enough, you will make a *Finish Progress Roll*.
 
 ## Finish Progress Roll (dice + progress)
 
-On a "Finish Progress Roll", you add your current progress to the dice instead of a stat or background. If you fail the roll, you subtract the difference from your progress.  For example, if you have **5** progress, and you roll a **3**, for a total of **8**, then you fail the roll and subtract **2** (**10** - **8**) from your progress, bringing it down to **3**. If you fail a roll, you need to make at least **1** more point towards your progress before you can make another progress roll.
+On a *Finish Progress Roll*, you add your current progress to the dice instead of a stat or background. If you fail the roll, you subtract the difference from your progress.  For example, if you have **5** progress, and you roll a **3**, for a total of **8**, then you fail the roll and subtract **2** (**10** - **8**) from your progress, bringing it down to **3**. If you fail a roll, you need to make at least **1** more point towards your progress before you can make another progress roll.
 
 It is possible that the progress will end before a "Finish Progress Roll." For example, if an enemy runs away, the progress simply ends. If the enemy attacks again from an ambush, the progress would continue from the same value.
 
