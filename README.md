@@ -131,6 +131,8 @@ If you fail to dodge an attack, you lose **1 HP**. If any attack drops your **HP
 
 While in combat, any action can result in an attack from an enemy. Taking a healing potion or running away gives the enemy a change to strike. Every turn of combat allows for one action by the PC and one reaction by the enemy. If you're playing with multiple PCs or enemies, they each get an action if it makes sense for them to. Large groups of enemies may attack as a single unit.
 
+If you keep making ranged attacks that the enemy can't counter attack, they are likely to run off and ambush you later.  Roll on the oracle to find out what they do.
+
 ## VS Roll
 
 If you're making a roll where two characters are using stats against each other, for example, one character trying to restrain another using **STR**, roll on both stats and the winner is the one with the highest final value. Backgrounds, of course, can be added. So a character with a "Wrestler" background would get a **+1** or maybe **+2** (since this is a specific skill) to actions around restraining or breaking a restraint.
