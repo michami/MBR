@@ -334,35 +334,35 @@ Ember has 4 races, each represented by one of the elements. Each race has their 
 
 #### Dwarf (Earth)
 
-Dwarfs mine the Earth and work the metal into shape using the other elements. Fire to heat it, wind to stoke the fire, and water to quench the metal. Dwarfs are tough like stone and have a strong connection to their families and their past.
+Dwarfs are masters of stone. They mine the Earth and work the metal into shape using the other elements. Fire to heat it, wind to stoke the fire, and water to quench the metal. Dwarfs are tough like stone and have a strong connection to their families and their past.
 
 Elemental (earth, water, wind, fire) magic. Durable elemental enhanced weapons. Clay golums.
 
 #### Human (Water)
 
-Humans live on the Earth and use the strength of rivers to power their machinery. They are experts at manipulating energy.
+Humans are masters of energy. They live on the Earth and use the strength of rivers to power their machinery.
 
 Electrical magic. Electronics. Robotic constructs. Complex mechanical traps. Complex weapons such as firearms, crossbows, etc. All humans can power electrical devices with magic, or anything that requires a spark.
 
 #### Elf (Wind)
 
-Elves live in the trees. They're light and fast, able to jump from branch to branch. Because of their long lives, elves do not believe in monogamy, so their relationships are fast and fleeting.
+Elves are masters of nature. They live in the trees, they're light and fast, able to jump from branch to branch. Their relationships tend to be fast and fleeting.
 
 Nature and spiritual magic. Potions. Healing magic. Plant golems. Sentient / living weapons.
 
 #### Beast-Kin (Fire)
 
-Beast-Kin are half animal and can change fully into their animal shapes. They are more feral than the other races, which can make them dangerous when their instincts take over.
+Beast-Kin are masters of the body. They are half animal and can change fully into their animal shapes. They are more feral than the other races, which can make them dangerous when their instincts take over.
 
-Transformation, healing, and boosting magic, but only on themselves. All beast-kin have some understanding of other animals' instincts, can fully communicate with the same type of animal as their animal form, and can transform into their one associated animal (a cat girl can change into a cat) but they need a background to change into other animals, and need to roll for success. (a cat girl that can change into a bird)
+Transformation, healing, and boosting magic, but only on themselves. All beast-kin have some understanding of other animals' instincts, can fully communicate with the same type of animal as their animal form, and can transform into their one associated animal (a cat girl can change into a cat) but they need a background to change into other animals, and need to roll for success. (For example, a cat girl that can change into a bird)
 
-Their animal form will have its own stats. For example, a **5 3 3 9** (**HP 10**) bear-kin mage may change their stats to **8 7 4 1** (**HP 13**) when transformed into a bear.
+Their animal form will have its own stats. For example, a **5 3 3 9** bear-kin mage may change their stats to **8 7 4 1** when transformed into a bear.
 
 Transformations into their base animal form always succeed and take **1** full turn. An enemy may attack during this time and if successful, will harm both forms. When rolling to avoid damage, use the **+DEX** from the form with the lowest value.
 
 Each form has their own instance of **HP** and **luck**. They are played like two separate entities. If one form drops to **0 HP**, they transform into their other form automatically and cannot change back until healed. Short rests and external healing only heals the current form. Long rests and self healing magic heal both forms an equal amount.
 
-A beast-kin's animal form can exceed their human form's limits. This means the lower limit is dropped to **1** and the upper limit is raised to **9**. Most often this means **INT** is dropped to **1** while one other stat is raised to **9**. A cat, for example, might have the stats **7 3 9 1**. Showing a cat's nine lives, low **STR**, very high **DEX**, and very low **INT**.
+A beast-kin's animal form can exceed their human form's limits. This means the lower limit is dropped to **1** and the upper limit is raised to **9**. Most often this means **INT** is dropped to **1** while one other stat is raised to **9**. A cat, for example, might have the stats **7 3 9 1**. Showing a cat's very high **DEX**, and very low **INT**.
 
 Other races that can transform, like a half-pixie that changes between human and pixie forms, would be played as a beast-kin.
 
