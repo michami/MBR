@@ -47,7 +47,7 @@ Optionally, never add more than **8** to a roll. Limiting your bonus to an **8**
 
 A **+5** bonus has a **50%** chance of success. Everything else is relative to this.
 
-A roll of **0**, is always a failure. The range of **3** to **7** are fairly evenly distributed. Numbers outside this range are unlikely to be rolled, making smaller values too difficult and larger values to easy.
+A roll of **0**, is always a failure. The range of **3** to **7** is fairly evenly distributed. Numbers outside this range are unlikely to be rolled, making smaller values too difficult and larger values too easy.
 
 
 ## Stats (CON, STR, DEX, INT)
@@ -58,7 +58,7 @@ You get **HP** tokens equal to **5** plus your **CON**. Any damage you take will
 
 Your character will also start with one **background** which is applied contextually. The **background** usually adds **+1** to a relevant roll that uses that **background** but can add **+2** for a highly specific **background**.
 
-For example, a thief is a general **background** that can pick locks, sneak in shadows, climb walls, etc. so they add **+1** when picking locks. But a locksmith is a specific **background** that can only used when picking locks, so they would add **+2** when picking locks. If you have multiple relevant backgrounds, (as described later) you may add up to **+2**, but no more.
+For example, a thief is a general **background** that can pick locks, sneak in shadows, climb walls, etc. so they add **+1** when picking locks. But a locksmith is a specific **background** that can only used when picking locks, so they would add **+2** when picking locks. If you have multiple relevant backgrounds, (as described later) you may add up to **+2** to a roll, but no more.
 
 Use the stats in a way that makes sense. For example, if you're trying to talk someone into giving you a deal using:
 
@@ -79,7 +79,7 @@ Weapons and items can act like additional backgrounds. Some items may have speci
 
 ## Luck Tokens (replace a dice roll with luck)
 
-Every impactful failed roll gives you a **luck** token. You can replace any roll, excluding any progress related rolls, with your total **luck** tokens. If you do, reset your tokens back to **0**. You cannot accumulate more than **9** **luck** tokens.
+Every important failed roll gives you a **luck** token. You can replace any roll, excluding any progress related rolls, with your total **luck** tokens. If you do, reset your tokens back to **0**. You cannot accumulate more than **9** **luck** tokens.
 
 If you spend your luck, envision how your luck changed your situation to your benefit.
 
@@ -87,7 +87,7 @@ If your character has a "lucky" **background**, or has a lucky charm, then, afte
 
 ## Progress Tracks & Add Progress Roll (dice + PS)
 
-When you have some task or goal you need to make progress towards, you will create a progress track. Whenever you do something to advance the progress of the task, you will decide on the *Progress Speed* (**PS**) you just made. This indicates how quickly or likely you are to add progress from the action you just took. You then make a *Add Progress Roll* by rolling **+PS**. If you succeed, add **+1** point to the progress. The **PS** should not be lower than **3**, but it can be as high as **9**. For every **2** points over **10** on your *Add Progress Roll* you add another **+1** point of progress. This means an easy task with an **PS** of **9** could add up to **5** points of progress in a single roll.
+When you have some task or goal you need to make progress towards, you will create a progress track. Whenever you do something to advance the progress of the task, you will decide on the *Progress Speed* (**PS**) you just made. This indicates how quickly or likely you are to add progress from the action you just took. The **PS** is often consistent to the difficulty of the task at hand. (This lock is a **PS 6** to pick) You then make an *Add Progress Roll* by rolling **+PS**. If you succeed, add **+1** point to the progress. The **PS** should not be lower than **3**, but it can be as high as **9**. For every **2** points over **10** on your *Add Progress Roll* you add another **+1** point of progress. This means an easy task with an **PS** of **9** could add up to **5** points of progress in a single roll.
 
 For example: You have a progress track for finding the Sword of MacGuffin. You hear rumors of the sword's location and roll **+5** on an *Add Progress Roll*. Later, after some oracle rolls, you find a map to the sword's exact location. Since this is a huge progress, you roll **+7** on an *Add Progress Roll*. On this second roll, you roll a **7** and add your **+7** bonus for a total of **14**. You then add **3** points to your progress: **1** point for a successful roll, (**10** or greater) plus another **2** points for rolling **4** over the target of **10**.
 
@@ -117,7 +117,7 @@ A good rule of thumb: For challenges that are an **PS** of **6** or higher, you 
 
 Combat is tracked as progress against an enemy. The **PS** of the progress represents how easy it is to defeat the enemy. Each time you land an attack on an enemy, you make an "Add Progress Roll".  Large groups of enemies can use a single progress track.
 
-After each attack, weather it's successful or not, you will then roll for the enemy to attack you, if they're able.
+After each attack, whether it's successful or not, you will then roll for the enemy to attack you, if they're able.
 
 Melee attacks roll **+STR** (powerful strikes)
 
@@ -137,7 +137,7 @@ If you keep making ranged attacks that the enemy can't counter attack, they are 
 
 If you're making a roll where two characters are using stats against each other, for example, one character trying to restrain another using **STR**, roll on both stats and the winner is the one with the highest final value. Backgrounds, of course, can be added. So a character with a "Wrestler" background would get a **+1** or maybe **+2** (since this is a specific skill) to actions around restraining or breaking a restraint.
 
-On a tie, the winner is the one with the highest bonus, or things stay as they are. If that doesn't make sense in the fiction, roll again until there's a clear winner.
+On a tie, things are at a stalemate for a short time. Roll again if the situation continues. For example, if the goal is to prevent someone from doing something for 1 turn, then a tie would be a success. If, however the goal is to prevent someone from hitting the self-destruct button, then the challenge continues until there's a clear winner.
 
 You could do all combat using VS rolls, (**STR** vs **DEX**, etc) but that would mean each enemy would need their own stats. This makes for richer combat but would require additional information and tracking of **HP** and other stats.
 
@@ -149,15 +149,15 @@ Magic is typically a background, though it can come from an item.  ie: A backgro
 
 ## Golums, Constructs, and other Pets
 
-Without a background specifically about pets, each PC can have one pet appropriate to their race and abilities. Roll **+INT** for creating or taming a pet.
+Without a background specifically about pets, you can choose to allow each PC to have one pet appropriate to their race and abilities. Roll **+INT** for creating or taming a pet.
 
 ## Rests & Healing
 
-Between combats, you take a short rest and recover **50%** of your lost **HP**, rounded down. If you have healing magic, you can use it during a rest. Healing spells work by rolling **+INT** to see if it succeeds. If it does, it acts like a second rest. For every **+2** over **10** you roll, you heal an extra **1** point of **HP**.
+Between combats, you take a short rest and recover **50%** of your lost **HP**, rounded down, with a minimum of **1**. If you have healing magic, you can use it during a rest. Healing spells work by rolling **+INT** to see if it succeeds. If it does, it acts like a second rest. For every **+2** over **10** you roll, you heal an extra **1** point of **HP**.
 
 For example, your team has a fighter and a healer. The fighter looses **9 HP** after a battle. They take a rest, and recover **4 HP**. The healer then uses their healing magic, adding **+1** for their background and **+6 INT** to their roll.  They roll a **5** + **1** + **6** for a total of **12** and the spell succeeds. They recover **50%** of the remaining **5 HP** lost, (**2**) plus an extra **1 HP** for rolling **2** over **10**, healing a total of **3** more **HP**. The fighter is now only down **2 HP** from before the battle.
 
-If you take a long rest, a night passes, you heal **100%** of your **HP** and your **luck** is reset.
+If you take a long rest, a night passes, you heal **100%** of your **HP** and your **luck** is reset. (Resetting luck is an incentive to not take too many long rests when not needed)
 
 ## Leveling
 
@@ -167,7 +167,7 @@ Additional backgrounds can be learned after going on an adventure to get the res
 
 ## Inventory
 
-Ember uses a "**quantum inventory**". It is assumed your PC is more knowledgeable on what they should bring on a trip than you are. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you either assume the PC has the item, or roll to see if the PC had the foresight to bring the item.
+Ember uses a "**quantum inventory**". You can assume your PC is more knowledgeable on what they should bring on a trip than you are. Because of that, the player doesn't know what the PC has until it is needed. When an item is needed, you can either assume the PC has the item, or roll to see if the PC had the foresight to bring the item.
 
 For example, you can assume your PC has rope, so you don't need to roll for it. They probably brought extra climbing equipment, so you might roll with **+7**. They probably didn't bring pitons and a hammer, but it's possible, so you might roll with a **+4**.
 
@@ -216,15 +216,15 @@ These numbers would be recorded on that npc's stats. (They record their relation
 
 ## Recording Stats
 
-Since all stats have a specific order and value, they can be recorded as notches on a stick, knots in a rope, or any other convenient way to record a list of numbers. I prefer knots and use a figure 8 knot to represent a **0** value, single overhand knots for a **1** value, and a double overhand knot for a **5** value in roman numeral notation. I personally like to record stats in this order:
+Since all stats have a specific order and value, they can be recorded as notches on a stick, knots in a rope, or any other convenient way to record a list of numbers. I prefer knots and use a figure 8 knot to represent a **0** value, single overhand knots for a **1** value, and a double overhand knot for a **5** value. I tie them using roman numeral positioning. I personally like to record stats in this order:
 
 **Description:** (Always first. Especially useful for NPCs)
 
 * Size (abstract, relative number)
-* Gender (0: Manly Man, 1: Male, 2: Female, 3: Girly Girl)
+* Gender (**0**: Manly Man, **1**: Male, **2**: Female, **3**: Girly Girl)
 * Race (See races)
 
-The description order is the order a character would be described. ie: "short girly female human" (1, 3, 1) or "tall male dwarf". (3, 1, 0)
+The description order is the order a character would be described. ie: "short girly female human" (**1**, **3**, **1**) or "tall male dwarf." (**3**, **1**, **0**) Race and size are only hints. For example, if a character is a female pixie, I'd record it as **0**, **3**, **2**, or a "tiny female elf."
 
 **Personal quest progress:**
 
@@ -299,7 +299,7 @@ Average number of rolls to reach a certain progress per **PS**
 
 ## Additional oracles
 
-You can use these tables, or you make a 4x4 grid and draw images or single words into each box. Try to make the words or icons generic enough to have multiple generic meanings. Oracles are hints at what needs to be done and can have multiple meanings. For example, "Follow + Trap" could mean:
+You can use these tables, or you can make a 4x4 grid and draw images or single words into each box. Try to make the words or icons generic enough to have multiple generic meanings. Oracles are hints at what needs to be done and can have multiple meanings. For example, "Follow + Trap" could mean:
 
 * Find someone by following the trail of traps they laid out to protect their hideout
 * Follow some instructions on building or placing traps
@@ -325,6 +325,7 @@ Table 2, the subject of the action
 | **2**   | Freedom   | Love      | Relationship| Trap      |
 | **3**   | Resource  | Deception | Defense     | Enemy     |
 
+The action could be something you need to do, or something that's being done. A roll of "Defeat" + "Defense" could mean you need to break into a building, but it could also mean an animal is getting through a fence and killing a farmer's animals. Try to adapt the result to fit the current situation. Come up with multiple answers and choose the one that would make the most sense, and be the most entertaining.
 
 # Setting
 
