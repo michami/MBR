@@ -37,7 +37,7 @@ Roll the die **3** times and add the results. You then add to the results any re
 <!-- div style="page-break-before: always;"/ -->
 The bonus added to the roll can not be less than **1** or greater than **9**. This means there's always the chance of a failure, even with a **+9** to the roll.  (If you roll a **0**) A bonus of **0** is an automatic failure, since no roll can succeed.
 
-If you roll doubles, something changes about the current situation. If you roll triples, it's a major plot twist. Whether the change is good or bad depends on the outcome of the roll.
+If you roll triples, it's a major plot twist. Whether the change is good or bad depends on the outcome of the roll.
 
 **Optional Rule**
 
@@ -87,9 +87,9 @@ If your character has a "lucky" **background**, or has a lucky charm, then, afte
 
 ## Progress Tracks & Add Progress Roll (dice + PS)
 
-When you have some task or goal you need to make progress towards, you will create a progress track. Whenever you do something to advance the progress of the task, you will decide on the *Progress Speed* (**PS**) you just made. This indicates how quickly or likely you are to add progress from the action you just took. The **PS** is often consistent to the difficulty of the task at hand. (This lock is a **PS 6** to pick) You then make an *Add Progress Roll* by rolling **+PS**. If you succeed, add **+1** point to the progress. The **PS** should not be lower than **3**, but it can be as high as **9**. For every **2** points over **10** on your *Add Progress Roll* you add another **+1** point of progress. This means an easy task with an **PS** of **9** could add up to **5** points of progress in a single roll.
+When you have some task or goal you need to make progress towards, you will create a progress track. Whenever you do something to advance the progress of the task, you will decide on the *Progress Speed* (**PS**) you just made. This indicates how quickly or likely you are to add progress from the action you just took. The **PS** is often consistent with the difficulty of the task at hand. (This lock is a **PS 6** to pick) You then make an *Add Progress Roll* by rolling **+PS**. If you succeed, add **+1** point to the progress. The **PS** should not be lower than **3**, but it can be as high as **9**. For every **2** points over **10** on your *Add Progress Roll* you add another **+1** point of progress. This means an easy task with an **PS** of **9** could add up to **5** points of progress in a single roll.
 
-For example: You have a progress track for finding the Sword of MacGuffin. You hear rumors of the sword's location and roll **+5** on an *Add Progress Roll*. Later, after some oracle rolls, you find a map to the sword's exact location. Since this is a huge progress, you roll **+7** on an *Add Progress Roll*. On this second roll, you roll a **7** and add your **+7** bonus for a total of **14**. You then add **3** points to your progress: **1** point for a successful roll, (**10** or greater) plus another **2** points for rolling **4** over the target of **10**.
+For example: You have a progress track for finding the Sword of MacGuffin. You hear rumors of the sword's location and roll **+5** on an *Add Progress Roll*. Later, after some oracle rolls, you find a map to the sword's exact location. Since this is a huge progress, you roll **+7** on an *Add Progress Roll*. As an example roll, you roll a **7** and add your **+7** bonus for a total of **14**. You then add **3** points to your progress: **1** point for a successful roll, (**10** or greater) plus another **2** points for rolling **4** over the target of **10**.
 
 You cannot make more than **9** progress.
 
@@ -99,7 +99,7 @@ Once you feel that your progress is high enough, you will make a *Finish Progres
 
 ## Finish Progress Roll (dice + progress)
 
-On a *Finish Progress Roll*, you add your current progress to the dice instead of a stat or background. If you fail the roll, you subtract the difference from your progress.  For example, if you have **5** progress, and you roll a **3**, for a total of **8**, then you fail the roll and subtract **2** (**10** - **8**) from your progress, bringing it down to **3**. If you fail a roll, you need to make at least **1** more point towards your progress before you can make another progress roll.
+On a *Finish Progress Roll*, you add your current progress to the roll instead of a stat or background. If you fail the roll, you subtract the difference from your progress.  For example, if you have **5** progress, and you roll a **3**, for a total of **8**, then you fail the roll and subtract **2** (**10** - **8**) from your progress, bringing it down to **3**. If you fail a roll, you need to make at least **1** more point towards your progress before you can make another progress roll.
 
 It is possible that the progress will end before a "Finish Progress Roll." For example, if an enemy runs away, the progress simply ends. If the enemy attacks again from an ambush, the progress would continue from the same value.
 
@@ -111,7 +111,7 @@ To start a clock, create a pile of tokens representing the clock. Every time you
 
 For example: The guards have left a door, and you're trying to pick the lock. The lock as an **PS** of **7**. You give yourself a clock with **4** tokens. On your **4th** roll, the clock runs out and you have **7** progress filled. You make a progress roll and succeed. But since the clock ran out, you succeeded in picking the lock, but the guards have returned and see you enter the room.
 
-A good rule of thumb: For challenges that are an **PS** of **6** or higher, you generally want the clock tokens plus the **PS** to equal around **11**. You can add or subtract **1** token to remove or add tension to the situation.
+A good rule of thumb: For challenges that are a **PS** of **6** or higher, you generally want the clock tokens plus the **PS** to equal around **11**. You can add or subtract **1** token to remove or add tension to the situation.
 
 ## Combat
 
@@ -139,7 +139,7 @@ If you're making a roll where two characters are using stats against each other,
 
 On a tie, things are at a stalemate for a short time. Roll again if the situation continues. For example, if the goal is to prevent someone from doing something for 1 turn, then a tie would be a success. If, however the goal is to prevent someone from hitting the self-destruct button, then the challenge continues until there's a clear winner.
 
-You could do all combat using VS rolls, (**STR** vs **DEX**, etc) but that would mean each enemy would need their own stats. This makes for richer combat but would require additional information and tracking of **HP** and other stats.
+You could do all combat using VS rolls, (**STR** vs **DEX**, etc) but that would mean each enemy would need their own stats. This makes for richer combat but would require additional information to keep track of. You could still use progress tracks, or give the enemy HP, like a PC would have.
 
 ## Magic (If your world allows it)
 
