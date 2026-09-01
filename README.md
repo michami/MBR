@@ -85,15 +85,15 @@ If you spend your luck, envision how your luck changed your situation to your be
 
 If your character has a "lucky" **background**, or has a lucky charm, then, after spending your **luck** tokens, you would reset your **luck** tokens to a predefined value, likely **1** or **2**. This means you will build up your **luck** faster the more lucky you are.
 
-## Progress Tracks & Add Progress Roll (dice + PS)
+## Progress Tracks & Add Progress Roll (dice + PR)
 
-When you have some task or goal you need to make progress towards, you will create a progress track. Whenever you do something to advance the progress of the task, you will decide on the *Progress Speed* (**PS**) you just made. This indicates how quickly or likely you are to add progress from the action you just took. The **PS** is often consistent with the difficulty of the task at hand. (This lock is a **PS 6** to pick) You then make an *Add Progress Roll* by rolling **+PS**. If you succeed, add **+1** point to the progress. The **PS** should not be lower than **3**, but it can be as high as **9**. For every **2** points over **10** on your *Add Progress Roll* you add another **+1** point of progress. This means an easy task with an **PS** of **9** could add up to **5** points of progress in a single roll.
+When you have some task or goal you need to make progress towards, you will create a progress track. Whenever you do something to advance the progress of the task, you will decide on the *Progression Rate* (**PR**) you just made. This indicates how quickly or likely you are to add progress from the action you just took. The **PR** is often consistent to the difficulty of the task at hand. (This lock is a **PR 6** to pick) You then make an *Add Progress Roll* by rolling **+PR**. If you succeed, add **+1** point to the progress. The **PR** should not be lower than **3**, but it can be as high as **9**. For every **2** points over **10** on your *Add Progress Roll* you add another **+1** point of progress. This means an easy task with an **PR** of **9** could add up to **5** points of progress in a single roll.
 
-For example: You have a progress track for finding the Sword of MacGuffin. You hear rumors of the sword's location and roll **+5** on an *Add Progress Roll*. Later, after some oracle rolls, you find a map to the sword's exact location. Since this is a huge progress, you roll **+7** on an *Add Progress Roll*. As an example roll, you roll a **7** and add your **+7** bonus for a total of **14**. You then add **3** points to your progress: **1** point for a successful roll, (**10** or greater) plus another **2** points for rolling **4** over the target of **10**.
+For example: You have a progress track for finding the Sword of MacGuffin. You hear rumors of the sword's location and roll **+5** on an *Add Progress Roll*. Later, after some oracle rolls, you find a map to the sword's exact location. Since this is a huge progress, you roll **+7** on an *Add Progress Roll*. On this second roll, you roll a **7** and add your **+7** bonus for a total of **14**. You then add **3** points to your progress: **1** point for a successful roll, (**10** or greater) plus another **2** points for rolling **4** over the target of **10**.
 
 You cannot make more than **9** progress.
 
-You cannot use **luck** to add progress, though a failed roll will give you a **luck** token.
+You cannot use **luck** on an Add Progress Roll, though a failed roll will give you a **luck** token.
 
 Once you feel that your progress is high enough, you will make a *Finish Progress Roll*.
 
@@ -103,19 +103,19 @@ On a *Finish Progress Roll*, you add your current progress to the roll instead o
 
 It is possible that the progress will end before a "Finish Progress Roll." For example, if an enemy runs away, the progress simply ends. If the enemy attacks again from an ambush, the progress would continue from the same value.
 
-You cannot use **luck** on a progress roll, though a failed roll will give a **luck** token.
+You cannot use **luck** on a Finish Progress Roll, though a failed roll will give a **luck** token.
 
 ## Clocks
 
 To start a clock, create a pile of tokens representing the clock. Every time you make an "Add Progress Roll", remove a token from the clock. Once you remove the last token, you are forced to make a "Finish Progress Roll." If you succeed, consider it a mixed result, since it was forced.
 
-For example: The guards have left a door, and you're trying to pick the lock. The lock as an **PS** of **7**. You give yourself a clock with **4** tokens. On your **4th** roll, the clock runs out and you have **7** progress filled. You make a progress roll and succeed. But since the clock ran out, you succeeded in picking the lock, but the guards have returned and see you enter the room.
+For example: The guards have left a door, and you're trying to pick the lock. The lock as an **PR** of **7**. You give yourself a clock with **4** tokens. On your **4th** roll, the clock runs out and you have **7** progress filled. You make a progress roll and succeed. But since the clock ran out, you succeeded in picking the lock, but the guards have returned and see you enter the room.
 
-A good rule of thumb: For challenges that are a **PS** of **6** or higher, you generally want the clock tokens plus the **PS** to equal around **11**. You can add or subtract **1** token to remove or add tension to the situation.
+A good rule of thumb: For challenges that are a **PR** of **6** or higher, you generally want the clock tokens plus the **PR** to equal around **11**. You can add or subtract **1** token to remove or add tension to the situation.
 
 ## Combat
 
-Combat is tracked as progress against an enemy. The **PS** of the progress represents how easy it is to defeat the enemy. Each time you land an attack on an enemy, you make an "Add Progress Roll".  Large groups of enemies can use a single progress track.
+Combat is tracked as progress against an enemy. The **PR** of the progress represents how easy it is to defeat the enemy. Each time you land an attack on an enemy, you make an "Add Progress Roll".  Large groups of enemies can use a single progress track.
 
 After each attack, whether it's successful or not, you will then roll for the enemy to attack you, if they're able.
 
@@ -273,11 +273,11 @@ Probability of a successful roll for each add to the roll
 
 **Chance of rolling triples:** 6.25%
 
-Probability of adding to progress per **PS**
+Probability of adding to **progress** per **PR**
 
 |          |  +1    |  +2    |  +3    |  +4    | +5    |
 |----------|--------|--------|--------|--------|-------|
-|  **PS 9**| 14.06% | 34.38% | 34.37% | 14.07% | 1.56% |
+|  **PR 9**| 14.06% | 34.38% | 34.37% | 14.07% | 1.56% |
 |  **8**   | 25.00% | 37.50% | 25.00% | 6.25   | 0%    |
 |  **7**   | 34.38% | 34.37% | 14.07% | 1.56   | 0%    |
 |  **6**   | 37.50% | 25.00% | 6.25   | 0%     | 0%    |
@@ -285,11 +285,11 @@ Probability of adding to progress per **PS**
 |  **4**   | 25.00% | 6.25%  | 0%     | 0%     | 0%    |
 |  **3**   | 14.07% | 1.56%  | 0%     | 0%     | 0%    |
 
-Average number of rolls to reach a certain progress per **PS**
+Average number of rolls to reach a certain **progress** per **PR**
 
 |          | Prog 3 |  4   |  5   |  6   |  7   |  8   |  9   |
 |----------|--------|------|------|------|------|------|------|
-|  **PS 9**| 1.2    | 1.6  | 2.0  | 2.4  | 2.8  | 3.2  | 3.6  |
+|  **PR 9**| 1.2    | 1.6  | 2.0  | 2.4  | 2.8  | 3.2  | 3.6  |
 |  **8**   | 1.5    | 2.0  | 2.5  | 3.0  | 3.5  | 4.0  | 4.5  |
 |  **7**   | 2.0    | 2.6  | 3.3  | 4.0  | 4.6  | 5.3  | 5.9  |
 |  **6**   | 2.8    | 3.8  | 4.7  | 5.6  | 6.6  | 7.5  | 8.5  |
