@@ -325,6 +325,15 @@ Table 2, the subject of the action
 | **2**   | Freedom   | Love      | Relationship| Trap      |
 | **3**   | Resource  | Deception | Defense     | Enemy     |
 
+Table 3, words that are both action and subject
+
+| Both    | 0         | 1         | 2           | 3         |
+|---------|-----------|-----------|-------------|-----------|
+| **0**   | Battle    | Cause     | Drain       | Esteem    |
+| **1**   | Fear      | Guard     | Hunt        | Keep      |
+| **2**   | Limit     | Mark      | Name        | Pass      |
+| **3**   | Ruin      | Signal    | Trap        | Work      |
+
 The action could be something you need to do, or something that's being done. A roll of "Defeat" + "Defense" could mean you need to break into a building, but it could also mean an animal is getting through a fence and killing a farmer's animals. Try to adapt the result to fit the current situation. Come up with multiple answers and choose the one that would make the most sense, and be the most entertaining.
 
 # Setting
