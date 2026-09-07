@@ -109,9 +109,7 @@ You cannot use **luck** on a Finish Progress Roll, though a failed roll will giv
 
 To start a clock, create a pile of tokens representing the clock. Every time you make an "Add Progress Roll", remove a token from the clock. Once you remove the last token, you are forced to make a "Finish Progress Roll." If you succeed, consider it a mixed result, since it was forced.
 
-For example: The guards have left a door, and you're trying to pick the lock. The lock as an **PR** of **7**. You give yourself a clock with **4** tokens. On your **4th** roll, the clock runs out and you have **7** progress filled. You make a progress roll and succeed. But since the clock ran out, you succeeded in picking the lock, but the guards have returned and see you enter the room.
-
-A good rule of thumb: For challenges that are a **PR** of **6** or higher, you generally want the clock tokens plus the **PR** to equal around **11**. You can add or subtract **1** token to remove or add tension to the situation.
+For example: The guards have left a door, and you're trying to pick the lock. The lock as an **PR** of **7**. You give yourself a clock with **4** tokens. On your **4th** roll, the clock runs out and you have **7** progress filled. You make a progress roll and succeed. But since the clock ran out, it's a mixed result: You succeeded in picking the lock, but the guards have returned and see you enter the room.
 
 ## Combat
 
@@ -139,7 +137,9 @@ If you're making a roll where two characters are using stats against each other,
 
 On a tie, things are at a stalemate for a short time. Roll again if the situation continues. For example, if the goal is to prevent someone from doing something for 1 turn, then a tie would be a success. If, however the goal is to prevent someone from hitting the self-destruct button, then the challenge continues until there's a clear winner.
 
-You could do all combat using VS rolls, (**STR** vs **DEX**, etc) but that would mean each enemy would need their own stats. This makes for richer combat but would require additional information to keep track of. You could still use progress tracks, or give the enemy HP, like a PC would have.
+If you don't want to give the enemy stats, you can use a progress track and a clock to see who wins.
+
+You could do all combat using VS rolls, (**STR** vs **DEX**, etc) but that would mean each enemy would need their own stats. This makes for richer combat but would require additional information to keep track of. In this case, the enemy would have **HP** which must be reduced to **0**, instead of using a progress track. Enemies do not roll saving throws when they reach **0 HP** and they do not have **luck**.
 
 ## Magic (If your world allows it)
 
@@ -161,7 +161,7 @@ If you take a long rest, a night passes, you heal **100%** of your **HP** and yo
 
 ## Leveling
 
-You do not gain stats by leveling. If you wish, you may gain weapons at the end of an adventure that act like a background.
+You do not gain stats by leveling. If you wish, you may gain weapons or items at the end of an adventure that act like a background.
 
 Additional backgrounds can be learned after going on an adventure to get the resources needed to learn a new skill.
 
