@@ -87,7 +87,7 @@ If your character has a "lucky" **background**, or has a lucky charm, then, afte
 
 ## Progress Tracks & Add Progress Roll (dice + PR)
 
-When you have some task or goal you need to make progress towards, you will create a progress track. Whenever you do something to advance the progress of the task, you will decide on the *Progression Rate* (**PR**) you just made. This indicates how quickly or likely you are to add progress from the action you just took. The **PR** is often consistent to the difficulty of the task at hand. (This lock is a **PR 6** to pick) You then make an *Add Progress Roll* by rolling **+PR**. If you succeed, add **+1** point to the progress. The **PR** should not be lower than **3**, but it can be as high as **9**. For every **2** points over **10** on your *Add Progress Roll* you add another **+1** point of progress. This means an easy task with an **PR** of **9** could add up to **5** points of progress in a single roll.
+When you have some task or goal you need to make progress towards, you will create a progress track. Whenever you do something to advance the progress of the task, you will decide on the *Progression Rate* (**PR**) you just made. This indicates how quickly or likely you are to add progress from the action you just took. The **PR** is often consistent to the difficulty of the task at hand. (ie: This lock is a **PR 6** to pick) You then make an *Add Progress Roll* by rolling **+PR**. If you succeed, add **+1** point to the progress. The **PR** should not be lower than **3**, but it can be as high as **9**. For every **2** points over **10** on your *Add Progress Roll* you add another **+1** point of progress. This means an easy task with an **PR** of **9** could add up to **5** points of progress in a single roll.
 
 For example: You have a progress track for finding the Sword of MacGuffin. You hear rumors of the sword's location and roll **+5** on an *Add Progress Roll*. Later, after some oracle rolls, you find a map to the sword's exact location. Since this is a huge progress, you roll **+7** on an *Add Progress Roll*. On this second roll, you roll a **7** and add your **+7** bonus for a total of **14**. You then add **3** points to your progress: **1** point for a successful roll, (**10** or greater) plus another **2** points for rolling **4** over the target of **10**.
 
@@ -368,13 +368,13 @@ Beast-Kin are masters of the body. They are half animal and can change fully int
 
 Transformation, healing, and boosting magic, but only on themselves. All beast-kin have some understanding of other animals' instincts, can fully communicate with the same type of animal as their animal form, and can transform into their one associated animal (a cat girl can change into a cat) but they need a background to change into other animals, and need to roll for success. (For example, a cat girl that can change into a bird)
 
-Their animal form will have its own stats. For example, a **5 3 3 9** bear-kin mage may change their stats to **8 7 4 1** when transformed into a bear.
+Their animal form will have its own stats. For example, a **5 3 4 8** bear-kin mage may change their stats to **8 7 3 2** when transformed into a bear.
 
 Transformations into their base animal form always succeed and take **1** full turn. An enemy may attack during this time and if successful, will harm both forms. When rolling to avoid damage, use the **+DEX** from the form with the lowest value.
 
-Each form has their own instance of **HP** and **luck**. They are played like two separate entities. If one form drops to **0 HP**, they transform into their other form automatically and cannot change back until healed. Short rests and external healing only heals the current form. Long rests and self healing magic heal both forms an equal amount.
+Each form has their own instance of **HP**, but share their **luck**. They are played like two separate entities. If one form drops to **0 HP**, they transform into their other form automatically and cannot change back until healed. Short rests and external healing only heals the current form. Long rests and self healing magic heal both forms.
 
-A beast-kin's animal form can exceed their human form's limits. This means the lower limit is dropped to **1** and the upper limit is raised to **9**. Most often this means **INT** is dropped to **1** while one other stat is raised to **9**. A cat, for example, might have the stats **7 3 9 1**. Showing a cat's very high **DEX**, and very low **INT**.
+A beast-kin's animal form can exceed their human form's limits by an additional point. This means the lower limit is dropped to **2** and the upper limit is raised to **8**. Most often this means **INT** is dropped to **2** while one other stat is raised to **8**. A cat, for example, might have the stats **7 3 8 2**. Showing a cat's very high **DEX**, and very low **INT**. An animal like a cat may also have a background for "claws", which would give a **+2** to **STR** when attacking, since the claws are sharp weapons.
 
 Other races that can transform, like a half-pixie that changes between human and pixie forms, would be played as a beast-kin.
 
