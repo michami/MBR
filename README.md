@@ -220,9 +220,9 @@ Since all stats have a specific order and value, they can be recorded as notches
 
 **Description:** (Always first. Especially useful for NPCs)
 
-* Size (abstract, relative number)
+* Size (abstract, 5 is average for that race)
 * Gender (**0**: Manly Man, **1**: Male, **2**: Female, **3**: Girly Girl)
-* Race (See races)
+* Race (See races below)
 
 The description order is the order a character would be described. ie: "short girly female human" (**1**, **3**, **1**) or "tall male dwarf." (**3**, **1**, **0**) Race and size are only hints. For example, if a character is a female pixie, I'd record it as **0**, **3**, **2**, or a "tiny female elf."
 
@@ -275,27 +275,47 @@ Probability of a successful roll for each add to the roll
 
 Probability of adding to **progress** per **PR**
 
-|          |  +1    |  +2    |  +3    |  +4    | +5    |
-|----------|--------|--------|--------|--------|-------|
-|  **PR 9**| 14.06% | 34.38% | 34.37% | 14.07% | 1.56% |
-|  **8**   | 25.00% | 37.50% | 25.00% | 6.25   | 0%    |
-|  **7**   | 34.38% | 34.37% | 14.07% | 1.56   | 0%    |
-|  **6**   | 37.50% | 25.00% | 6.25   | 0%     | 0%    |
-|  **5**   | 34.37% | 14.07% | 1.56   | 0%     | 0%    |
-|  **4**   | 25.00% | 6.25%  | 0%     | 0%     | 0%    |
-|  **3**   | 14.07% | 1.56%  | 0%     | 0%     | 0%    |
+|          |  Miss  |  +1    |  +2    |  +3    |  +4    | +5    | Avg Val |
+|----------|--------|--------|--------|--------|--------|-------|---------|
+| **PR 9** | 1.56%  | 14.06% | 34.38% | 34.37% | 14.07% | 1.56% | 2.50    |
+| **8**    | 6.25%  | 25.00% | 37.50% | 25.00% | 6.25%  | 0.00% | 2.00    |
+| **7**    | 15.63% | 34.38% | 34.37% | 14.07% | 1.56%  | 0.00% | 1.52    |
+| **6**    | 31.25% | 37.50% | 25.00% | 6.25%  | 0.00%  | 0.00% | 1.06    |
+| **5**    | 50.00% | 34.37% | 14.07% | 1.56%  | 0.00%  | 0.00% | 0.67    |
+| **4**    | 68.75% | 25.00% | 6.25%  | 0.00%  | 0.00%  | 0.00% | 0.38    |
+| **3**    | 84.38% | 14.07% | 1.56%  | 0.00%  | 0.00%  | 0.00% | 0.17    |
 
 Average number of rolls to reach a certain **progress** per **PR**
 
 |          | Prog 3 |  4   |  5   |  6   |  7   |  8   |  9   |
 |----------|--------|------|------|------|------|------|------|
-|  **PR 9**| 1.2    | 1.6  | 2.0  | 2.4  | 2.8  | 3.2  | 3.6  |
-|  **8**   | 1.5    | 2.0  | 2.5  | 3.0  | 3.5  | 4.0  | 4.5  |
-|  **7**   | 2.0    | 2.6  | 3.3  | 4.0  | 4.6  | 5.3  | 5.9  |
-|  **6**   | 2.8    | 3.8  | 4.7  | 5.6  | 6.6  | 7.5  | 8.5  |
-|  **5**   | 4.5    | 6.0  | 7.4  | 8.9  | 10.4 | 11.9 | 13.4 |
-|  **4**   | 8.0    | 10.7 | 13.3 | 16.0 | 18.7 | 21.3 | 24.0 |
-|  **3**   | 17.5   | 23.3 | 29.1 | 34.9 | 40.7 | 46.5 | 52.4 |
+| **PR 9** | 1.2    | 1.6  | 2.0  | 2.4  | 2.8  | 3.2  | 3.6  |
+| **8**    | 1.5    | 2.0  | 2.5  | 3.0  | 3.5  | 4.0  | 4.5  |
+| **7**    | 2.0    | 2.6  | 3.3  | 4.0  | 4.6  | 5.3  | 5.9  |
+| **6**    | 2.8    | 3.8  | 4.7  | 5.6  | 6.6  | 7.5  | 8.5  |
+| **5**    | 4.5    | 6.0  | 7.4  | 8.9  | 10.4 | 11.9 | 13.4 |
+| **4**    | 8.0    | 10.7 | 13.3 | 16.0 | 18.7 | 21.3 | 24.0 |
+| **3**    | 17.5   | 23.3 | 29.1 | 34.9 | 40.7 | 46.5 | 52.4 |
+
+# Using only the oracle die as an oracle
+
+As mentioned at the beginning of these rules, each value of the die has an element that represents many different values, based on the context.
+
+Here are some examples:
+
+**Table 4**, Single die roll for Action
+
+| Actions  | 0         | 1      | 2       | 3       |
+|----------|-----------|--------|---------|---------|
+| Option 1 | Stabilize | Assist | Forgive | Defeat  |
+| Option 2 | Protect   | Guide  | Join    | Consume |
+
+**Table 5**, Single die roll for Subject
+
+| Subject  | 0       | 1      | 2       | 3      |
+|----------|---------|--------|---------|--------|
+| Option 1 | Past    | Friend | Partner | Enemy  |
+| Option 2 | Defense | Ally   | Mentor  | Danger |
 
 ## Additional oracles
 
@@ -307,7 +327,7 @@ You can use these tables, or you can make a 4x4 grid and draw images or single w
 * Follow a map to a treasure, but watch out for traps
 * Follow a person, but unknown to your character, you're being led into a trap
 
-Table 1, an action to perform
+**Table 1**, an action to perform
 
 | Action | 0           | 1       | 2       | 3        |
 |--------|-------------|---------|---------|----------|
@@ -316,7 +336,7 @@ Table 1, an action to perform
 | **2**  | Transform   | Locate  | Forgive | Avenge   |
 | **3**  | Investigate | Control | Abandon | Defeat   |
 
-Table 2, the subject of the action
+**Table 2**, the subject of the action
 
 | Subject | 0         | 1         | 2           | 3         |
 |---------|-----------|-----------|-------------|-----------|
@@ -325,7 +345,7 @@ Table 2, the subject of the action
 | **2**   | Freedom   | Love      | Relationship| Trap      |
 | **3**   | Resource  | Deception | Defense     | Enemy     |
 
-Table 3, words that are both action and subject
+**Table 3**, words that are both action and subject
 
 | Both    | 0         | 1         | 2           | 3         |
 |---------|-----------|-----------|-------------|-----------|
@@ -342,31 +362,31 @@ While the rules are designed to be setting neutral, I did create a high fantasy 
 
 ## Races
 
-Ember has 4 races, each represented by one of the elements. Each race has their own type of magic they're capable of. If using a racial magic without a background, roll on **+INT** without any other bonus.
+Ember has 4 races, each represented by one of the elements. Each race has their own type of magic they're capable of. If using a racial skill without a background, roll on **+INT** without any other bonus.
 
-#### Dwarf (Earth)
+### Dwarf (Earth)
 
 Dwarfs are masters of stone. They mine the Earth and work the metal into shape using the other elements. Fire to heat it, wind to stoke the fire, and water to quench the metal. Dwarfs are tough like stone and have a strong connection to their families and their past.
 
-Elemental (earth, water, wind, fire) magic. Durable elemental enhanced weapons. Clay golums.
+*Racial skills:* Elemental (earth, water, wind, fire) magic. Durable elemental enhanced weapons. Clay golums.
 
-#### Human (Water)
+### Human (Water)
 
 Humans are masters of energy. They live on the Earth and use the strength of rivers to power their machinery.
 
-Electrical magic. Electronics. Robotic constructs. Complex mechanical traps. Complex weapons such as firearms, crossbows, etc. All humans can power electrical devices with magic, or anything that requires a spark.
+*Racial skills:* Electrical magic. Electronics. Robotic constructs. Complex mechanical traps. Complex weapons such as firearms, crossbows, etc. All humans can power electrical devices with magic, or anything that requires a spark.
 
-#### Elf (Wind)
+### Elf (Air)
 
 Elves are masters of nature. They live in the trees, they're light and fast, able to jump from branch to branch. Their relationships tend to be fast and fleeting.
 
-Nature and spiritual magic. Potions. Healing magic. Plant golems. Sentient / living weapons.
+*Racial skills:* Nature and spiritual magic. Potions. Healing magic. Plant golems. Sentient / living weapons.
 
-#### Beast-Kin (Fire)
+### Beast-Kin (Fire)
 
 Beast-Kin are masters of the body. They are half animal and can change fully into their animal shapes. They are more feral than the other races, which can make them dangerous when their instincts take over.
 
-Transformation, healing, and boosting magic, but only on themselves. All beast-kin have some understanding of other animals' instincts, can fully communicate with the same type of animal as their animal form, and can transform into their one associated animal (a cat girl can change into a cat) but they need a background to change into other animals, and need to roll for success. (For example, a cat girl that can change into a bird)
+*Racial skills:* Transformation, self healing, and self boosting magic. All beast-kin have some understanding of other animals' instincts, can fully communicate with the same type of animal as their animal form. They can transform into their one associated animal (a cat girl can change into a cat) but they need a background to change into other animals, and need to roll for success. (For example, a cat girl that can change into a bird)
 
 Their animal form will have its own stats. For example, a **5 3 4 8** bear-kin mage may change their stats to **8 7 3 2** when transformed into a bear.
 
